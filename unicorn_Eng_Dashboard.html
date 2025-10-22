@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unicorn Engineer Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Chosen Palette: Warm & Focused (BG: #FDFDFB, Text: #333, Primary: #4A90E2, Accent: #F5A623) -->
+    <!-- Application Structure Plan: A dashboard-style SPA with a sticky top-nav for 'Overview', 'Planner', 'Roadmaps', and 'Outcomes'. The 'Planner' section will be an interactive HTML view of the weekly schedule with buttons to toggle Weekday/Saturday/Sunday. The 'Roadmaps' section will use a tabbed interface (AI, Robotics, Math) to switch between tracks. Clicking a phase in a track will dynamically display its details (topics, projects) in a separate panel, populated from JS objects. This structure is chosen to manage the high density of information, allowing the user to drill down into specific roadmaps and phases without leaving the page, mirroring a professional project management tool. -->
+    <!-- Visualization & Content Choices: 1. Overview Stats: Inform -> Styled HTML Cards (Big Numbers) -> No interaction -> Clear, high-level summary. (NO SVG). 2. Weekday Study Allocation: Compare -> Donut Chart -> Chart.js/Canvas -> Shows proportional effort of daily study. (NO SVG). 3. Weekly Planner: Organize -> Interactive HTML Table/Grid -> JS click to toggle views (Weekday/Sat/Sun) -> Provides a clear, filterable view of the daily schedule. (NO SVG/Mermaid). 4. Roadmap Explorer: Organize/Hierarchy -> JS-powered Tabs & Dynamic Content Panels -> JS click on tabs (AI/Rob...) and phase titles -> Allows deep drill-down into the 3 roadmaps without overwhelming the user. (NO SVG/Mermaid). 5. Outcomes: Inform -> Styled HTML List -> No interaction -> Summarizes the end goals. (NO SVG). -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #fdfdfb;
+        color: #333;
+      }
+      .chart-container {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        max-height: 350px;
+      }
+      .nav-link {
+        @apply px-4 py-2 text-gray-600 hover:text-[#4A90E2] font-medium transition-colors;
+      }
+      .planner-btn {
+        @apply px-4 py-2 rounded-md font-medium text-gray-700 bg-gray-100 hover:bg-gray-200;
+      }
+      .planner-btn.active {
+        @apply bg-[#4A90E2] text-white hover:bg-[#4A90E2];
+      }
+      .roadmap-tab {
+        @apply px-6 py-3 font-medium text-lg text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700;
+      }
+      .roadmap-tab.active {
+        @apply text-[#4A90E2] border-[#4A90E2];
+      }
+      .phase-item {
+        @apply block w-full text-left px-4 py-3 border-b border-gray-200 hover:bg-gray-50;
+      }
+      .phase-item.active {
+        @apply bg-[#4A90E2] bg-opacity-10 text-[#4A90E2] font-semibold;
+      }
+      .planner-table th {
+        @apply text-left p-3 font-semibold text-gray-600 bg-gray-50 border-b border-gray-200;
+      }
+      .planner-table td {
+        @apply p-3 border-b border-gray-200;
+      }
+      .planner-table .time-col {
+        @apply w-32 font-medium text-gray-500;
+      }
+      .study-block-1 {
+        @apply bg-blue-50 text-blue-800 font-medium;
+      }
+      .study-block-2 {
+        @apply bg-green-50 text-green-800 font-medium;
+      }
+      .study-block-3 {
+        @apply bg-yellow-50 text-yellow-800 font-medium;
+      }
+      .forex-block {
+        @apply bg-orange-50 text-orange-800 font-medium;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header
+      class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200"
+    >
+      <nav
+        class="container mx-auto max-w-7xl px-4 flex justify-between items-center h-16"
+      >
+        <h1 class="text-xl font-bold text-[#4A90E2]">
+          Unicorn Engineer Dashboard
+        </h1>
+        <div>
+          <a href="#overview" class="nav-link">Overview</a>
+          <a href="#planner" class="nav-link">Planner</a>
+          <a href="#roadmaps" class="nav-link">Roadmaps</a>
+          <a href="#outcomes" class="nav-link">Outcomes</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container mx-auto max-w-7xl p-4 md:p-8">
+      <!-- Section 1: Overview -->
+      <section id="overview" class="mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6">Overview</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Overview Stats -->
+          <div
+            class="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#4A90E2]"
+          >
+            <h3 class="text-sm font-medium text-gray-500 mb-1">
+              Total Duration
+            </h3>
+            <p class="text-3xl font-bold text-gray-800">312 Weeks</p>
+          </div>
+          <div
+            class="bg-white p-6 rounded-lg shadow-md border-l-4 border-[#F5A623]"
+          >
+            <h3 class="text-sm font-medium text-gray-500 mb-1">
+              Weekday Study
+            </h3>
+            <p class="text-3xl font-bold text-gray-800">4.5 Hours / Day</p>
+          </div>
+          <div
+            class="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-500"
+          >
+            <h3 class="text-sm font-medium text-gray-500 mb-1">
+              Current Focus (Week 3)
+            </h3>
+            <p class="text-xl font-semibold text-gray-800">Math Foundations</p>
+          </div>
+          <div
+            class="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-500"
+          >
+            <h3 class="text-sm font-medium text-gray-500 mb-1">End Goal</h3>
+            <p class="text-xl font-semibold text-gray-800">Industry Leader</p>
+          </div>
+
+          <!-- Study Allocation Chart -->
+          <div class="bg-white p-6 rounded-lg shadow-md md:col-span-2">
+            <h3 class="text-xl font-bold text-gray-800 mb-4 text-center">
+              Weekday Study Allocation (4.5 Hours)
+            </h3>
+            <p class="text-center text-gray-600 mb-4">
+              This chart shows the daily time breakdown for your three core
+              study tracks during the week.
+            </p>
+            <div class="chart-container">
+              <canvas id="studyAllocationChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: Weekly Planner -->
+      <section id="planner" class="mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6">Weekly Planner</h2>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <p class="text-gray-600 mb-6">
+            This is your operational plan, designed to integrate your 4.5 hours
+            of daily study with your job, Forex, and personal time. Use the
+            buttons to toggle between schedule views.
+          </p>
+          <div class="flex space-x-2 mb-6">
+            <button
+              id="btn-weekday"
+              class="planner-btn active"
+              onclick="showPlanner('weekday')"
+            >
+              Monday - Friday
+            </button>
+            <button
+              id="btn-saturday"
+              class="planner-btn"
+              onclick="showPlanner('saturday')"
+            >
+              Saturday
+            </button>
+            <button
+              id="btn-sunday"
+              class="planner-btn"
+              onclick="showPlanner('sunday')"
+            >
+              Sunday
+            </button>
+          </div>
+
+          <!-- Planner Views -->
+          <div class="overflow-x-auto">
+            <!-- Weekday -->
+            <div id="view-weekday" class="planner-view">
+              <table class="w-full min-w-lg planner-table">
+                <thead>
+                  <tr>
+                    <th>Time Slot</th>
+                    <th>Duration</th>
+                    <th>Activity</th>
+                    <th>Focus/Goal</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="time-col">6:30 AM</td>
+                    <td>30 min</td>
+                    <td>Wake Up & Prep</td>
+                    <td>Hydration, light breakfast, review daily goals.</td>
+                  </tr>
+                  <tr class="study-block-1">
+                    <td class="time-col">7:00 AM</td>
+                    <td>2 Hours</td>
+                    <td>STUDY BLOCK 1 (ROBOTICS)</td>
+                    <td>
+                      Deep work on embedded systems, C++, control theory, or
+                      hardware.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time-col">9:00 AM</td>
+                    <td>30 min</td>
+                    <td>Break/Commute/Transition</td>
+                    <td>Light exercise, mental switch, check work emails.</td>
+                  </tr>
+                  <tr>
+                    <td class="time-col">9:30 AM</td>
+                    <td>8.5 Hours</td>
+                    <td>Primary Work/Job/Income</td>
+                    <td>Focus on your career or daily obligations.</td>
+                  </tr>
+                  <tr>
+                    <td class="time-col">6:00 PM</td>
+                    <td>60 min</td>
+                    <td>Dinner & Family Time</td>
+                    <td>Essential recovery and quality time.</td>
+                  </tr>
+                  <tr class="study-block-2">
+                    <td class="time-col">7:00 PM</td>
+                    <td>2 Hours</td>
+                    <td>STUDY BLOCK 2 (AI)</td>
+                    <td>
+                      Deep work on LLMs, research papers, distributed training,
+                      or MLOps.
+                    </td>
+                  </tr>
+                  <tr class="study-block-3">
+                    <td class="time-col">9:00 PM</td>
+                    <td>30 min</td>
+                    <td>STUDY BLOCK 3 (MATH)</td>
+                    <td>
+                      Targeted practice on Calculus, Linear Algebra, or
+                      Optimization.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time-col">9:30 PM</td>
+                    <td>60 min</td>
+                    <td>Wind Down & Forex Prep</td>
+                    <td>
+                      Review daily charts, set up alerts, read Forex news.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time-col">10:30 PM</td>
+                    <td>60 min</td>
+                    <td>Social/Family/Personal</td>
+                    <td>Final personal time, preparation for sleep.</td>
+                  </tr>
+                  <tr>
+                    <td class="time-col">11:30 PM</td>
+                    <td>7 Hours</td>
+                    <td>Sleep</td>
+                    <td>(No Change to Sleep/Wake Time)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Saturday -->
+            <div id="view-saturday" class="planner-view hidden">
+              <table class="w-full min-w-lg planner-table">
+                <thead>
+                  <tr>
+                    <th>Time Slot</th>
+                    <th>Duration</th>
+                    <th>Activity</th>
+                    <th>Focus/Goal</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="time-col">8:00 AM</td>
+                    <td>60 min</td>
+                    <td>Wake Up & Prep</td>
+                    <td>Relaxed morning routine.</td>
+                  </tr>
+                  <tr class="forex-block">
+                    <td class="time-col">9:00 AM</td>
+                    <td>4 Hours</td>
+                    <td>FOREX BLOCK 1 (Deep Analysis)</td>
+                    <td>
+                      Review trading journal, backtesting, developing/refining
+                      strategies.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time-col">1:00 PM</td>
+                    <td>60 min</td>
+                    <td>Lunch & Break</td>
+                    <td>Full recovery break.</td>
+                  </tr>
+                  <tr class="forex-block">
+                    <td class="time-col">2:00 PM</td>
+                    <td>3 Hours</td>
+                    <td>FOREX BLOCK 2 (Execution/Demo)</td>
+                    <td>
+                      Focused demo trading, scenario planning, technical
+                      analysis. (Total: 7h)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time-col">5:00 PM</td>
+                    <td>2 Hours</td>
+                    <td>Portfolio & Content Creation</td>
+                    <td>
+                      Documenting AI/Robotics work, GitHub updates, blog post.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time-col">7:00 PM</td>
+                    <td>Rest</td>
+                    <td>Social & Unwind</td>
+                    <td>
+                      Major dedicated block for social time and stress relief.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Sunday -->
+            <div id="view-sunday" class="planner-view hidden">
+              <table class="w-full min-w-lg planner-table">
+                <thead>
+                  <tr>
+                    <th>Time Slot</th>
+                    <th>Duration</th>
+                    <th>Activity</th>
+                    <th>Focus/Goal</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="time-col">8:00 AM</td>
+                    <td>60 min</td>
+                    <td>Wake Up & Prep</td>
+                    <td>Relaxed morning.</td>
+                  </tr>
+                  <tr>
+                    <td class="time-col">9:00 AM</td>
+                    <td>30 min</td>
+                    <td>Mechanics Passion</td>
+                    <td>Passive reading, research, or simple maintenance.</td>
+                  </tr>
+                  <tr>
+                    <td class="time-col">9:30 AM</td>
+                    <td>90 min</td>
+                    <td>Life Admin & Errands</td>
+                    <td>Chores, groceries, meal prep for the week.</td>
+                  </tr>
+                  <tr class="study-block-3">
+                    <td class="time-col">11:00 AM</td>
+                    <td>2 Hours</td>
+                    <td>Weekly Review & Consolidation</td>
+                    <td>
+                      Revisit Math problems, consolidate AI/Robotics notes, plan
+                      next week.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time-col">1:00 PM</td>
+                    <td>60 min</td>
+                    <td>Lunch & Break</td>
+                    <td>Full mid-day rest.</td>
+                  </tr>
+                  <tr>
+                    <td class="time-col">2:00 PM</td>
+                    <td>3 Hours</td>
+                    <td>Tooling & Environment Setup</td>
+                    <td>
+                      Hardware maintenance, updating libraries, configuring dev
+                      environments.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="time-col">5:00 PM</td>
+                    <td>Rest</td>
+                    <td>Family Time & Prep</td>
+                    <td>
+                      Dedicated time for family, preparing mentally for the
+                      week.
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3: Roadmap Explorer -->
+      <section id="roadmaps" class="mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6">Roadmap Explorer</h2>
+        <div class="bg-white rounded-lg shadow-md">
+          <p class="text-gray-600 p-6">
+            This is your 312-week curriculum. Select a track (AI, Robotics, or
+            Math) to see all the phases. Click any phase to see its key topics
+            and portfolio projects. All data is loaded from your roadmaps.
+          </p>
+          <!-- Roadmap Tabs -->
+          <div class="border-b border-gray-200">
+            <nav class="flex -mb-px px-6" aria-label="Tabs">
+              <button
+                id="tab-ai"
+                class="roadmap-tab active"
+                onclick="showRoadmap('ai')"
+              >
+                AI Journey
+              </button>
+              <button
+                id="tab-robotics"
+                class="roadmap-tab"
+                onclick="showRoadmap('robotics')"
+              >
+                Robotics Journey
+              </button>
+              <button
+                id="tab-math"
+                class="roadmap-tab"
+                onclick="showRoadmap('math')"
+              >
+                Math Journey
+              </button>
+            </nav>
+          </div>
+
+          <div class="flex flex-col md:flex-row" style="min-height: 600px">
+            <!-- Phase List Column -->
+            <div class="w-full md:w-1/3 border-r border-gray-200">
+              <div id="phases-ai" class="roadmap-phases"></div>
+              <div id="phases-robotics" class="roadmap-phases hidden"></div>
+              <div id="phases-math" class="roadmap-phases hidden"></div>
+            </div>
+
+            <!-- Details Column -->
+            <div class="w-full md:w-2/3 p-6 md:p-8">
+              <div id="phase-details">
+                <h3
+                  id="detail-title"
+                  class="text-2xl font-bold text-gray-800 mb-2"
+                >
+                  Select a Phase
+                </h3>
+                <p
+                  id="detail-weeks"
+                  class="text-sm font-medium text-gray-500 mb-4"
+                >
+                  Click a phase on the left to see the details.
+                </p>
+                <div id="detail-content">
+                  <h4 class="font-semibold text-lg text-gray-700 mt-4 mb-2">
+                    Key Topics:
+                  </h4>
+                  <ul
+                    id="detail-topics"
+                    class="list-disc list-inside text-gray-600 space-y-1"
+                  >
+                    <li>...</li>
+                  </ul>
+                  <h4 class="font-semibold text-lg text-gray-700 mt-4 mb-2">
+                    Portfolio Project:
+                  </h4>
+                  <p
+                    id="detail-project"
+                    class="text-gray-600 bg-gray-50 p-3 rounded-md"
+                  >
+                    ...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: Outcomes -->
+      <section id="outcomes" class="mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6">Final Outcomes</h2>
+        <div class="bg-white p-6 md:p-8 rounded-lg shadow-md">
+          <p class="text-gray-600 mb-6">
+            By completing this 312-week plan, you will be qualified for senior
+            roles at top-tier technology companies and have the potential to
+            lead your own teams or start your own company.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <h3 class="text-xl font-bold text-[#4A90E2] mb-3">
+                Target AI Roles
+              </h3>
+              <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Senior/Staff AI/ML Engineer</li>
+                <li>Lead AI/LLM Teams</li>
+                <li>Contribute to Frontier AI Research</li>
+                <li>
+                  Target Labs: OpenAI, Anthropic, Google DeepMind, Meta AI
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold text-green-600 mb-3">
+                Target Robotics Roles
+              </h3>
+              <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Senior Robotics Engineer</li>
+                <li>Lead Robotics Teams</li>
+                <li>Build Production-Grade Robotic Systems</li>
+                <li>
+                  Target Companies: Boston Dynamics, Tesla, Google Robotics, ABB
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="text-center p-6 text-gray-500 text-sm border-t border-gray-200 mt-12"
+    >
+      <p>
+        Your 312-Week journey to become a Unicorn Engineer. Stay consistent.
+        Stay curious.
+      </p>
+    </footer>
+
+    <script>
+      // --- Data Store ---
+      const roadmapData = {
+        ai: [
+          {
+            title: "Phase 1: Foundations & Early AI",
+            weeks: "1-12",
+            topics: [
+              "Core Python & AI Basics",
+              "Version Control (Git)",
+              "Database Fundamentals (SQL)",
+            ],
+            project:
+              "AI-Powered Data Analyzer with OpenAI API and CSV/JSON processing.",
+          },
+          {
+            title: "Phase 2: Data Science & Early NN",
+            weeks: "13-32",
+            topics: [
+              "Pandas, NumPy, Viz",
+              "Classical Machine Learning (Scikit-learn)",
+              "Intro to Neural Networks (PyTorch)",
+              "Cloud & Deployment Basics (Docker)",
+            ],
+            project:
+              "Predictive Web App (e.g., Customer Churn) with Streamlit.",
+          },
+          {
+            title: "Phase 3: Transformers & LLM",
+            weeks: "33-56",
+            topics: [
+              "Transformer Architecture Deep Dive",
+              "Hugging Face & Fine-tuning",
+              "Prompt Engineering",
+              "Vector Databases & RAG Systems (LangChain)",
+            ],
+            project:
+              "Production RAG System with Pinecone/Weaviate and conversation memory.",
+          },
+          {
+            title: "Phase 4: Advanced DL & MLOps",
+            weeks: "57-88",
+            topics: [
+              "Computer Vision & Multimodal (CLIP)",
+              "Advanced Fine-tuning (LoRA, QLoRA)",
+              "MLOps & Production Systems (MLflow)",
+              "A/B Testing, Model Monitoring, CI/CD",
+            ],
+            project:
+              "Complete MLOps Pipeline with automated retraining and drift detection.",
+          },
+          {
+            title: "Phase 5: LLM Engineering & Scaling",
+            weeks: "89-156",
+            topics: [
+              "RLHF & AI Alignment (PPO)",
+              "Distributed Training (DeepSpeed)",
+              "Advanced Architectures (MoE, Flash Attention)",
+              "Reinforcement Learning (PPO/SAC)",
+              "System Design at Scale",
+            ],
+            project: "Production LLM API (ChatGPT-scale) with 99.9% uptime.",
+          },
+          {
+            title: "Phase 6: Frontier AI Research",
+            weeks: "157-276",
+            topics: [
+              "Advanced Mathematics & Scaling Laws",
+              "Code Generation & Tool Use",
+              "Multimodal Foundation Models",
+              "Interpretability & Safety",
+              "Continual Learning",
+              "Synthetic Data Generation",
+              "Edge AI",
+            ],
+            project:
+              "ChatGPT-Scale Capstone Project (e.g., contribute to open-source LLM).",
+          },
+          {
+            title: "Phase 7: Specialization & Leadership",
+            weeks: "277-312",
+            topics: [
+              "Deep Specialization (AI Safety, Edge AI, etc.)",
+              "Advanced Research Contributions",
+              "Paper Submissions (NeurIPS, ICML)",
+              "Capstone & Career Launch",
+            ],
+            project:
+              "Technical Portfolio Website and flagship open-source project.",
+          },
+        ],
+        robotics: [
+          {
+            title: "Phase 1: Electronics & Programming",
+            weeks: "1-16",
+            topics: [
+              "Electronics Fundamentals & Arduino",
+              "Programming (C++ & Python)",
+              "Intermediate Electronics & PCB Design (KiCAD)",
+            ],
+            project: "Custom Motor Driver Board (Design and order PCB).",
+          },
+          {
+            title: "Phase 2: Embedded Systems & Actuators",
+            weeks: "17-36",
+            topics: [
+              "ARM Microcontrollers (STM32)",
+              "Real-Time Systems (FreeRTOS)",
+              "Motors & Actuator Control (BLDC, FOC)",
+              "Power Electronics for Robotics",
+            ],
+            project: "Multi-Task Control System on STM32 with FreeRTOS.",
+          },
+          {
+            title: "Phase 3: Sensors & Perception",
+            weeks: "37-60",
+            topics: [
+              "Advanced Sensors (IMUs)",
+              "Sensor Fusion (Kalman Filters)",
+              "Computer Vision Basics (OpenCV)",
+              "LiDAR & 3D Perception (PCL)",
+              "SLAM Basics",
+            ],
+            project: "2D SLAM System that creates maps using LiDAR.",
+          },
+          {
+            title: "Phase 4: Control Systems & Kinematics",
+            weeks: "61-92",
+            topics: [
+              "Advanced Control Theory (State-Space, LQR, MPC)",
+              "Robot Kinematics & Dynamics (Jacobian)",
+              "Trajectory Planning (Lagrangian)",
+              "Path Planning & Navigation (A*, RRT)",
+            ],
+            project: "4-DOF Robot Arm with full kinematic solver.",
+          },
+          {
+            title: "Phase 5: ROS & System Integration",
+            weeks: "93-124",
+            topics: [
+              "ROS Advanced (Nodes, Topics, TF, URDF)",
+              "Gazebo Simulation",
+              "Perception Stack Integration (YOLO, Camera-LiDAR Fusion)",
+              "Manipulation & Grasping (MoveIt!)",
+            ],
+            project:
+              "Simulated Mobile Manipulator in Gazebo with autonomous behaviors.",
+          },
+          {
+            title: "Phase 6: Machine Learning for Robotics",
+            weeks: "125-172",
+            topics: [
+              "Deep Learning (PyTorch/TensorFlow)",
+              "RL for Robotics (Sim-to-Real)",
+              "Imitation Learning (Behavior Cloning)",
+              "Vision-Language-Action Models (RT-1/RT-2)",
+            ],
+            project:
+              "Natural Language Controlled Robot executing tasks from commands.",
+          },
+          {
+            title: "Phase 7: Advanced Robotics Systems",
+            weeks: "173-228",
+            topics: [
+              "Multi-Robot Systems (Swarm)",
+              "Aerial Robotics (Drones, PX4)",
+              "Mobile Manipulation (Whole-Body Control)",
+              "Soft Robotics",
+              "Industrial Robotics & Safety",
+            ],
+            project: "Autonomous Delivery Drone with waypoint navigation.",
+          },
+          {
+            title: "Phase 8: Cutting-Edge Research",
+            weeks: "229-276",
+            topics: [
+              "Tactile Sensing & Dexterous Manipulation",
+              "Advanced SLAM (Visual-Inertial)",
+              "Robotic Fabrication",
+              "Humanoid & Legged Robotics (Boston Dynamics research)",
+            ],
+            project: "Bipedal Walking Robot with dynamic walking.",
+          },
+          {
+            title: "Phase 9: Specialization & Leadership",
+            weeks: "277-312",
+            topics: [
+              "Deep Specialization (Autonomous Vehicles, Medical, etc.)",
+              "Research Contributions (ICRA, IROS)",
+              "Open Source Contributions",
+              "Capstone & Career Launch",
+            ],
+            project: "Level 4 Autonomous Vehicle System (simulation or real).",
+          },
+        ],
+        math: [
+          {
+            title: "Phase 1: Mathematical Foundations",
+            weeks: "1-12",
+            topics: [
+              "Pre-Calculus & Functions Review",
+              "Linear Algebra Fundamentals (Vectors, Matrices, Rotations)",
+              "Statistics Basics (Probability, Distributions)",
+            ],
+            project:
+              "Implement matrix operations and basic stats functions in Python/NumPy.",
+          },
+          {
+            title: "Phase 2: Calculus & Probability",
+            weeks: "13-32",
+            topics: [
+              "Single Variable Calculus (Derivatives, Gradients)",
+              "Multivariable Calculus (Partial Derivatives, Jacobian)",
+              "Probability Theory (Bayes' Theorem)",
+              "Matrix Calculus & Differential Equations Intro",
+            ],
+            project:
+              "Compute gradients of loss functions and solve simple ODEs for motor dynamics.",
+          },
+          {
+            title: "Phase 3: Optimization & Control Theory",
+            weeks: "33-56",
+            topics: [
+              "Optimization Theory (Gradient Descent, Convex)",
+              "Classical Control Theory (PID, Bode Plots, State-Space)",
+              "Advanced Linear Algebra (Eigenvalues, SVD, PCA)",
+              "Information Theory (Entropy, KL Divergence)",
+            ],
+            project:
+              "Implement optimization algorithms and design PID controllers from scratch.",
+          },
+          {
+            title: "Phase 4: Advanced Probability & Control",
+            weeks: "57-88",
+            topics: [
+              "Advanced Probability Distributions (Multivariate Normal)",
+              "State Estimation & Filtering (Kalman, EKF, Particle Filters)",
+              "Modern Control (LQR, MPC)",
+              "Bayesian Statistics (MCMC)",
+            ],
+            project: "Implement a Kalman Filter for sensor fusion.",
+          },
+          {
+            title: "Phase 5: Advanced DL & Robotics Math",
+            weeks: "89-156",
+            topics: [
+              "Tensor Calculus & 3D Geometry (Quaternions, Lie Groups)",
+              "Numerical Methods & Dynamics (Runge-Kutta, Lagrangian)",
+              "Stochastic Processes & RL Math (MDPs, Bellman)",
+              "Game Theory & Multi-Agent Systems",
+              "Trajectory Optimization",
+            ],
+            project:
+              "Solve MDPs, implement quaternion calculations, and build a simple trajectory optimizer.",
+          },
+          {
+            title: "Phase 6: Research-Level Mathematics",
+            weeks: "157-276",
+            topics: [
+              "Scaling Laws & Advanced Dynamics",
+              "Differential Geometry & Motion Planning",
+              "Advanced Information Theory & SLAM (Factor Graphs)",
+              "Causal Inference & Learning Theory (PAC, VC Dim)",
+              "Graph Theory & GNN Mathematics",
+              "Optimal Transport (Wasserstein)",
+            ],
+            project:
+              "Implement Graph SLAM optimization or analyze scaling laws.",
+          },
+          {
+            title: "Phase 7: Specialized Mathematics",
+            weeks: "277-312",
+            topics: [
+              "Specialization Track (e.g., AI Safety, Edge AI, Multimodal)",
+              "Formal Verification & Safety (Control Barrier Functions)",
+              "Robustness & Uncertainty",
+              "Advanced Generative Models (Diffusion SDEs)",
+            ],
+            project:
+              "Implement Control Barrier Functions for a simple robot model.",
+          },
+        ],
+      };
+
+      // --- Planner Logic ---
+      const plannerViews = document.querySelectorAll(".planner-view");
+      const plannerBtns = document.querySelectorAll(".planner-btn");
+
+      window.showPlanner = (view) => {
+        plannerViews.forEach((v) => v.classList.add("hidden"));
+        document.getElementById(`view-${view}`).classList.remove("hidden");
+
+        plannerBtns.forEach((b) => b.classList.remove("active"));
+        document.getElementById(`btn-${view}`).classList.add("active");
+      };
+
+      // --- Roadmap Logic ---
+      const roadmapTabs = document.querySelectorAll(".roadmap-tab");
+      const roadmapPhaseContainers =
+        document.querySelectorAll(".roadmap-phases");
+      const detailTitle = document.getElementById("detail-title");
+      const detailWeeks = document.getElementById("detail-weeks");
+      const detailTopics = document.getElementById("detail-topics");
+      const detailProject = document.getElementById("detail-project");
+
+      let activePhaseItems = {};
+
+      window.showRoadmap = (track) => {
+        roadmapTabs.forEach((t) => t.classList.remove("active"));
+        document.getElementById(`tab-${track}`).classList.add("active");
+
+        roadmapPhaseContainers.forEach((c) => c.classList.add("hidden"));
+        document.getElementById(`phases-${track}`).classList.remove("hidden");
+
+        if (activePhaseItems[track]) {
+          showPhaseDetails(
+            track,
+            activePhaseItems[track].index,
+            activePhaseItems[track].id
+          );
+        } else {
+          showPhaseDetails(track, 0, `${track}-phase-0`);
+        }
+      };
+
+      window.showPhaseDetails = (track, index, elementId) => {
+        const phase = roadmapData[track][index];
+        detailTitle.textContent = phase.title;
+        detailWeeks.textContent = `Weeks: ${phase.weeks}`;
+
+        detailTopics.innerHTML = "";
+        phase.topics.forEach((topic) => {
+          const li = document.createElement("li");
+          li.textContent = topic;
+          detailTopics.appendChild(li);
+        });
+
+        detailProject.textContent = phase.project;
+
+        document
+          .querySelectorAll(".phase-item")
+          .forEach((item) => item.classList.remove("active"));
+        const activeEl = document.getElementById(elementId);
+        if (activeEl) {
+          activeEl.classList.add("active");
+        }
+        activePhaseItems[track] = { index, id: elementId };
+      };
+
+      function populatePhaseLists() {
+        Object.keys(roadmapData).forEach((track) => {
+          const container = document.getElementById(`phases-${track}`);
+          roadmapData[track].forEach((phase, index) => {
+            const id = `${track}-phase-${index}`;
+            const button = document.createElement("button");
+            button.id = id;
+            button.className = "phase-item";
+            button.innerHTML = `<span class="font-semibold">${phase.title}</span><span class="block text-sm text-gray-500">Weeks: ${phase.weeks}</span>`;
+            button.onclick = () => showPhaseDetails(track, index, id);
+            container.appendChild(button);
+          });
+        });
+      }
+
+      // --- Chart.js ---
+      const studyAllocationCtx = document
+        .getElementById("studyAllocationChart")
+        .getContext("2d");
+      new Chart(studyAllocationCtx, {
+        type: "doughnut",
+        data: {
+          labels: ["Robotics (2h)", "AI (2h)", "Math (0.5h)"],
+          datasets: [
+            {
+              label: "Hours per Day",
+              data: [2, 2, 0.5],
+              backgroundColor: [
+                "#4A90E2", // Primary
+                "#50E3C2", // Green (for AI)
+                "#F5A623", // Accent
+              ],
+              borderColor: "#FDFDFB",
+              borderWidth: 4,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              position: "bottom",
+            },
+            tooltip: {
+              callbacks: {
+                title: function (tooltipItems) {
+                  const item = tooltipItems[0];
+                  let label = item.chart.data.labels[item.dataIndex];
+                  if (Array.isArray(label)) {
+                    return label.join(" ");
+                  } else {
+                    return label;
+                  }
+                },
+              },
+            },
+          },
+        },
+      });
+
+      // --- Initial Load ---
+      document.addEventListener("DOMContentLoaded", () => {
+        populatePhaseLists();
+        showRoadmap("ai"); // Default to AI track
+        showPlanner("weekday"); // Default to weekday planner
+      });
+    </script>
+  </body>
+</html>

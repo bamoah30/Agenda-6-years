@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The 312-Week Unicorn Engineer Journey</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Chosen Palette: Brilliant Blues -->
+    <!-- Narrative Plan: Hook (Unicorn definition), Overview (312 weeks, 4.5hrs/day), Journey (Timeline of 7 phases), Pillars (Charts for AI/Robotics skills), Process (Weekly Planner visualization), Outcome (Target roles/industries). -->
+    <!-- Visualization Choices: Big Numbers (Inform, Styled HTML, NO SVG), Journey Timeline (Change, Styled HTML/Tailwind, NO SVG/Mermaid), AI Skills (Compare, Bar Chart, Chart.js/Canvas, NO SVG), Robotics Skills (Compare, Radar Chart, Chart.js/Canvas, NO SVG), Weekly Plan (Organize, Styled HTML/Tailwind, NO SVG/Mermaid), Target Roles (Organize, Styled HTML List, NO SVG). -->
+    <!-- Confirmed: NEITHER Mermaid JS NOR SVG were used. All charts use Chart.js with Canvas. All diagrams use structured HTML and Tailwind CSS. -->
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #f0f4f8;
+      }
+      .chart-container {
+        position: relative;
+        width: 100%;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 300px;
+        max-height: 400px;
+      }
+      @media (min-width: 768px) {
+        .chart-container {
+          height: 350px;
+        }
+      }
+      .timeline-item {
+        position: relative;
+        padding-bottom: 2rem;
+        padding-left: 2.5rem;
+      }
+      .timeline-item:before {
+        content: "";
+        position: absolute;
+        left: 0.5rem;
+        top: 0.5rem;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 9999px;
+        background-color: #0a85ff;
+        border: 3px solid #bce0ff;
+        z-index: 10;
+      }
+      .timeline-item:after {
+        content: "";
+        position: absolute;
+        left: 0.9rem;
+        top: 1.5rem;
+        width: 2px;
+        height: 100%;
+        background-color: #bce0ff;
+      }
+      .timeline-item:last-child:after {
+        display: none;
+      }
+    </style>
+  </head>
+  <body class="bg-[#f0f4f8] text-[#001a3f]">
+    <div class="container mx-auto p-4 md:p-8 max-w-7xl">
+      <header class="text-center mb-12">
+        <h1 class="text-4xl md:text-6xl font-black text-[#004AAD] mb-4">
+          The 312-Week Unicorn Engineer Journey
+        </h1>
+        <p
+          class="text-xl md:text-2xl font-light text-[#0A85FF] max-w-4xl mx-auto"
+        >
+          "A full-stack AI + Robotics engineer with the depth of a researcher,
+          the hands of a builder, and the mindset of a founder."
+        </p>
+      </header>
+
+      <section class="mb-12 p-6 md:p-10 bg-white rounded-lg shadow-md">
+        <h2 class="text-3xl font-bold text-[#004AAD] mb-6 text-center">
+          The Ascent by the Numbers
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+          <div class="bg-[#BCE0FF] p-6 rounded-lg shadow">
+            <span class="text-6xl font-black text-[#004AAD] block">312</span>
+            <span class="text-xl font-semibold text-[#004AAD]"
+              >Total Weeks</span
+            >
+          </div>
+          <div class="bg-[#75B7FF] p-6 rounded-lg shadow">
+            <span class="text-6xl font-black text-[#004AAD] block">4.5</span>
+            <span class="text-xl font-semibold text-[#004AAD]"
+              >Hours / Day</span
+            >
+            <span class="text-sm font-light text-[#004AAD] block"
+              >(Weekday Core Study)</span
+            >
+          </div>
+          <div class="bg-[#0A85FF] p-6 rounded-lg shadow">
+            <span class="text-6xl font-black text-white block">3</span>
+            <span class="text-xl font-semibold text-white"
+              >Parallel Tracks</span
+            >
+            <span class="text-sm font-light text-white block"
+              >(AI, Robotics, Math)</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-3xl font-bold text-[#004AAD] mb-8 text-center">
+          The 6-Year Phased Journey
+        </h2>
+        <div class="max-w-4xl mx-auto p-6 md:p-8 bg-white rounded-lg shadow-md">
+          <p class="text-lg text-gray-700 mb-8 text-center">
+            This journey is a structured progression from fundamental principles
+            to frontier research and industry leadership, broken into distinct,
+            overlapping phases.
+          </p>
+          <div class="relative">
+            <div class="timeline-item">
+              <h3 class="text-xl font-bold text-[#004AAD]">
+                Phase 1-2: Foundations (Weeks 1-36)
+              </h3>
+              <p class="text-gray-600">
+                Building the bedrock. Mastering core Python, electronics
+                fundamentals, C++, and the fundamentals of Calculus, Linear
+                Algebra, and classical Machine Learning.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <h3 class="text-xl font-bold text-[#004AAD]">
+                Phase 3-4: Core Skills (Weeks 37-92)
+              </h3>
+              <p class="text-gray-600">
+                Assembling the toolkit. Deep dives into Transformer
+                architecture, MLOps, sensor fusion, advanced control theory
+                (PID, LQR), and robot kinematics.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <h3 class="text-xl font-bold text-[#004AAD]">
+                Phase 5: System Integration (Weeks 93-156)
+              </h3>
+              <p class="text-gray-600">
+                Making it work together. Mastering ROS, system-scale design,
+                distributed training for LLMs, and integrating perception
+                (CV/LiDAR) with manipulation (MoveIt!).
+              </p>
+            </div>
+            <div class="timeline-item">
+              <h3 class="text-xl font-bold text-[#004AAD]">
+                Phase 6: Frontier Research (Weeks 157-276)
+              </h3>
+              <p class="text-gray-600">
+                Pushing the boundaries. Contributing to frontier AI research,
+                scaling laws, advanced SLAM, dexterous manipulation, and
+                building ChatGPT-scale projects.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <h3 class="text-xl font-bold text-[#004AAD]">
+                Phase 7: Leadership (Weeks 277-312)
+              </h3>
+              <p class="text-gray-600">
+                Deep specialization in a chosen track (e.g., Autonomous
+                Vehicles, AI Safety), publishing research, and establishing
+                industry expertise as a team lead or founder.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+        <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+          <h3 class="text-2xl font-bold text-[#004AAD] mb-2 text-center">
+            Pillar 1: The AI Journey
+          </h3>
+          <p class="text-gray-700 mb-6 text-center">
+            Focuses on building, training, and deploying large-scale intelligent
+            systems, from core models to production-ready infrastructure.
+          </p>
+          <div class="chart-container h-96 md:h-[450px]">
+            <canvas id="aiChart"></canvas>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+          <h3 class="text-2xl font-bold text-[#004AAD] mb-2 text-center">
+            Pillar 2: The Robotics Journey
+          </h3>
+          <p class="text-gray-700 mb-6 text-center">
+            Transforms a Mechanical Engineer into a Mechatronics expert,
+            mastering the physical stack from electrons to autonomous action.
+          </p>
+          <div class="chart-container h-96 md:h-[450px]">
+            <canvas id="roboticsChart"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-12">
+        <h2 class="text-3xl font-bold text-[#004AAD] mb-8 text-center">
+          The Engine: A Week in the Life
+        </h2>
+        <p class="text-lg text-gray-700 mb-8 max-w-4xl mx-auto text-center">
+          Success isn't random; it's engineered. This is the weekly operating
+          system designed for maximum focus and sustainable progress,
+          integrating 4.5 hours of daily study with work and strategic weekend
+          goals.
+        </p>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+            <h3 class="text-2xl font-bold text-[#004AAD] mb-6 text-center">
+              Monday - Friday: The Core Grind
+            </h3>
+            <div class="space-y-4">
+              <div class="flex items-center p-3 bg-gray-50 rounded-lg">
+                <span class="text-sm font-bold text-[#004AAD] w-24"
+                  >7:00 AM</span
+                >
+                <span class="flex-1 text-gray-800 font-semibold"
+                  >Study Block 1: Robotics (2 Hours)</span
+                >
+              </div>
+              <div class="flex items-center p-3 bg-gray-50 rounded-lg">
+                <span class="text-sm font-bold text-gray-500 w-24"
+                  >9:30 AM</span
+                >
+                <span class="flex-1 text-gray-800"
+                  >Primary Work / Job (8.5 Hours)</span
+                >
+              </div>
+              <div class="flex items-center p-3 bg-gray-50 rounded-lg">
+                <span class="text-sm font-bold text-gray-500 w-24"
+                  >6:00 PM</span
+                >
+                <span class="flex-1 text-gray-800"
+                  >Dinner & Family Time (1 Hour)</span
+                >
+              </div>
+              <div
+                class="flex items-center p-3 bg-blue-100 border-l-4 border-[#0A85FF] rounded-lg"
+              >
+                <span class="text-sm font-bold text-[#004AAD] w-24"
+                  >7:00 PM</span
+                >
+                <span class="flex-1 text-[#004AAD] font-semibold"
+                  >Study Block 2: AI (2 Hours)</span
+                >
+              </div>
+              <div
+                class="flex items-center p-3 bg-blue-100 border-l-4 border-[#0A85FF] rounded-lg"
+              >
+                <span class="text-sm font-bold text-[#004AAD] w-24"
+                  >9:00 PM</span
+                >
+                <span class="flex-1 text-[#004AAD] font-semibold"
+                  >Study Block 3: Math (30 Mins)</span
+                >
+              </div>
+              <div class="flex items-center p-3 bg-gray-50 rounded-lg">
+                <span class="text-sm font-bold text-gray-500 w-24"
+                  >9:30 PM</span
+                >
+                <span class="flex-1 text-gray-800"
+                  >Wind Down / Forex Prep (1 Hour)</span
+                >
+              </div>
+              <div class="flex items-center p-3 bg-gray-50 rounded-lg">
+                <span class="text-sm font-bold text-gray-500 w-24"
+                  >11:30 PM</span
+                >
+                <span class="flex-1 text-gray-800">Sleep (7 Hours)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+            <h3 class="text-2xl font-bold text-[#004AAD] mb-6 text-center">
+              Saturday - Sunday: Strategic Depth
+            </h3>
+            <div class="space-y-4">
+              <div class_="mb-6">
+                <h4 class="font-bold text-lg text-gray-700 mb-2">
+                  Saturday: Forex & Portfolio
+                </h4>
+                <div
+                  class="flex items-center p-3 bg-blue-100 border-l-4 border-[#0A85FF] rounded-lg mb-2"
+                >
+                  <span class="text-sm font-bold text-[#004AAD] w-24"
+                    >9:00 AM</span
+                  >
+                  <span class="flex-1 text-[#004AAD] font-semibold"
+                    >Forex Deep Analysis (4 Hours)</span
+                  >
+                </div>
+                <div
+                  class="flex items-center p-3 bg-blue-100 border-l-4 border-[#0A85FF] rounded-lg mb-2"
+                >
+                  <span class="text-sm font-bold text-[#004AAD] w-24"
+                    >2:00 PM</span
+                  >
+                  <span class="flex-1 text-[#004AAD] font-semibold"
+                    >Forex Execution/Demo (3 Hours)</span
+                  >
+                </div>
+                <div class="flex items-center p-3 bg-gray-50 rounded-lg">
+                  <span class="text-sm font-bold text-gray-500 w-24"
+                    >5:00 PM</span
+                  >
+                  <span class="flex-1 text-gray-800"
+                    >Portfolio & Content Creation (2 Hours)</span
+                  >
+                </div>
+              </div>
+
+              <div>
+                <h4 class="font-bold text-lg text-gray-700 mb-2">
+                  Sunday: Review & Tooling
+                </h4>
+                <div class="flex items-center p-3 bg-gray-50 rounded-lg mb-2">
+                  <span class="text-sm font-bold text-gray-500 w-24"
+                    >11:00 AM</span
+                  >
+                  <span class="flex-1 text-gray-800"
+                    >Weekly Review & Consolidation (2 Hours)</span
+                  >
+                </div>
+                <div class="flex items-center p-3 bg-gray-50 rounded-lg">
+                  <span class="text-sm font-bold text-gray-500 w-24"
+                    >2:00 PM</span
+                  >
+                  <span class="flex-1 text-gray-800"
+                    >Tooling & Environment Setup (3 Hours)</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-white rounded-lg shadow-md p-6 md:p-10 text-center">
+        <h2 class="text-3xl font-bold text-[#004AAD] mb-6">
+          The Outcome: Industry Leadership
+        </h2>
+        <p class="text-lg text-gray-700 mb-8 max-w-4xl mx-auto">
+          This 312-week journey is not just about learning; it's about building
+          a specific, high-impact profile qualified to lead at the intersection
+          of AI and the physical world.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <span
+            class="bg-[#0A85FF] text-white py-2 px-5 rounded-full text-lg font-semibold shadow"
+            >Senior AI/ML Engineer</span
+          >
+          <span
+            class="bg-[#0A85FF] text-white py-2 px-5 rounded-full text-lg font-semibold shadow"
+            >Senior Robotics Engineer</span
+          >
+          <span
+            class="bg-[#004AAD] text-white py-2 px-5 rounded-full text-lg font-semibold shadow"
+            >Research Engineer</span
+          >
+          <span
+            class="bg-[#004AAD] text-white py-2 px-5 rounded-full text-lg font-semibold shadow"
+            >AI/Robotics Team Lead</span
+          >
+          <span
+            class="bg-[#004AAD] text-white py-2 px-5 rounded-full text-lg font-semibold shadow"
+            >Tech Founder</span
+          >
+        </div>
+      </section>
+    </div>
+
+    <script>
+      (function () {
+        const B_PALETTE = {
+          darkBlue: "#004AAD",
+          midBlue: "#0A85FF",
+          lightBlue: "#75B7FF",
+          lighterBlue: "#BCE0FF",
+          white: "#FFFFFF",
+        };
+
+        const tooltipTitleCallback = function (tooltipItems) {
+          const item = tooltipItems[0];
+          let label = item.chart.data.labels[item.dataIndex];
+          if (Array.isArray(label)) {
+            return label.join(" ");
+          } else {
+            return label;
+          }
+        };
+
+        const aiChartCtx = document.getElementById("aiChart").getContext("2d");
+        new Chart(aiChartCtx, {
+          type: "bar",
+          data: {
+            labels: [
+              "Foundations (Python/DB)",
+              "ML & MLOps",
+              "LLM Engineering",
+              ["Frontier AI", "Research"],
+              "Specialization",
+            ],
+            datasets: [
+              {
+                label: "Weeks Spent",
+                data: [32, 56, 68, 120, 36],
+                backgroundColor: [
+                  B_PALETTE.lighterBlue,
+                  B_PALETTE.lightBlue,
+                  B_PALETTE.midBlue,
+                  B_PALETTE.darkBlue,
+                  B_PALETTE.midBlue,
+                ],
+                borderColor: B_PALETTE.darkBlue,
+                borderWidth: 1,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              y: {
+                beginAtZero: true,
+                title: {
+                  display: true,
+                  text: "Number of Weeks",
+                },
+              },
+            },
+            plugins: {
+              legend: {
+                display: false,
+              },
+              tooltip: {
+                callbacks: {
+                  title: tooltipTitleCallback,
+                },
+              },
+            },
+          },
+        });
+
+        const roboticsChartCtx = document
+          .getElementById("roboticsChart")
+          .getContext("2d");
+        new Chart(roboticsChartCtx, {
+          type: "radar",
+          data: {
+            labels: [
+              "Electronics & PCB",
+              ["Embedded", "(C++/RTOS)"],
+              ["Control &", "Kinematics"],
+              ["Perception", "(CV/LiDAR)"],
+              "ROS & Integration",
+              ["AI/ML for", "Robotics"],
+            ],
+            datasets: [
+              {
+                label: "Acquired Skill Mastery (1-5)",
+                data: [4, 5, 5, 4, 5, 5],
+                backgroundColor: "rgba(10, 133, 255, 0.2)",
+                borderColor: B_PALETTE.midBlue,
+                pointBackgroundColor: B_PALETTE.midBlue,
+                pointBorderColor: B_PALETTE.white,
+                pointHoverBackgroundColor: B_PALETTE.white,
+                pointHoverBorderColor: B_PALETTE.midBlue,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              r: {
+                beginAtZero: true,
+                max: 5,
+                ticks: {
+                  stepSize: 1,
+                },
+                pointLabels: {
+                  font: {
+                    size: 10,
+                  },
+                },
+              },
+            },
+            plugins: {
+              legend: {
+                position: "top",
+              },
+              tooltip: {
+                callbacks: {
+                  title: tooltipTitleCallback,
+                },
+              },
+            },
+          },
+        });
+      })();
+    </script>
+  </body>
+</html>
