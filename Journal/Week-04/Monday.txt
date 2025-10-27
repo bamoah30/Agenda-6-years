@@ -1,0 +1,18 @@
+Journal Entry – October 27, 2025
+
+This morning, I began my journey at 4:30 am.  
+Woke up, reflected on the day ahead, and reviewed my schedule.  
+By 5:00 am, I was deep into my roadmap.
+
+I resumed my journey with *Automate the Boring Stuff*, starting at Chapter 7 since I'm already with the acquinted with the basics of Python.  
+Right at the beginning, I encountered a function: `isPhoneNumber(text)`.  
+Curious, I tried writing my own variants — but quickly realized I didn’t fully grasp programming logic.
+
+That was a wake-up call.  
+So I decided to study programming logic intentionally.  
+With AI making everything easier, I prompted Copilot and generated a 4-week roadmap to close that gap.
+
+This logic roadmap will run **in parallel** with my main roadmap — every day from 2:30 pm to 4:00 pm.
+
+Mission: 
+Building Intelligent Autonomous Systems That Think, Move, and Adapt.
