@@ -18,7 +18,7 @@ This is my master roadmap — a 6-year transformation from Mechanical Engineer t
 
 | Year | Focus Area                         | Outcome Goal                          |
 | ---- | ---------------------------------- | ------------------------------------- |
-| 1    | AI Engineering Fundamentals        | ML Engineer (Anthropic/Google/Tesla)  |
+| 1    | AI Engineering Fundamentals        | ML Engineer                           |
 | 2    | Advanced ML + Robotics Integration | Research Engineer / Robotics Engineer |
 | 3    | Full-stack Intelligent Systems     | Lead AI Developer                     |
 | 4    | Hardware + Software Fusion         | Autonomous Systems Architect          |
