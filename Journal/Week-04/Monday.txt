@@ -7,4 +7,4 @@ Didn’t know where to begin, so I started with research and structured the READ
  
 Lesson of the day: When in doubt, write the README first.  
 
-Mission: Building Intelligent Autonomous Systems That Think, Move, and Adapt.
+
