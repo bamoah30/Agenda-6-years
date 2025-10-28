@@ -1,18 +1,32 @@
 Daily Log — Building Through Discomfort
 
-Today started rough. I had a bout of stomach trouble that kept waking me throughout the night. Still, I managed to catch a bit of sleep and was up before 4:30 a.m.
+Today started rough. 
+I had a bout of stomach trouble that kept waking me throughout the night. 
+Still, I managed to catch a bit of sleep and was up before 4:30 a.m.
 
-I kicked off the morning with a YouTube tutorial on using **AI Agents in VS Code**. It was eye-opening—tools like these are making coding feel significantly more intuitive. I’m definitely integrating Agents into my workflow moving forward. While watching, I encountered two new terms:
+I kicked off the morning with a YouTube tutorial on using AI Agents in VS Code. 
+It was eye-opening—tools like these are making coding feel significantly more intuitive. 
+I’m definitely integrating Agents into my workflow moving forward. 
+While watching, I encountered two new terms:
 
 - MCP (Model Context Protocol):A protocol that enables agents to interact intelligently with your workspace documents.
 - PRD (Product Requirements Document): A detailed document outlining a product’s features, goals, and requirements—essentially a more advanced, structured version of a README.
 
-Remember how I’ve been using READMEs to scaffold my projects? PRDs feel like the next evolution—especially relevant as I start thinking like a product-minded engineer.
+Remember how I’ve been using READMEs to scaffold my projects? 
+PRDs feel like the next evolution—especially relevant as I start thinking like a product-minded engineer.
 
-At 4:30 a.m., my alarm went off. I didn’t feel ready to move, so I lingered on my phone for five more minutes before getting up to continue my roadmap. I revisited *Automate the Boring Stuff* and began exploring **regular expressions**. It didn’t feel like a major leap, but I realized how regex can simplify functions like `isPhoneNumber()`—the one we looked at on Monday. Learning to use expressions like `\d` for digits is a small but powerful step toward writing cleaner, more efficient code.
+At 4:30 a.m., my alarm went off. 
+I didn’t feel ready to move, so I lingered on my phone for five more minutes before getting up to continue my roadmap.
+I revisited Automate the Boring Stuff and began exploring regular expressions. 
+It didn’t feel like a major leap, but I realized how regex can simplify functions like `isPhoneNumber()`—the one we looked at on Monday. 
+Learning to use expressions like `\d` for digits is a small but powerful step toward writing cleaner, more efficient code.
 
-Later, I took a short break and returned to my **first portfolio project: AI Data Analyzer. I applied what I learned from the VS Code tutorial, and it paid off—the AI Agent helped me move faster and more confidently. Along the way, I had to pick up new tools like **Pandas**, which I used to manipulate and analyze data. Every module I learn now feels like a brick in the foundation of my AI + Robotics future.
+Later, I took a short break and returned to my first portfolio project: AI Data Analyzer. 
+I applied what I learned from the VS Code tutorial, and it paid off—the AI Agent helped me move faster and more confidently. 
+Along the way, I had to pick up new tools like Pandas, which I used to manipulate and analyze data. 
+Every module I learn now feels like a brick in the foundation of my AI + Robotics future.
 
-I wrapped up the day with some **Khan Academy Precalculus lessons. Strengthening my math fundamentals is part of the long game—especially as I prepare for the more technical aspects of robotics and machine learning.
+I wrapped up the day with some Khan Academy Precalculus lessons. 
+Strengthening my math fundamentals is part of the long game—especially as I prepare for the more technical aspects of robotics and machine learning.
 
 
