@@ -1,0 +1,22 @@
+Today, I didn't feel so well as I had a running stomach which kept waking me several times in the middle of my sleep.
+But, I managed to get a little sleep. Woke up before 4:30 am.
+Watched a youtube tutorial on using Agents in Vs-code
+It's was so cool, I think coding became much more easier wiht tool like Agents in Vs code.
+I will be using the Agent in most of my code. Well, whilst watching the Youtube video, I came across some new terms: MCP and PRD
+MCP(Model Context Protocol) is basically a protocol to help the agent interact well with your workspace document
+PRD (Product Requirements Document): A comprehensive document that outlines the requirements, features and objectives of a product. It used as a reference for those with whom the product is concerned.
+Remember I told you about using ReadMe as a starting point? Well, PRD is like an advanced ReadME.
+
+After the video, around 4:30 am, alarm went off, I didn't feel like it, stayed on my phone screen for additional 5 minutes befreo i got out of bed to continue my roadmap, remember Automating the boring Stuff?
+I it didn't feel like i did much, but i started exploring regular expressions.
+It turns out that with regular expressions you can simplify the isPhoneNumber() function  we saw on Monday.
+But then, to use regular expressions, you have to understan a lot of it's key words like the \d for digits and other expressions.
+
+
+I went for a break for sometime and resumed working on my first portfolio project - AI data Analyzer
+I used the skills i acquired from watching the VS code tutorial. After, the skills didn't go to waste.
+The AI agent helped me moved faster. Well, whilst using the AI, i had to learn certain modules like pandas and how to use them.
+
+
+I ended the day with some Khanacademy Precalculus lessons.
+
