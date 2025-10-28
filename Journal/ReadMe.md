@@ -14,7 +14,7 @@ Each week is organized into its own folder (`Week-01`, `Week-02`, etc.), contain
 Journal/
 ├── README.md
 ├── Week-04/
-│ └── Monday.txt
+  └── Monday.txt
 
 Each `.txt` file is named by days and contains a raw, honest snapshot of that day’s journey — from early morning routines to late-night breakthroughs.
 
