@@ -1,0 +1,25 @@
+Today, woke up feeling very refreshed. 
+Started the day around 3:23am.
+Watched youtube tutorial on how to use git command to create and manage branch on vs code
+Planned to implement that later in the day when I'm working on my portfolio project.
+Then switched to my Roadmap, still on regular expressions.
+Due to yesterday's lower output, i decided to adopt new strategy to study.
+Mostly, i will study and then document as I go, topic ny topic.
+But today, I studied without documenting everything. I just wrote the topics down.
+When, i haved studied for about one and a half hours, i puasd and started documenting. 
+That strategy was superb.
+I really covered alot. Just to name a few:
+-Using question mark in regexes
+-Matching with a Plus
+-the findall() method
+-Shorthand character classes 
+- How to create your own character classes
+-the wildcard character
+-using the sub() method
+-the differences between the match() and the search() method 
+
+I was really proud of myself and plan to adopt this strategy going forward: 
+Learn 1 hour + 25 min, break 5 min, document 30mins
+
+Well, the documenting took alot of time but it was wealth it because It served as a source for me to recap
+and internalized some facts.
