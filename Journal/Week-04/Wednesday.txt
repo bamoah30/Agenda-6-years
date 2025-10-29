@@ -23,3 +23,12 @@ Learn 1 hour + 25 min, break 5 min, document 30mins
 
 Well, the documenting took alot of time but it was wealth it because It served as a source for me to recap
 and internalized some facts.
+
+Went for a break and returned at 11 am to begin working on my project. 
+AS usual, I did apply the git commamd that i learnt before starting my Roadmap.
+I was able to create a a new branch, switch between branches, commit the branch to a remote repo, etc.
+I worked on my analyzer module, finished it, tested it and I will be tacking the OpenAI API key initialization tomorrow.
+Whilst working on the project, i learnt new concept like type hinting.
+
+After the day, I decided to adopt a new timetable that will take into consideration the Roadmap for the programming logic,
+and also make a reason block time for job application, robotics section and then Maths section.
