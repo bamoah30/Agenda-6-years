@@ -1,34 +1,37 @@
-Today, woke up feeling very refreshed. 
-Started the day around 3:23am.
-Watched youtube tutorial on how to use git command to create and manage branch on vs code
-Planned to implement that later in the day when I'm working on my portfolio project.
-Then switched to my Roadmap, still on regular expressions.
-Due to yesterday's lower output, i decided to adopt new strategy to study.
-Mostly, i will study and then document as I go, topic ny topic.
+Daily Log: Study Strategy Shift and Git Mastery
+Today, I woke up feeling very refreshed.
+Started the day around 3:23 a.m.
+Watched a YouTube tutorial on how to use Git commands to create and manage branches in VS Code.
+Planned to implement that later in the day when working on my portfolio project.
+Then switched to my Roadmap—still on regular expressions.
+
+Due to yesterday's lower output, I decided to adopt a new strategy for studying.
+Mostly, I study and then document as I go, topic by topic.
 But today, I studied without documenting everything. I just wrote the topics down.
-When, i haved studied for about one and a half hours, i puasd and started documenting. 
+When I had studied for about one and a half hours, I paused and started documenting.
 That strategy was superb.
-I really covered alot. Just to name a few:
--Using question mark in regexes
--Matching with a Plus
--the findall() method
--Shorthand character classes 
-- How to create your own character classes
--the wildcard character
--using the sub() method
--the differences between the match() and the search() method 
 
-I was really proud of myself and plan to adopt this strategy going forward: 
-Learn 1 hour + 25 min, break 5 min, document 30mins
+I really covered a lot. Just to name a few:
+•	Using question mark in regexes
+•	Matching with a plus
+•	The findall() method
+•	Shorthand character classes
+•	How to create your own character classes
+•	The wildcard character
+•	Using the sub() method
+•	The differences between the match() and the search() method
 
-Well, the documenting took alot of time but it was wealth it because It served as a source for me to recap
-and internalized some facts.
+I was really proud of myself and plan to adopt this strategy going forward:
+Learn 1 hour + 25 min, break 5 min, document 30 mins.
+Well, the documenting took a lot of time, but it was worth it because it served as a source for me to recap
+and internalize some facts.
 
-Went for a break and returned at 11 am to begin working on my project. 
-AS usual, I did apply the git commamd that i learnt before starting my Roadmap.
-I was able to create a a new branch, switch between branches, commit the branch to a remote repo, etc.
-I worked on my analyzer module, finished it, tested it and I will be tacking the OpenAI API key initialization tomorrow.
-Whilst working on the project, i learnt new concept like type hinting.
+Went for a break and returned at 11 a.m. to begin working on my project.
+As usual, I applied the Git commands I had learned before starting my Roadmap.
+I was able to create a new branch, switch between branches, commit the branch to a remote repo, etc.
+I worked on my analyzer module, finished it, tested it, and I will be tackling the OpenAI API key initialization tomorrow.
+Whilst working on the project, I learned a new concept like type hinting.
 
-After the day, I decided to adopt a new timetable that will take into consideration the Roadmap for the programming logic,
-and also make a reason block time for job application, robotics section and then Maths section.
+
+After the day, I decided to adopt a new timetable that will take into consideration the Roadmap for programming logic,
+and also make reasonable block time for job applications, robotics section, and then the Maths section. I will implementthe newtimetable in the after Sunday.
