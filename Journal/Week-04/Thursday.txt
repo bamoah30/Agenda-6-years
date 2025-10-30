@@ -1,0 +1,32 @@
+Journal Entry – October 30, 2025 
+
+Today, I woke up feeling less energized. I think it's because I slept around 11pm the night before. 
+Moving forward, I plan to stick strictly to my sleeping time. 
+
+Though my eyes opened before 4:30am, I didn't get out of bed. 
+I didn't do anything either—just lay there until I fell asleep again. 
+Then the alarm went off. I managed to wake up. 
+
+I sat down to continue my Roadmap and moved to Chapter 8 of Automate the Boring Stuff. 
+I began reading about how to handle files and directories. 
+I learned some basic commands like `os.getcwd()` for getting the current working directory, 
+and explored what `os.path` does. 
+I discovered that `os.path.join()` is particularly useful because 
+it handles path separators differently across operating systems, which will be important for writing portable code. 
+
+
+The time moved quickly. 
+By 12pm, I switched to work on my project, ai-data-analyzer. 
+I discovered that using the OpenAI API requires a credit or debit card, which I don't currently have. 
+So I searched for alternatives and chose the Hugging Face API, which opened up their entire model hub for exploration. 
+I started modifying my Phase 2 README to reflect that change, 
+then updated the analyzer module accordingly. 
+I debugged to get the AI-generated code working and began the process of generating a token for the Hugging Face API. 
+Though I didn't finish testing the analyzer module, 
+I'm planning to complete it by tomorrow and document the differences between the OpenAI and Hugging Face implementations. 
+
+
+Due to the lower output today, I plan to abide strictly by my 9:45pm wind-down routine. 
+I'll be using this journal as my point of reflection. 
+That means I'll start making entries only around 8pm, when I'm about to sleep, 
+though I'll jot down technical notes during the day to capture details while they're fresh.
