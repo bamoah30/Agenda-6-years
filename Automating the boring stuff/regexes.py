@@ -67,11 +67,11 @@ if mo3:
 
 
 #Wednesday, October 29, 2025
-'''
-The "?" Question Mark: Optional Matching
+'''The ? Question Mark: Optional Matching
 The question mark indicates that the group preceding it is optional.
 So, it matches zero or one occurrence of the preceding group.
-Example Usage:'''
+Example Usage:
+'''
 
 batRegex = re.compile(r'Bat(wo)?man') 
 mo1 = batRegex.search('The Adventures of Batman')
@@ -118,7 +118,8 @@ if mo2:
 if mo3:
 	print(mo3.group())  # prints 'Batwowowowoman'
 
-'''To match one or more occurrences, use the plus + character.
+'''
+To match one or more occurrences, use the plus + character.
 For example:
 '''
 batRegex = re.compile(r'Bat(wo)+man')
@@ -336,4 +337,9 @@ This replaces the searched pattern with a new one.
 For example:
 '''
 namesRegex = re.compile(r'Agent \w+')
-print(namesRegex.sub('CENSORED', 'Agent Alice gave the secret documents to Agent Bob.')) #prints 'CENSORED gave the secret documents to CENSORED.'
+mo1 =namesRegex.sub('CENSORED', 'Agent Alice gave the secret documents to Agent Bob.')
+print(mo1) #prints 'CENSORED gave the secret documents to CENSORED.'
+
+
+
+# October 30, 2025
