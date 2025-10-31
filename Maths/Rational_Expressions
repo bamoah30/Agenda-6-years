@@ -1,0 +1,25 @@
+October 31, 2025
+Precalculus(Khanacademy): Unit 4
+A polynomial is an expression that consists of a sum of terms containing interger powers of x
+
+A rational expression is a fraction whose numerator and denominator are polynomials
+
+Domain of an expression is the set of all possible input values thst makes the function defined.
+
+To find the behaviour of a rational expression as it approaches infinity either from the right hand side or the left hand side:
+
+1. Divide each term by the highest power of x in the numerator
+2. Evaluate the resulting terms as x approaches infinity
+3. Conclude from your results
+
+Or
+COnsider only the terms with the highest powers and maked deductions from there
+
+Removal Continuity occurs when the restrcited domain can be cancelled out of the rational expression.
+It is the undefined values of x that vanishes after reducing the rational expression
+
+A zero of a rational expression can be determine when you find the values of x of the reduced rational expression's numerator equals zero
+
+Vertical asymptote occurs at values that makes the reduced rational expression undefined.
+
+Horizontal Aymptote: what does the fucntion approaches as x approaches infintiy and as x approaches negative infinity
