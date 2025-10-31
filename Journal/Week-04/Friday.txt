@@ -1,0 +1,23 @@
+Journal Entry – October 31, 2025
+
+Following my decision to strictly adhere to my sleep schedule, I woke up very early today.
+
+I began the day by studying precalculus lessons on Khan Academy. 
+I focused on rational expressions, vertical and horizontal asymptotes, 
+and how to determine the behavior of a function as it approaches infinity from both directions.
+
+At 4:30 a.m., I resumed my roadmap journey. 
+I'm still working through Automate the Boring Stuff, continuing from Chapter 8 on file handling. 
+Some new terms I picked up include:
+os.path.dirname(path): Returns the directory portion of the path, excluding the final file or folder.
+
+os.path.basename(path): Returns the final component of the path, typically the filename.
+
+os.path.getsize(path): Returns the size of the file in bytes.
+
+os.path.listdir(path): Lists all files and directories in the specified path.
+
+Later, I switched to working on my first portfolio project. 
+I didn’t make much progress today. 
+Although the analyzer module runs smoothly, it throws an error when the AI is supposed to return insights. 
+I plan to study more about APIs tomorrow to better understand what might be going wrong.

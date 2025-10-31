@@ -1,10 +1,12 @@
 October 31, 2025
+
 Precalculus(Khanacademy): Unit 4
-A polynomial is an expression that consists of a sum of terms containing interger powers of x
+
+A polynomial is an expression that consists of a sum of terms containing integer powers of x
 
 A rational expression is a fraction whose numerator and denominator are polynomials
 
-Domain of an expression is the set of all possible input values thst makes the function defined.
+Domain of an expression is the set of all input values for which the expression is defined.
 
 To find the behaviour of a rational expression as it approaches infinity either from the right hand side or the left hand side:
 
@@ -13,13 +15,13 @@ To find the behaviour of a rational expression as it approaches infinity either 
 3. Conclude from your results
 
 Or
-COnsider only the terms with the highest powers and maked deductions from there
+Consider only the terms with the highest powers and make deductions from there
 
-Removal Continuity occurs when the restrcited domain can be cancelled out of the rational expression.
+Removable discontinuity occurs when a factor causing the expression to ne undefined can be cancelled, leaving a hole in the graph.
 It is the undefined values of x that vanishes after reducing the rational expression
 
-A zero of a rational expression can be determine when you find the values of x of the reduced rational expression's numerator equals zero
+A zero of a rational expression can be determined when you set the numerator of the simplified expression equal to zero and solve for x.
 
-Vertical asymptote occurs at values that makes the reduced rational expression undefined.
+Vertical asymptote occurs at values that make the denominator of the simplified expression equals zero and the reduced rational expression undefined.
 
-Horizontal Aymptote: what does the fucntion approaches as x approaches infintiy and as x approaches negative infinity
+Horizontal Asymptote: What the function approaches as x approaches infinitiy and as x approaches negative infinity
