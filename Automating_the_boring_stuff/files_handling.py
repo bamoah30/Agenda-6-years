@@ -115,3 +115,81 @@ print(os.path.exists('d:\\Tech and AI\\Python_2025\\Agenda-6-years\\non_existing
 print(os.path.isfile('d:\\Tech and AI\\Python_2025\\Agenda-6-years\\README.md'))                   #Output: True
 print(os.path.isdir('d:\\Tech and AI\\Python_2025\\Agenda-6-years\\Automating_the_boring_stuff')) #Output: True
 print(os.path.isdir('d:\\Tech and AI\\Python_2025\\Agenda-6-years\\README.md'))                    #Output: False
+
+
+#November 1, 2025
+
+
+'''Opening FIles with the open() Function:
+The open() method is used to create a file object in a cerain mode. 
+The default mode is read ('r'): Which does not allow editting the content of the file object created.
+Other modes are:
+1. write mode ('w'): This is used to write contents into the file object created.
+This mode when used can create a file if thebfiles does not exists and will override the content of a file when used.
+The write mode does not end a string with a new line. Uses must add the newline themselves.
+
+2. The append ('a')  mode:
+This mode is used when you want to add content to the existing content of the file object.
+It will also create a new file when passed as the second argument of the open() function.
+
+NB: After handling files, used the close() method on the file object.
+
+Example usage:
+'''
+baconFile = open('bacon.txt', 'w') 
+baconFile.write('Hello world!\n')
+baconFile.close()
+
+
+baconFile = open('bacon.txt', 'a') 
+baconFile.write('Bacon is not a vegetable.')
+baconFile.close()
+
+baconFile = open('bacon.txt')
+content = baconFile.read()
+baconFile.close()
+
+print(content) #Output: Hello world!
+#                       Bacon is not a vegetable.
+
+
+#Alternatively, we can alos use the readlines methof to generate a list of strings contianing the content
+#of the file object. Where each string represents on line of the text.
+#Example:
+
+objectFile = open('bacon.txt')
+content= objectFile.readlines()
+print(content) #Output: ['Hello world!\n', 'Bacon is not a vegetable.']
+
+
+
+'''Saving Variables with the shelve Module
+The shelve module enable us to save varaibles
+in our python scripts to binary shelf files.
+Example:
+'''
+import shelve
+shelfFile = shelve.open('mydata') #Creates the shelf file names mydata
+cats = ['Zophie', 'Pooka', 'Simon']
+shelfFile['cats'] = cats # Creates a dictionary object in the mydata file
+shelfFile.close()
+
+#To access the content of the shelf file:
+shelfFile =shelve.open('mydata')
+print(shelfFile['cats']) #Output: ['Zophie', 'Pooka', 'Simon']
+shelfFile.close()
+
+#Just like dictionaries, you can access the keys and vales of the shelf file:
+
+shelfFile = shelve.open('mydata')
+print(list(shelfFile.keys())) #Output: ['cats']
+
+
+print(list(shelfFile.values())) #Output: [['Zophie', 'Pooka', 'Simon']]
+shelfFile.close()
+
+
+'''Saving Variables with the pprint.pformat() function:
+
+
+'''
