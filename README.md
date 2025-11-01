@@ -2,11 +2,11 @@
 
 # 🦄 Agenda-6-Years
 
-This is my master roadmap — a 6-year transformation from Mechanical Engineer to Futuristic Unicorn Engineer, blending intelligent software with mechanical depth.
+This is my master roadmap — a 6-year transformation from Mechanical Engineer to a fullstack AI + Robotic Engineer, blending intelligent software with mechanical depth.
 
 ## 📍 Current Status
 
-- **Phase:** Year 1, Month 1
+- **Phase:** Year 1, Month 2
 - **Focus:** Python fundamentals + first AI portfolio project
 - **Active Repo:** [`ai-data-analyzer`](https://github.com/bamoah30/ai-data-analyzer)
 
