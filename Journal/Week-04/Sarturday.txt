@@ -1,0 +1,26 @@
+Journal Entry — November 1, 2025
+
+I woke up today feeling very exhausted, though I’m not sure what caused it.
+Due to that, in the afternoon, I spent alot of time in bed and nearly miss my schedule for my project.
+
+Continued with Automate the Boring Stuff. 
+I was on Chapter 8 — and I finished it today. 
+I learned how to open files using the open() function, which defaults to read mode (r). 
+In read mode, you can't modify the file. 
+To make changes, you use write mode (w) or append mode (a). 
+Write mode replaces the entire content of the file, while append mode adds new content to the end.
+
+I also explored the shelve module, which allows you to store data persistently like a dictionary.
+
+After a break, I resumed work on my project, AI Data Analyzer. 
+I tried getting the scripts to run and began reading about Hugging Face models and how to integrate them into my project. 
+I learned what NLP and LLM mean — and that LLMs are a subset of NLP.
+
+I also came across Transformers.
+Transformers are an architecture—a blueprint for how neural networks are structured
+—and the Hugging Face Transformers library is the platform for implementing them.
+
+I plan to read more about Transformers. They might be the key to getting my analyzer module fully operational
+
+Going forward, I do plan to use my weekends to reflect, 
+adjust my daily schedule and review the week's work and plan for the next week.
