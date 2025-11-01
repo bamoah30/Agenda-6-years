@@ -187,9 +187,3 @@ print(list(shelfFile.keys())) #Output: ['cats']
 
 print(list(shelfFile.values())) #Output: [['Zophie', 'Pooka', 'Simon']]
 shelfFile.close()
-
-
-'''Saving Variables with the pprint.pformat() function:
-
-
-'''
