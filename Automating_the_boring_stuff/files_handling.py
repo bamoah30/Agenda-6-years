@@ -3,25 +3,25 @@ import os
 
 "Folders = Directory"
 
-#In windows root folder =C:\ = C: drive
-#On OS X and Linux, thr root folder is /.D
-# DVD drive or USB thunmb drrive appears differently on different operating systems.
-# On Windows, they appear as ne lettered root drives such as:
+#In windows root folder = C:\ = C: drive
+#On OS X and Linux, the root folder is /.D
+# DVD drive or USB thunmb drive appears differently on different operating systems.
+# On Windows, they appear as a lettered root drives such as:
 # D:\ or E:\
 # On OS X, they appear as new folders under the /Volumes folder.
 # On Linux, they appear as new folders under the /mnt ("mount") folder.
-# Folder names and filenames are not case sensitive on Windows ans OS X, they are case sensitive on Linux.
-# 
+# Folder names and filenames are not case sensitive on Windows and OS X, they are case sensitive on Linux.
+
  
 
 #Why do we need file extensions and what are the main purpose of using files extensions:
-"""File extensions are used to show the file froamt or type and it helps the operating system
-To choose which app opens or render it"""
+"""File extensions are used to show the file format or type and it helps the operating system
+To choose which app opens or renders it"""
 
 '''os.path.join()
-To solve the issue of using backslahes on Windows and forwars slashes on OS X and Linux,
+To solve the issue of using backslahes on Windows and forward slashes on OS X and Linux,
 we use the os.path.join()
-You pass in the string values of individual files and folder names inyuor path
+You pass in the string values of individual files and folder names in your path
 os.path.join() will return a string with the path using the correct path separator.
 Example usage:'''
 
@@ -29,7 +29,7 @@ dir= os.path.join("usr", "bin", "spam")
 print(dir) #prints usr\bin\spam. Note: I'm using Windows
 
 '''The Current working Directory or cwd
-Any filenames or paths that do niot begin with the root folder 
+Any filenames or paths that do not begin with the root folder 
 are assunmed to be under the cwd
 os.getcwd() function is used to get the current working directory as a string value.
 You can alos change the cwd with the os.chdir().
@@ -66,7 +66,7 @@ os.path.relpath(path, start): Returns string of relative path from the start pat
 Example usage:'''
 
 dir = os.path.abspath('.')
-print(dir) #Output: d:\Tech and AI\Python_2025\Agenda-6-years
+print(dir) #Output for my computer: d:\Tech and AI\Python_2025\Agenda-6-years
 
 dir = os.path.abspath('.\\Scripts')
 print(dir) #Output:d:\Tech and AI\Python_2025\Agenda-6-years\Scripts
@@ -74,7 +74,7 @@ print(dir) #Output:d:\Tech and AI\Python_2025\Agenda-6-years\Scripts
 dir = os.path.isabs(os.path.abspath('.'))
 print(dir) #Output : True
 
-dir = os.path.relpath('d:\\Windows') # For here make sure you start eoth the drive yuo are working in or you will get ValueError
+dir = os.path.relpath('d:\\Windows') # For here make sure you start with the drive you are working in or you will get ValueError
 print(dir) #Output: ..\..\..\Windows
 
 
@@ -90,7 +90,7 @@ dir = os.path.dirname(path)
 print(dir) #Output: C:\Windows\System32
 
 #If you want  to generate a tuple of the files and folders in a file path into a tuple sperated at backslahes:
-print(dir.split(os.path.sep)) 
+print(dir.split(os.path.sep)) #Output: ['C:', 'Windows', 'System32']
 
 
 
@@ -121,12 +121,12 @@ print(os.path.isdir('d:\\Tech and AI\\Python_2025\\Agenda-6-years\\README.md')) 
 
 
 '''Opening FIles with the open() Function:
-The open() method is used to create a file object in a cerain mode. 
+The open() method is used to create a file object in a certain mode. 
 The default mode is read ('r'): Which does not allow editting the content of the file object created.
 Other modes are:
 1. write mode ('w'): This is used to write contents into the file object created.
-This mode when used can create a file if thebfiles does not exists and will override the content of a file when used.
-The write mode does not end a string with a new line. Uses must add the newline themselves.
+This mode when used can create a file if the files does not exists and will override the content of a file when used.
+The write mode does not end a string with a new line. Users must add the newline themselves.
 
 2. The append ('a')  mode:
 This mode is used when you want to add content to the existing content of the file object.
@@ -153,7 +153,7 @@ print(content) #Output: Hello world!
 #                       Bacon is not a vegetable.
 
 
-#Alternatively, we can alos use the readlines methof to generate a list of strings contianing the content
+#Alternatively, we can also use the readlines method to generate a list of strings contianing the content
 #of the file object. Where each string represents on line of the text.
 #Example:
 
@@ -179,7 +179,7 @@ shelfFile =shelve.open('mydata')
 print(shelfFile['cats']) #Output: ['Zophie', 'Pooka', 'Simon']
 shelfFile.close()
 
-#Just like dictionaries, you can access the keys and vales of the shelf file:
+#Just like dictionaries, you can access the keys and values of the shelf file:
 
 shelfFile = shelve.open('mydata')
 print(list(shelfFile.keys())) #Output: ['cats']
