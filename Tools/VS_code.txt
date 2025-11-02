@@ -1,0 +1,27 @@
+November 2, 2025
+
+Creating a virtual environment:  
+Use the command `python -m venv venv`  
+Note: The second "venv" is the name you want to give your virtual environment.
+
+Activating the virtual environment:  
+Use the command `venv\Scripts\activate`
+
+Choosing an interpreter in VS Code:  
+1. Press Ctrl + Shift + P  
+2. Type "Python: Select Interpreter"  
+3. Choose the interpreter that includes your virtual environment directory
+
+Checking which interpreter is in use:  
+1. Add the following to your script:  
+   import sys  
+   print(sys.executable)  
+2. This will show the full path to the interpreter currently being used.
+
+Deactivating the virtual environment:  
+Type `deactivate` in the terminal.
+
+Previewing a Markdown file in VS Code:  
+1. Install the extension called "Markdown Preview Enhanced"  
+2. Open the markdown file  
+3. Press Ctrl + K, then V
