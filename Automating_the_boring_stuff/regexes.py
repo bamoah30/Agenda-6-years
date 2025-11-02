@@ -5,13 +5,13 @@ mo = phoneNumberRegex.search('My number is 415-555-4242.')
 #To solve the problem of getting an error when no match is found, we guard the call to mo.group() with an if statement
 #We do this because the search() method returns None if no match is found and None does not have a group() method
 if mo:
-	print('Phone number found: ' + mo.group(1))
-	print(mo.group(2))
-	print(mo.group(0))
-	print('Full match: ' + mo.group())
+	print('Phone number found: ' + mo.group(1)) #Output: Phone number found: 415
+	print(mo.group(2)) #Output: 555-4242
+	print(mo.group(0)) #Output: 415-555-4242
+	print('Full match: ' + mo.group()) #Output: Full match: 415-555-4242
 	#The groups() methode returns all the groups of a match in a tuple
 	#Thus from the above: print(mo.groups()) should return ('415', '555-4242')
-	print('All groups: ' + str(mo.groups()))
+	print('All groups: ' + str(mo.groups())) #Output: All groups: ('415', '555-4242')
 else:
 	print('No phone number found.')
 	
@@ -90,7 +90,7 @@ For eexample:'''
 greedyHaRegex = re.compile(r'(Ha){3,5}')  #The {3,5} quantifier means "match between 3 and 5 occurrences of 'Ha'".
 mo1 = greedyHaRegex.search('HaHaHaHaHa')
 
-nongreedyHaRegex = re.compile(r'(Ha){3,5}?')
+nongreedyHaRegex = re.compile(r'(Ha){3,5}?') #This wiil output Ha that appears three times.
 mo2 = nongreedyHaRegex.search('HaHaHaHaHa')
 
 if mo1:
@@ -137,9 +137,9 @@ else:
 	print('No match for mo2') 
 
 if mo3:
-	print(mo3.group())  # This will not print anything
+	print(mo3.group())  
 else:
-	print('No match for mo3')
+	print('No match for mo3') #Output: No match for mo3
 
 ''' 
 The findall() Method
@@ -318,9 +318,9 @@ mo1 = robocop.search('RoboCop is part man, part machine, all cop.')
 mo2 = robocop.search('ROBOCOP protects the innocent.')
 mo3 = robocop.search('Al, why does your programming book talk about robocop so much?')
 if mo1:
-	print(mo1.group())
+	print(mo1.group()) #prints RoboCop
 else:
-	print("No Match for mo1") #prints RoboCop
+	print("No Match for mo1") 
 
 if mo2:
 	print(mo2.group()) #prints ROBOCOP
@@ -343,3 +343,4 @@ print(mo1) #prints 'CENSORED gave the secret documents to CENSORED.'
 
 
 # October 30, 2025
+#Files handling
