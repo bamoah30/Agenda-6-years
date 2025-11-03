@@ -212,9 +212,9 @@ This is useful for GUI applications where you do not want a console window to ap
 '''
 
 ''' What Is a Batch File?
-    - A file with the **`.bat`** or **`.cmd`** extension.
-    - When run, it executes each command **line by line** in the Windows shell.
-    - Think of it as a **macro** for repetitive command-line tasks.
+    - A file with the `.bat` or `.cmd` extension.
+    - When run, it executes each command line by line in the Windows shell.
+    - Think of it as a macro for repetitive command-line tasks.
 
 Example: Simple Batch File commands
     @echo off
