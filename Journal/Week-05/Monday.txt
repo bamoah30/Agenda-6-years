@@ -1,0 +1,32 @@
+Journal Entry – November 3, 2025
+
+As usual, I woke up earlier than 4:30 a.m. but didn’t move an inch. I stayed in bed until it was exactly 4:30 before shifting from my bed to my study table.
+I reviewed my daily schedule and spent some quiet time in reflection.
+
+At 5:00 a.m., I resumed my AI roadmap. I'm still reading Automate the Boring Stuff.
+Today, I learned about the older style of string formatting using the % symbol.
+I explored the .pyw file extension and its purpose.
+I also delved into batch files—their uses and limitations.
+I practiced how to copy, move, and rename files and folders using:
+•	shutil.copy()
+•	shutil.copytree()
+•	shutil.move()
+
+Then I finalized the section on deleting files and folders using:
+•	os.unlink()
+•	os.rmdir()
+•	shutil.rmtree()
+•	and the send2trash module.
+
+
+In the afternoon, before switching to watch the National Science and Maths Quiz, 
+I visited Khan Academy and studied word problems involving rational functions.
+Specifically, I learned how to solve mixture problems and rate problems.
+
+While watching the contest, I used the breaks between rounds to watch two videos on Bayes’ Theorem.
+
+Although I didn’t touch my project today and didn’t engage with anything robotics-related, 
+I still took a small step forward on my journey to becoming an AI + Robotics Engineer.
+
+
+It’s Week 5, and the dream is still alive.
