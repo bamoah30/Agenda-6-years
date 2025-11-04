@@ -1,0 +1,25 @@
+Journal Entry — November 4, 2025
+
+Today, I began my roadmap by learning about the `os.walk()` function. 
+After practicing how to use it, I moved on to the `zipfile` module. 
+I learned how to create a `ZipFile` object, how to extract a single file from a zip folder, 
+and how to extract all files and folders to the current directory or a specified one using the `extract()` and `extractall()` methods.
+
+In the afternoon, I resumed work on my project. 
+I was finally able to send a request to a model on Hugging Face—and receive a response. 
+That was a big deal for me. I’ve spent a lot of time just trying to figure out how to make it work. 
+Now that I can send requests and receive responses, the next step is to incorporate the script into my analyzer module. 
+I’ll do that tomorrow.
+
+I also studied mathematics on Khan Academy. 
+I reviewed how to model problems using rational expressions, followed by multiplication, division, subtraction, and addition of those expressions. 
+Even though I learned these topics back in junior high, it felt refreshing—especially when I scored 100% on the unit test.
+
+Later, I attempted to study some robotics material from the MIT OpenCourseWare. 
+The material was quite lengthy, and I lost some motivation to continue. 
+It was a bit discouraging, but I’ve bookmarked it and plan to complete it in due time.
+
+Overall, I made small but meaningful steps toward my dream. 
+I felt less motivated today and found myself wondering whether all this will eventually amount to something valuable.
+
+Still, we wake up tomorrow—and we keep moving forward.
