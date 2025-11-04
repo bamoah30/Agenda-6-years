@@ -325,3 +325,52 @@ send2trash.send2trash('D:\\Tech and AI\\Python_2025\\Agenda-6-years\\Automating_
 
 #Moves the Automating_the_boring_stuff_backup folder to the recycle bin or trash instead of permanently deleting it.
 send2trash.send2trash('D:\\Tech and AI\\Python_2025\\Agenda-6-years\\Automating_the_boring_stuff_backup') 
+
+#November 4, 2025
+
+
+'''os.walk() Function
+The os.walk() function generates the file names in a directory tree by walking the tree either top-down or bottom-up.
+For each directory in the tree rooted at the directory top (including top itself), it produces a 3-tuple (dirpath, dirnames, filenames).
+- dirpath: A string, the path to the directory.
+- dirnames: A list of the names of the subdirectories in dirpath (excluding '.' and '..').
+- filenames: A list of the names of the non-directory files in dirpath.'''
+
+
+'''Reading ZIP Files
+To read the content of a zip files, you must create a ZipFile object.
+First you must import zipfile
+Then create the object by calling the ZipFile() function form the zipfile module.
+Afterwards call the namelist() method on the object to see the content of the zip file.
+
+Example Usage:
+
+'''
+import zipfile
+#examplezip =zipfile.ZipFile('example.zip') #Creates the ZipFile object for the example.zip file
+#print(examplezip.namelist()) #Prints the list of files and folders in the zip file
+
+'''Extracting from Zip FIles using the extractall() method and extract() method
+There are two methods for extracting files from a zip file:
+
+ extract() Method:
+- Purpose:Extracts a single file from the ZIP archive.
+
+- Usage: examplezip.extract(member, path=None)
+NB: The examplezip in the above usage refers to the ZipFile object.
+
+  - member: The name of the file to extract.
+  - path: Optional destination folder.
+
+extractall() Method
+- Purpose: Extracts all files from the ZIP archive.
+- Usage: examplezip.extractall(path=None, members=None)
+
+NB: The zip in the above usages refers to the ZipFile object.
+- path: Optional destination folder.
+- members: Optional list of specific files to extract.
+
+When to Use What
+- Use extract() if you only need one specific file.
+- Use extractall() if you want to unpack the entire archive.
+'''
