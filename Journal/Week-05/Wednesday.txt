@@ -1,0 +1,28 @@
+Journal Entry – November 5, 2025
+
+Today marked my first deep dive into debugging with Automate the Boring Stuff.  
+I explored key concepts like Tracebacks, understood the Call Stack, 
+and wrapped up today's AI learning journey with Assertions—a solid foundation for error handling in Python.
+
+Later in the morning, I applied for three technician roles:
+- Mechanical Technician  
+- Equipment Maintenance Technician  
+- Vehicle Body Specialist  
+
+I received two interview invitations almost immediately—one scheduled for Thursday (tomorrow)
+and the other for Friday. I quickly adjusted my schedule to prioritize preparation for the first interview.
+
+After reorganizing my day, I resumed my math studies on Khan Academy. 
+I began studying Conic Sections module and completed all lessons on Ellipses. 
+Tomorrow, I plan to tackle Parabolas.
+
+From my Robotics roadmap, 
+I started learning Electrical Circuits. Out of 58 videos in the YouTube playlist, 
+I watched and fully grasped 11—steady progress.
+
+On my first portfolio project, I completed and tested the Analyzer Module of my AI Data Analyzer project. 
+I ran standalone tests and integrated it with other Phase 2 modules for system-level validation.
+
+If tomorrow’s interview doesn’t take too much time, 
+I’ll return to my learning roadmaps and also begin Phase 3 of the AI Data Analyzer.
+
