@@ -1,0 +1,35 @@
+Journal Entry – November 10, 2025
+
+For the past three days, I haven’t been following my roadmaps. 
+I had a couple of interviews to attend. 
+The interviews didn’t go as expected—I struggled to answer most of the technical questions. 
+However, I called the agency today and was told I’ve been picked. 
+Now, I’m just waiting for the paperwork before I begin my first official job. 
+I know it’s going to be demanding, especially since I plan to continue following my roadmap while working. 
+But I’m determined to persevere and live by my vision for the systems I build: Think, adapt, and move.
+
+Today, I woke up at 4:30 a.m., spent some quiet time, and then resumed my AI roadmap. 
+I studied the Python logging module—its levels, configuration, usage, and how to disable it. 
+I learned that logging is ideal for debugging because it can be disabled with a single command, unlike the print() function.
+
+After an hour of reading, I took a two-hour break. 
+During the break, I listened to the Copilot podcast and the Merriam-Webster Word of the Day podcast, then did some domestic chores.
+
+Later, I moved to my job application block. That’s when I called the agency and was informed I had been selected.
+
+I then switched to Phase 3 of my AI Data Analyzer project. 
+I created the README for the phase, set up the directory structure, and added placeholder modules to work on tomorrow. 
+With Copilot’s help, I got the main.py module fully functional and learned how to use the argparse module.
+
+After a 30-minute break, I studied mathematics. 
+I completed the Khan Academy section on conic sections and began learning about vectors—addition and subtraction. 
+I plan to tackle more advanced vector topics tomorrow.
+
+In the evening, around 6:00 p.m., I followed my robotics roadmap. 
+I continued the Basic Electronics playlist, studied Kirchhoff’s voltage and current laws, worked through a few examples, and wrapped up the section. 
+Tomorrow, I hope to cover mesh analysis and other interesting topics.
+
+Overall, I believe I made meaningful progress toward my goal. 
+I’m preparing to adopt a new timetable based on my work schedule, one that won’t derail my pursuit of becoming an AI and Robotics Engineer.
+
+It’s Monday, Week 6, and I’m still going strong.

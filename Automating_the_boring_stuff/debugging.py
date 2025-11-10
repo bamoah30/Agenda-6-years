@@ -31,7 +31,7 @@ print(kelvin_to_celsius(300))  # Valid input
 
 
 
-#November 9 ,2025
+#November 10, 2025
 
 '''Using the Logging Module:
 If you'v ever used the print() function to help you see the outcome of of a code befoere deploying,
