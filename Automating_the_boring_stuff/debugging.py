@@ -56,7 +56,7 @@ NB: 1.You can  specify the logging level when you configure the logging module u
 Example Usage:'''
 
 import logging
-from typing import *
+from typing import Optional
 logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s') #Basic Configuration of the logging module
 #logging.disable(logging.CRITICAL) #This is used to disable the logging module
 
@@ -74,3 +74,20 @@ def new_factorial(n: int) -> Optional[str] :
 print(new_factorial(5))
 
 logging.debug('End of program')
+
+
+#November 11, 2025
+
+'''IDLE Debugger:
+IDLE comes with a built-in debugger that you can use to step through your code one line at a time.
+You can set breakpoints in your code where you want the debugger to pause execution.    
+To use the IDLE debugger:
+1.Open your Python script in IDLE.  
+2.Go to the Debug menu and select Debugger to open the debugger panel.
+3.Set breakpoints by clicking in the left margin next to the line numbers in your code.
+4.Run your script by going to the Run menu and selecting Run Module or by pressing F5.
+5.When the execution reaches a breakpoint, the debugger will pause, and you can use the debugger
+   panel to step through your code, inspect variables, and evaluate expressions.
+6.Use the Step, Over, Out, and Go buttons in the debugger panel to control the execution flow.
+7.When you're done debugging, you can close the debugger panel and stop the debugging session.  
+'''
