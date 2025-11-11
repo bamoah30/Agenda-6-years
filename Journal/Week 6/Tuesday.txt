@@ -1,0 +1,30 @@
+Journal Entry – November 11, 2025
+
+I started the day with debugging. I learned how to use the IDLE debugger. 
+I was able to set breakpoints and use tools like "step into." 
+I also tracked  local and global variables in my script during the debugging process.
+
+After about 30 minutes, I shifted focus to web scraping. 
+I learned how to use the `requests` library and the `webbrowser` module to automate simple tasks.
+
+One hour later, I paused to handle some domestic chores. 
+Before the chores, I listened to Copilot Daily and the Merriam-Webster Word of the Day podcast. 
+While doing the dishes, I listened to the first two chapters of an audiobook titled Atomic Habits.
+
+At 9am, I checked on my job applications and received an appointment letter. 
+Although the terms and conditions aren't ideal, I'm considering accepting it while continuing to explore other opportunities.
+
+Around 11 am, I resumed work on my project, AI Data Analyzer. 
+I'm still on Phase 3 and spent time debugging `main.py`. I didn’t finish, but I hope to wrap it up tomorrow.
+
+Later in the afternoon, I studied mathematics on Khan Academy and completed Lesson 9 of Unit 6. 
+I then ran a few domestic errands.
+
+In the evening at 7pm, I attended a webinar titled SEED Virtual STEM Masters Conclave – Ghana, 
+organized by Seed Global Education. 
+Unfortunately, my network was unstable, so I couldn’t fully participate. 
+Still, the parts I caught were inspiring and reminded me to stay committed to pursuing higher education.
+
+Tomorrow, I plan to repeat productive activities and then discard those activities which stalled my progress 
+like spending more time than required on breaks.
+
