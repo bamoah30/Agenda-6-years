@@ -27,3 +27,22 @@ print(res.status_code == requests.codes.ok)  # Output >>> True
 print(len(res.text))  # depending on the content of the pg1112.txt Output >>>163338
 
 print(res.text[:250]) # Prints the first 250 characters of the webpage content
+
+# November 12, 2025
+
+'''BeautifulSoup Library
+BeautifulSoup is a Python library used for parsing HTML and XML documents.
+It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping.
+To use BeautifulSoup, you need to install it first using pip:
+pip install beautifulsoup4
+After, you then have to create a BeautifulSoup object by passing the HTML content and a parser to it.
+Example Usage:
+'''
+from bs4 import BeautifulSoup
+import requests
+
+res = requests.get('http://www.gutenberg.org/cache/epub/1112/pg1112.txt')
+
+soup = BeautifulSoup(res.text,'html.parser')  # Create a BeautifulSoup object
+print(type(soup))  # Output >>> <class 'bs4.BeautifulSoup'>
+
