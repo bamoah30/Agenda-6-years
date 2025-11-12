@@ -1,0 +1,33 @@
+Journal Entry – November 12, 2025
+
+I woke up at 4:30 am, as usual, and spent some quiet time reflecting before switching focus to my AI journey.
+
+On today’s AI roadmap, I learned how to use the BeautifulSoup library to create a BeautifulSoup object. 
+I also practiced using the select method to extract elements from HTML.
+Whilst reading, I came across few websites for Unicode encoding. I added those websites to my reading list for the weekend.
+
+After about an hour of studying, I switched to listening to the Copilot Daily podcast, 
+followed by the Merriam-Webster Word of the Day podcast. 
+While doing some domestic chores, I continued listening to Atomic Habits. 
+This time, I covered Chapters 3 through 10. The audiobook has a total of 20 chapters, so I’m halfway through.
+
+At 9 am, I followed up with the company that accepted me for a job to finalize some documents. 
+Later, I received a call from Zonda inviting me to an interview tomorrow.
+
+By 11 am, I began working on my first portfolio project, AI Data Analyzer. 
+I managed to make the CLI script functional and then started building the GUI using Streamlit. 
+My goal is to complete the GUI section tomorrow, provided the interview doesn’t interfere too much with my schedule.
+
+After a 30-minute break, at 1 pm, I continued with my Khan Academy precalculus lessons. 
+I finished the last unit on vectors and scored 90% on the unit test. 
+Afterwards, I started Unit 7 on matrices, learning how they simplify linear transformations. 
+I’m hopeful that by the end of this week, I’ll complete the course and move on to linear algebra.
+
+At 6 pm, after a two-hour break and more domestic errands, I resumed my robotics roadmap. 
+I studied circuit theory, focusing on dependent and independent current and voltage sources, and worked through several example problems. 
+By the start of Week 7, I expect to finish this section as well.
+
+Going forward, I would adopt a template for this journal entry as that would make it easier for me to reference and also more transparent.
+The template would follow the usual pattern I have been using.The template is named template.md. You can find oit in this directory.
+
+Overall, I feel I’m making steady progress in the direction of  a better future.
