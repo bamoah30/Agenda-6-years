@@ -46,3 +46,18 @@ res = requests.get('http://www.gutenberg.org/cache/epub/1112/pg1112.txt')
 soup = BeautifulSoup(res.text,'html.parser')  # Create a BeautifulSoup object
 print(type(soup))  # Output >>> <class 'bs4.BeautifulSoup'>
 
+'''Finding an Element with the select() Method:
+The select() Method allows you to find elements in the HTML document using CSS selectors.
+It returns a list of all matching elements.
+Example Usage:
+'''
+import bs4
+exampleFile = open('example.html')  # Open an HTML file
+exampleSoup = BeautifulSoup(exampleFile, 'html.parser')  # Create a BeautifulSoup object
+elems = exampleSoup.select('#author')  # Select elements with the id 'author'
+print(type(elems))  # Output >>> <class 'list'>
+print(len(elems))  # Output >>> 1
+print(type(elems[0]))  # Output >>> <class 'bs4.element.Tag'>
+print(elems[0].getText())  # Output >>> Al Sweigart
+print(str(elems[0]))  # Output >>> <span id="author">Al Sweigart</span>
+print(elems[0].attrs)  # Output >>> {'id': 'author'}
