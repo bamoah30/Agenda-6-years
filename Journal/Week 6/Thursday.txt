@@ -1,0 +1,46 @@
+Journal Entry – November 13, 2025 | Week 6, Day 4
+
+Morning  
+- Wake-up time: 5:22 am  
+- Morning routine: Turned off alarm, resumed AI roadmap  
+- Mindset going into the day: Tired but determined to succeed in the interview  
+
+ AI Roadmap  
+- Topic studied: Selenium module and webdrivers  
+- Key learning: Selenium acts as the API while the webdriver functions as the server. These concepts were new to me and made web scraping more engaging.  
+- Challenge/blocker: Understanding how webdrivers integrate with Selenium initially felt abstract.  
+- Time spent: 38 minutes  
+
+Robotics Roadmap  
+- Topic studied: None  
+- Concepts applied: No progress made today  
+- Key takeaway: Time constraints limited my ability to engage with robotics  
+- Time spent: 0 minutes  
+
+Mathematics Roadmap  
+- Topic: Three- and four-dimensional transformations using matrices  
+- Progress: Completed two intermediate exercises  
+- What made sense: The exercises clarified the transformation concepts  
+- What's still unclear: Initial confusion around dimensional mapping  
+- Time spent: 1 hour  
+
+Projects  
+- Project: None  
+- Work completed: No updates today  
+- Decisions made: Deferred robotics work due to time constraints  
+- Blockers/next steps: Resume robotics project tomorrow  
+- Time spent: 0 minutes  
+
+Professional Development  
+- Activities: Interview with Zonda, reviewed company history and technical terms related to vehicle bodywork  
+- Outcome: Decided not to pursue further interviews with Zonda due to misalignment with AI and robotics aspirations. Opted to accept offer from Peace Indo as a machine operator. Registered for SSNIT.  
+
+Resources & Reading  
+- Resources found today: Claude AI-generated interview Q&A  
+- Content consumed: Completed audiobook "Atomic Habits", listened to Copilot Daily  
+
+Reflection  
+- What went well: Completed AI and math roadmaps despite exhaustion; made a clear career decision  
+- What was challenging: Managing fatigue and staying focused during the interview  
+- Key insight: Money plays a vital role in shaping life decisions and opportunities  
+- Tomorrow's focus: Stick strictly to my daily schedule and execute tasks with precision  
