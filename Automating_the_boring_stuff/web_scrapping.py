@@ -61,3 +61,16 @@ print(type(elems[0]))  # Output >>> <class 'bs4.element.Tag'>
 print(elems[0].getText())  # Output >>> Al Sweigart
 print(str(elems[0]))  # Output >>> <span id="author">Al Sweigart</span>
 print(elems[0].attrs)  # Output >>> {'id': 'author'}
+
+
+# November 13, 2025
+'''Using Selenium for Web Scraping:
+Selenium is a powerful tool for automating web browsers.
+It can be used for web scraping, especially for websites that use JavaScript to load content dynamically.
+To use Selenium, you need to install the Selenium package and a web driver for your browser (e.g., ChromeDriver for Google Chrome).
+You can install Selenium using pip:
+pip install selenium
+You can install ChromeDriver by downloading it from the official site and ensuring it's in your system's PATH.
+
+Example Usage:'''
+
