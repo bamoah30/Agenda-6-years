@@ -1,0 +1,45 @@
+Journal Entry – November 14, 2025 | Week 6, Day 5
+
+Morning  
+- Wake-up time: 5:22 am  
+- Morning routine: Identified why I wasn’t hearing the alarm at 4:30 am and resolved it.  
+- Mindset going into the day: Frustrated with myself for assuming I could wake up at 4:30 am with or without an alarm.  
+
+AI Roadmap  
+- Topic studied: openpyxl module  
+- Key learning: Learned how to create a workbook object, access sheets by name, and retrieve cell values.  
+- Challenge/blocker: The book’s methods were outdated, so I had to search online for updated approaches.  
+- Time spent: 38 minutes  
+
+Robotics Roadmap  
+- Topic studied: Circuit theorem  
+- Concepts applied: Nodal and Supernodal Analysis  
+- Key takeaway: Grounding voltage sources before performing mesh analysis simplifies the process.  
+- Time spent: 1 hour  
+
+Mathematics Roadmap  
+- Topic: Matrices  
+- Progress: Learned how to determine the inverse of a matrix.  
+- What made sense: From previous knowledge, the absolute determinant shows how much the area of a transformed vector is scaled. A zero determinant means no area, so there is no inverse matrix that can transform “no area” back into a matrix with area.  
+- Time spent: 2 hours  
+
+Projects  
+- Project: AI Data Analyzer  
+- Work completed: Finalized the GUI with Streamlit and tested every script.  
+- Decisions made: Selected the Novita model as the sole provider of insights from the HuggingFace API due to endpoint inference challenges.  
+- Blockers/next steps: Edit all README files and create a LinkedIn post about the project.  
+- Time spent: 2 hours  
+
+Professional Development  
+- Activities: Received a call from Rana Motors for an assessment scheduled for next Friday.  
+- Outcome: Decided not to attend due to a poor offer and a job description misaligned with my interests. Printed all necessary documents for employment at Peace Indo.  
+
+Resources & Reading  
+- Resources found today: Documentation for openpyxl  
+- Content consumed: Read *Automate the Boring Stuff*, listened to Copilot Daily, studied Khan Academy Precalculus, and reviewed circuit concepts from Engineering4Free.  
+
+Reflection  
+- What went well: My first portfolio project is fully functional, and I followed my roadmaps successfully.  
+- What was challenging: Low motivation to start coding early in the morning.  
+- Key insight: Attention is the most valuable asset—choose carefully what to give it to.  
+- Tomorrow’s focus: Review the week’s work and read a research paper on AI and Robotics.  
