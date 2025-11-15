@@ -1,0 +1,42 @@
+Journal Entry – November 15, 2025 | Week 6, Day 6
+
+Morning  
+- Wake-up time: 4:30 am  
+- Morning routine: Turned off alarm and resumed Khan Academy Precalculus lessons  
+- Mindset: Highly motivated to tackle the day  
+
+AI Roadmap  
+- Topic studied: None today  
+- Key learning: Did not review the week’s work   
+- Time spent: 0 minutes  
+
+Robotics Roadmap 
+- Topic studied: Mesh Analysis, Super Mesh Analysis, and resistor color coding  
+- Concepts applied: Successfully read resistor color codes and solved example exercises on Mesh Analysis  
+- Key takeaway: Super Mesh Analysis is used when two voltage sources are connected to a mesh. A mesh is simply a loop.  
+- Time spent: 1 hour 30 minutes  
+
+Mathematics Roadmap 
+- Topic: Matrices  
+- Progress: Completed the unit on Matrices  
+- Time spent: 1 hour  
+
+Projects 
+- Project: AI Data Analyzer  
+- Work completed: No updates today  
+- Blockers/next steps: Edit the GitHub README and create a LinkedIn post  
+- Time spent: 0 minutes  
+
+ Development 
+- Activities: Began filling out the employment form for Peace Indo  
+- Outcome: 70% of the required documentation completed for Monday  
+
+Resources & Reading  
+- Resources found: List of 5 schools across 8 countries offering AI + Robotics Engineering  
+- Content consumed: Copilot Daily, *Think and Grow Rich* audiobook  
+
+Reflection 
+- What went well: Completed the Matrices unit; gained clarity about life goals  
+- What was challenging: Not completing tasks before the alarm reminder  
+- Key insight: Chasing purpose is the new gold  
+- Tomorrow’s focus: Finalize the AI Data Analyzer project and review the week’s work  
