@@ -1,0 +1,12 @@
+November 15, 2025
+Reading the vlaues of resistors:
+Some resistor are valued with colors.
+When reading such color code resistors, It's is advisable to rotate the resistor such that the colors are on the left.
+The first color is the first digit, the second color the second digit , the third color is the multipler and the last color is the tolerance.
+
+However some resistors alos have letters and numbers in the ratings.
+For example:
+
+1. 6R2 resistor = 6.2 ohms resistor
+2. 92K3 resistor = 92.3 \* 10^(3) ohms resistor
+3. 4M8 resistor = 4.8 \* 10^6 ohmns resistor.
