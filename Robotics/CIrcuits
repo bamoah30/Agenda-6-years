@@ -1,12 +1,49 @@
-November 15, 2025
-Reading the vlaues of resistors:
-Some resistor are valued with colors.
-When reading such color code resistors, It's is advisable to rotate the resistor such that the colors are on the left.
-The first color is the first digit, the second color the second digit , the third color is the multipler and the last color is the tolerance.
+**November 15, 2025**
 
-However some resistors alos have letters and numbers in the ratings.
-For example:
+**Reading the Values of Resistors**
 
-1. 6R2 resistor = 6.2 ohms resistor
-2. 92K3 resistor = 92.3 \* 10^(3) ohms resistor
-3. 4M8 resistor = 4.8 \* 10^6 ohmns resistor.
+Resistors can be valued using either **color codes** or **alphanumeric codes**.
+
+### Color Code Method
+
+When reading color-coded resistors, it is advisable to rotate the resistor so that the tolerance band is on the right. That means, all the colors should be closer to the left than they are to the right of the resistor.
+
+- The **first color** represents the first digit.
+- The **second color** represents the second digit.
+- The **third color** represents the multiplier.
+- The **last color** represents the tolerance.
+
+#### Resistor Color Code Table
+
+| Color  | Digit Value | Multiplier (Ω)  | Tolerance (%) |
+| ------ | ----------- | --------------- | ------------- |
+| Black  | 0           | × 1             | —             |
+| Brown  | 1           | × 10            | ±1%           |
+| Red    | 2           | × 100           | ±2%           |
+| Orange | 3           | × 1,000         | —             |
+| Yellow | 4           | × 10,000        | —             |
+| Green  | 5           | × 100,000       | ±0.5%         |
+| Blue   | 6           | × 1,000,000     | ±0.25%        |
+| Violet | 7           | × 10,000,000    | ±0.1%         |
+| Gray   | 8           | × 100,000,000   | ±0.05%        |
+| White  | 9           | × 1,000,000,000 | —             |
+| Gold   | —           | × 0.1           | ±5%           |
+| Silver | —           | × 0.01          | ±10%          |
+| None   | —           | —               | ±20%          |
+
+#### Examples
+
+- A resistor with bands **red, violet, yellow, gold** corresponds to 27 × 10⁴ Ω = 270 kΩ with ±5% tolerance.
+- A resistor with bands **brown, black, red, silver** corresponds to 1 × 10² Ω = 100 Ω with ±10% tolerance.
+
+---
+
+### Alphanumeric Code Method
+
+Some resistors use letters and numbers in their ratings.
+
+Examples:
+
+1. **6R2 resistor** = 6.2 Ω resistor
+2. **92K3 resistor** = 92.3 × 10³ Ω resistor (92.3 kΩ)
+3. **4M8 resistor** = 4.8 × 10⁶ Ω resistor (4.8 MΩ)
