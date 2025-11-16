@@ -47,3 +47,32 @@ Examples:
 1. **6R2 resistor** = 6.2 Ω resistor
 2. **92K3 resistor** = 92.3 × 10³ Ω resistor (92.3 kΩ)
 3. **4M8 resistor** = 4.8 × 10⁶ Ω resistor (4.8 MΩ)
+
+**November 16, 2025**  
+
+
+P = IV = \frac{V^2}{R} = I^2R
+
+
+Where:  
+- P = Power (Watts, W)  
+- I = Current (Amperes, A)  
+- V = Voltage (Volts, V)  
+- R = Resistance (Ohms, Ω)  
+
+Power = Work / Time = Energy / Time  
+Energy is measured in Joules (J).  
+1 Watt = 1 Joule per second.  
+
+
+Energy (J) = Charge (C) * Voltage (V)
+
+Therefore:  
+
+Power (W) = (Charge (C) * Voltage (V)) /Time (s)
+
+
+Since Charge/Time = Current (A), we can rewrite the equation as:  
+
+Power (W) = Current (A) * Voltage (V)
+This confirms the original formula P = IV.
