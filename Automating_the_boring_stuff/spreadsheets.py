@@ -11,11 +11,18 @@ Some of the key functions and methods include:
 NB: For the cell() method, the arguments are integers and both row and column indices start at 1, not 0.
 .value - gets or sets the value of a cell
 .save() - saves the workbook to a file
-.get_highest_row() - returns the highest row number that contains data
-.get_highest_column() - returns the highest column number that contains data
+.max_row() - returns the highest row number that contains data
+.max_column() - returns the highest column number that contains data
 
 Example usage:
 '''
 import openpyxl
 wb = openpyxl.load_workbook('example.xlsx')
 sheet = wb['Sheet1']
+print(sheet.title)  # Output >>> Sheet1
+cell = sheet.cell(row=1, column=2) # Access cell B1
+print(cell.value)  # Output >>> 42 Depending on the content of cell B1
+sheet.cell(row=2, column=2, value='Hello')  # Set cell
+wb.save('example_modified.xlsx')  # Save the workbook with changes
+print(sheet.max_row)  # Output >>> Maximum row number that contains data
+print(sheet.max_column)  # Output >>> Maximum column number that contains data

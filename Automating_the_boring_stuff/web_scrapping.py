@@ -6,7 +6,7 @@ It involves fetching the HTML content of a webpage and then parsing that content
 To perform web scraping in Python, we often use libraries such as requests and BeautifulSoup.
 1.Requests Library: This library allows you to send HTTP requests to a webpage and retrieve its content.
 2.BeautifulSoup Library: This library is used to parse HTML and XML documents. It provides Pythonic idioms for iterating, searching, and modifying the parse tree.
-3.webbrowser Library: This library provides a high-level interface to allow displaying Web-based documents to users.
+3.webbrowser Library: This library provides a high-level interface to allow displaying of Web-based documents to users.
 4.Selenium Library: launches and contorls web browsers. Used for automating tasks such as filling out forms, clicking buttons, and navigating between pages.
 Example Usage:'''
 
@@ -51,7 +51,7 @@ The select() Method allows you to find elements in the HTML document using CSS s
 It returns a list of all matching elements.
 Example Usage:
 '''
-import bs4
+
 exampleFile = open('example.html')  # Open an HTML file
 exampleSoup = BeautifulSoup(exampleFile, 'html.parser')  # Create a BeautifulSoup object
 elems = exampleSoup.select('#author')  # Select elements with the id 'author'
@@ -71,6 +71,5 @@ To use Selenium, you need to install the Selenium package and a web driver for y
 You can install Selenium using pip:
 pip install selenium
 You can install ChromeDriver by downloading it from the official site and ensuring it's in your system's PATH.
-
-Example Usage:'''
+'''
 

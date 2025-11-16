@@ -34,10 +34,10 @@ print(kelvin_to_celsius(300))  # Valid input
 #November 10, 2025
 
 '''Using the Logging Module:
-If you'v ever used the print() function to help you see the outcome of of a code befoere deploying,
-You've had experience with hoe the logging module behaves.
+If you'v ever used the print() function to help you see the outcome of of a code before deploying,
+You've had experience with  the logging module behaves.
 However,it is advisable to use the logging module instead of the print function because of how easy
-it is to disable the it.
+it is to disable  it.
 We do have about 5 logging levels:
 1.DEBUG:Detailed information,typically of interest only when diagnosing problems. Called using logging.debug()
 2.INFO:Confirmation that things are working as expected. Called using logging.info()    
@@ -46,7 +46,8 @@ We do have about 5 logging levels:
 5.CRITICAL:A serious error,indicating that the program itself may be unable to continue running.Called using logging.critical()
 
 NB: 1.You can  specify the logging level when you configure the logging module using logging.basicConfig()
-2.Specifying a logging level of INFO will disable all the logging messages at the DEBUG level. 
+During disabling:
+2.Specifying a logging level of INFO  will disable all the logging messages at the DEBUG level. 
 3.Specifying a logging level of WARNING will disable all the logging messages at the DEBUG and INFO levels.
 4.Specifying a logging level of ERROR will disable all the logging messages at the DEBUG,INFO,and WARNING levels.
 5.Specifying a logging level of CRITICAL will disable all the logging messages at the DEBUG,INFO,WARNING,and ERROR levels.
@@ -71,9 +72,24 @@ def new_factorial(n: int) -> Optional[str] :
     return f"The factorial of {n} is {total}"
 
 
+
 print(new_factorial(5))
 
 logging.debug('End of program')
+
+'''Outcome:
+2025-11-16 08:13:25,551 - DEBUG - Start of program
+ 2025-11-16 08:13:25,551 - DEBUG - Start of factorial(5)
+ 2025-11-16 08:13:25,552 - DEBUG - i is 1, total is 1
+ 2025-11-16 08:13:25,552 - DEBUG - i is 2, total is 2
+ 2025-11-16 08:13:25,552 - DEBUG - i is 3, total is 6
+ 2025-11-16 08:13:25,552 - DEBUG - i is 4, total is 24
+ 2025-11-16 08:13:25,552 - DEBUG - i is 5, total is 120
+ 2025-11-16 08:13:25,552 - DEBUG - End of factorial(5)
+ 2025-11-16 08:13:25,552 - DEBUG - End of program
+The factorial of 5 is 120'''
+
+
 
 
 #November 11, 2025
