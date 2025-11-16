@@ -20,7 +20,8 @@ Robotics Roadmap
 Mathematics Roadmap  
 - Topic: Matrices  
 - Progress: Learned how to determine the inverse of a matrix.  
-- What made sense: From previous knowledge, the absolute determinant shows how much the area of a transformed vector is scaled. A zero determinant means no area, so there is no inverse matrix that can transform “no area” back into a matrix with area.  
+- What made sense: From previous knowledge, the absolute determinant shows how much the area of a transformed vector is scaled. 
+    A zero determinant means no area, so there is no inverse matrix that can transform “no area” back into a matrix with area.  
 - Time spent: 2 hours  
 
 Projects  
@@ -32,7 +33,8 @@ Projects
 
 Professional Development  
 - Activities: Received a call from Rana Motors for an assessment scheduled for next Friday.  
-- Outcome: Decided not to attend due to a poor offer and a job description misaligned with my interests. Printed all necessary documents for employment at Peace Indo.  
+- Outcome: Decided not to attend due to a poor offer and a job description misaligned with my interests.
+     Printed all necessary documents for employment at Peace Indo.  
 
 Resources & Reading  
 - Resources found today: Documentation for openpyxl  
