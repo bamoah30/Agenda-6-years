@@ -1,0 +1,39 @@
+Journal Entry – November 16, 2025 | Week 6, Day 7
+
+Morning  
+- Wake-up time: 4:30 am  
+- Morning routine: Quiet time  
+- Mindset: Energized and full of spirit  
+
+AI Roadmap 
+- Topic: Reviewed the week’s work on web scraping and spreadsheet handling  
+- Time spent: 30 minutes  
+
+Robotics Roadmap  
+- Topic: Reviewed the week’s work on circuit theorem and derivation of the power formula  
+- Time spent: 30 minutes  
+
+Mathematics Roadmap  
+- Topic: Probability  
+- Progress: Learned the Addition Law and the Multiplication Law  
+- Time spent: 1 hour  
+
+Projects  
+- Project: AI Data Analyzer  
+- Work completed: Edited all README files, deployed on Streamlit, and created a LinkedIn post  
+- Next steps: Begin the next portfolio project, SQL Query Dashboard  
+- Time spent: 1 hour 30 minutes  
+
+Professional Development  
+- Activities: Finalized documents for tomorrow’s work at Peace Indo  
+- Outcome: Everything is prepared and ready  
+
+Resources & Reading  
+- Resources found: Playlist for Machine Learning courses from Telegram  
+- Content consumed: Listened to Copilot Daily, studied Khan Academy Precalculus, continued circuit concepts from Engineering4Free  
+
+Reflection  
+- What went well: Completed my first portfolio project and reviewed the week’s work  
+- Decisions made: Developed a new schedule for mornings when work is required  
+- Key insight: A man with vision, mission, and strong desire for accomplishment is not easily swayed  
+- Tomorrow’s focus: Track the time spent on work-related activities, including preparation, commute, and work duration  
