@@ -1,0 +1,13 @@
+November 16, 2025
+
+Consider the A and B are events
+The probability of either event A or event B occurring is given by the formula: 
+ P(A or B)= P(A) + P(B) - P(A and B) [Addition Rule]
+
+Mutually Exclusive Events are events that do not occur at the same time
+For Mutaully excluisve events, P(A and B) = 0
+
+Independent events are events that the ouccurrnace of on event has any influence on the other event.
+For independent events the probability of getting some events in a sample space is the multiplication of the their individual probabilities.
+
+P(A and B) = P(A) * P(B) [Multiplication Rule]
