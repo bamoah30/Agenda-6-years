@@ -28,6 +28,6 @@ I studied circuit theory, focusing on dependent and independent current and volt
 By the start of Week 7, I expect to finish this section as well.
 
 Going forward, I would adopt a template for this journal entry as that would make it easier for me to reference and also more transparent.
-The template would follow the usual pattern I have been using.The template is named template.md. You can find oit in this directory.
+The template would follow the usual pattern I have been using.The template is named template.md. You can find it in this directory.
 
 Overall, I feel I’m making steady progress in the direction of  a better future.
