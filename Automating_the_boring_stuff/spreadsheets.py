@@ -49,18 +49,21 @@ Pravtical Examples  and Formulas:
 import openpyxl
 wb = openpyxl.Workbook() # Create a new workbook
 sheet = wb.active if wb.active else wb.create_sheet() # Get the active sheet, or create one if none exists
-sheet['A0'] = 200 # Set cell A1 to 200
-sheet['A1'] = 300 # Set cell A2 to 300
+sheet['A1'] = 200 # Set cell A1 to 200
+print(sheet['A1'].value)  # Output >>> 200
 
-sheet['A2'] = '=SUM(A0:A1)' # Set cell A3 to the formula that sums A1 and A2
+sheet['A2'] = 300 # Set cell A2 to 300
+print(sheet['A2'].value)  # Output >>> 300
+
+sheet['A3'] = '=SUM(A1:A2)' # Set cell A3 to the formula that sums A1 and A2
 wb.save('writeFormula.xlsx')
 
 # To read the value of a formula cell, you need to set data_only=True when loading the workbook or else you'll get the formula itself
 wbFormulas = openpyxl.load_workbook('writeFormula.xlsx')
 sheet = wbFormulas.active if wbFormulas.active else wbFormulas.worksheets[0] # Get the active sheet or first sheet
-print(sheet['A2'].value) # Output >>> '=SUM(A0:A1)'
+print(sheet['A3'].value) # Output >>> '=SUM(A1:A2)'
 
 wbDataOnly = openpyxl.load_workbook('writeFormula.xlsx', data_only=True) # Load workbook with data_only=True
 sheet = wbDataOnly.active if wbDataOnly.active else wbDataOnly.worksheets[0] # Get the active sheet
 
-print(sheet['A2'].value) # Output >>> 500 # Now it shows the calculated value of the formula
+print(sheet['A3'].value) # Output >>> 500 # This output depends on  your chached value of the formula cell.
