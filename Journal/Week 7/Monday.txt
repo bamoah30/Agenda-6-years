@@ -1,0 +1,50 @@
+Journal Entry – November 17, 2025 | Week 7, Day 1  
+
+Morning  
+- Wake-up time: 2:23 am  (I couldn't sleep )
+- Morning routine: Watched TikTok videos for inspiration and had quiet time  
+- Mindset going into the day: No matter what, I will persevere, and I know I will come out victorious  
+
+AI Roadmap  
+- Topic studied: Creating and manipulating spreadsheet files using openpyxl  
+- Key learning: When using the `.load_workbook()` method without specifying `data_only=True`, accessing the value of a cell with a formula will return the formula itself, not the evaluated value  
+- Challenge/blocker: Many methods in the book were deprecated, so I had to revise most of them  
+- Time spent: 1 hour  
+
+Robotics Roadmap  
+- Topic studied: None  
+- Concepts applied: I read power values on a lamp the company was about to fix and, for the first time, understood their meaning  
+- Key takeaway: None  
+- Time spent: 0  
+
+Mathematics Roadmap  
+- Topic: Permutations and Combinations  
+- Progress: Completed Units 3 and 4 of Khan Academy’s Precalculus on Probability  
+- Time spent: 1 hour 16 minutes  
+
+Projects  
+- Project: SQL Query Dashboard  
+- Work completed: None  
+- Decisions made: None  
+- Blockers/next steps: None  
+- Time spent: 0  
+
+Professional Development  
+- Activities: Began working today with Peace Indo  
+- Outcome: Observed sensors, gears, compressors, pneumatic and hydraulic machines in action  
+
+Resources & Reading  
+- Resources found today: None  
+- Content consumed: Copilot Daily, audio version of The Economist  
+
+Reflection  
+- What went well: Arrived at work on time and moved a little closer toward my dreams 
+
+- What was challenging: Transportation issues made it difficult to get home on time
+
+- Key insight: Almost all of us are trapped in a system—work for survival or perish
+
+-Emotional check-in: Was a bit exhausted through out the day due to ealry waking up. 
+    But, hey,though my progess will be slowed, I think I can do this.
+
+- Tomorrow’s focus: Continue the roadmaps and track time spent working with Peace Indo 
