@@ -76,3 +76,19 @@ Since Charge/Time = Current (A), we can rewrite the equation as:
 
 Power (W) = Current (A) * Voltage (V)
 This confirms the original formula P = IV.
+
+November 18, 2025
+Current division Rule:
+In a parallel circuit, the current through each branch is inversely proportional to the resistance of that branch. 
+The formula for current division is:
+I_x = I_total * (R_total / R_x)
+Where:
+- I_x = Current through branch x
+- I_total = Total current entering the parallel circuit
+- R_total = Total resistance of the parallel circuit
+- R_x = Resistance of branch x
+
+NB: 1hp = 746W
+
+Resitance = (Resistivity * Length) / Area
+
