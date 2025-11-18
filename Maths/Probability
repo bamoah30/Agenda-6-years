@@ -21,3 +21,13 @@ Combination
 When the order does not matter, we use combinations.
 
 nCr = nPr / r!
+
+November 18, 2025
+
+The trick in solving probability with Permutation and Combination is to identify if order ir relevant or not in the question.
+If order matters, use permutation and combination otherwise
+
+Qualities of a Valid Probability Model:
+
+1. The sum of all the probabilty should sum up to 1 or 100%
+2. Probability cannot be a negative number
