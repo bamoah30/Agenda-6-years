@@ -1,0 +1,56 @@
+Journal Entry – November 18, 2025 | Week 7, Day 2
+
+Morning
+- Wake-up time: 4:00 am
+- Morning routine: Quiet time
+- Mindset going into the day: Fully recharged and ready to conquer the day
+
+---
+
+AI Roadmap
+- Topic studied: Editing cell height and width, merging and unmerging cells, and adding charts to a workbook
+- Challenge/blocker: I tried creating a series object for the chart but kept getting errors
+- Solution: Plan to research more about it during my free time tomorrow
+- Time spent: 1 hour
+
+---
+
+Robotics Roadmap
+- Topic studied: Current division rule
+- Concepts applied: Solved exercises
+- Key takeaway: With the current division rule, you use the total current entering the branches and the total equivalent resistance of the parallel branches
+- Time spent: 36 minutes
+- Progress: Completed the Circuit Theorem tutorial from Engineering4Free
+
+---
+
+Mathematics Roadmap
+- Topic studied: Permutation and Combination Probability
+- Progress: Finished Lesson 5 of Unit 8 in Khan Academy Precalculus
+- Time spent: 1 hour
+
+---
+
+Projects
+- Project: SQL Query Dashboard
+- Work completed: None
+- Blockers/next steps: Divide the project into phases
+- Time spent: None
+
+---
+
+Professional Development
+- Activities: Went to Peace Indo
+- Outcome: Started operating the automated packing machinery
+- Decision made: Although the overtime allowance is 200% of the hourly rate, I will not sacrifice my free time
+
+---
+
+Resources & Reading
+- Content consumed: Copilot Daily + The Economist audio
+
+---
+
+Reflection
+- What went well: Made progress in three roadmaps and got home on time
+- Tomorrow’s focus: Find extra time to start work on my project, solve the problem I encountered in my AI roadmap.
