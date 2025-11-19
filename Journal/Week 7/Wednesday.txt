@@ -1,0 +1,68 @@
+Journal Entry – November 19, 2025 | Week 7, Day 3
+
+Morning
+
+- Wake-up time: 4:30 am
+- Morning routine: Quiet time, and self retrospection
+- Mindset going into the day: Aiming very high
+
+---
+
+AI Roadmap
+
+- Topic studied: Spreadsheet, Pdf and word document handling
+- Key learning: Understood what pdf means and binary data
+- Progress: Concluded the spreadsheet learning and did introduction of Pdf and word document handling
+- Time spent: 1 hour
+
+---
+
+Robotics Roadmap
+
+- Topic studied: None
+- Concepts applied: None
+- Key takeaway: None
+- Progress: Since I did finish the tutorial on circuits, I reviewed my roadmap for the next topic
+- Time spent: 3 mins
+
+---
+
+Mathematics Roadmap
+
+- Topic: Theoretical Probability distribution
+- Progress: Completed Lessons 5 and 6 of Unit 8 of Khan Academy Precalculus lectures
+- Time spent: 45 mins
+
+---
+
+Projects
+
+- Project: SQL Query Dashboard
+- Work completed: Created the repo on Github and also cloned it
+- Decisions made: I'm going to spend not less than 15 mins a day working on this project
+- Blockers/next steps: Create the General ReadMe for the project and start with Phase 1
+- Time spent: 35 mins
+
+---
+
+Professional Development
+
+- Activities: Job at Peace Indo
+- Outcome: Learnt how to single handedly operate the Automated Packing Machinery, assisted the workshop technicians to work on assembling a production line
+- Thoughts: I'm really going to learn a lot from Peace Indo, and I'm ready to take it all in
+
+---
+
+Resources & Reading
+
+- Resources found today: None
+- Content consumed: Copilot daily, The Economist audio version
+
+---
+
+Reflection
+
+- What went well: Made progress towards my dreams, learnt new things at Peace Indo
+- What was challenging: We were able to remove only two of four very tight bolts and nuts at the base of the machine. It was extremely exhausting.
+- Key insight: When you are in the process of becoming your ideal self, your brain or self might trick you to assume you've already become that and then entice your ego to come into play. Review yourself always to check ego at play.
+- Tomorrow's focus: Start with Phase 1 of my project, learn how to change the sachet in the packing machinery.
