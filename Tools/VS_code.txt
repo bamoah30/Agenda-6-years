@@ -25,3 +25,59 @@ Previewing a Markdown file in VS Code:
 1. Install the extension called "Markdown Preview Enhanced"  
 2. Open the markdown file  
 3. Press Ctrl + K, then V
+
+November 19, 2025
+
+Turn a VS Code folder into a GitHub repo
+Steps:
+1.Initialize Git in the folder
+   - Open the terminal in VS Code.
+   - Run:
+     git init
+
+     This creates a hidden `.git` folder and turns your project into a Git repository.
+
+2. Add your files to Git
+   git add .
+
+3. Commit your changes
+   git commit -m "Initial commit"
+   
+
+4. Create a new repo on GitHub
+   - Go to GitHub → click New Repository.
+   - Give it a name (e.g., `sql-query-dashboard`).
+   - Leave it empty (don’t add README or .gitignore if you already have them locally).
+
+5. Connect your local repo to GitHub
+   - Copy the repo’s URL (HTTPS or SSH).
+   - In VS Code terminal:
+     git remote add origin https://github.com/YourUsername/sql-query-dashboard.git
+     
+
+6. Push your code to GitHub
+   
+   git branch -M main
+   git push -u origin main
+   
+
+
+If you’ve already created a repo on GitHub and want to work on it locally:
+Steps:
+1. Copy the repo link
+   - On GitHub, click the green Code button → copy the HTTPS or SSH link.
+
+2. Open terminal in VS Code (or any terminal)
+   - Navigate to the folder where you want the repo to live.
+
+3. Clone the repo
+   
+   git clone https://github.com/YourUsername/sql-query-dashboard.git
+   
+
+4. Open the cloned folder in VS Code
+   - Either `cd sql-query-dashboard` in terminal, or open it directly in VS Code.
+
+5. Start working locally
+   - Make changes → `git add .` → `git commit -m "message"` → `git push`.
+
