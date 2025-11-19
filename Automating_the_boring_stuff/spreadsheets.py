@@ -33,7 +33,7 @@ print(sheet.max_column)  # Output >>> Maximum column number that contains data
 1. Import the openpyxl module.
 2. Call the openpyxl.load_workbook() function.
 3. Get a Workbook object.
-4. Call the get_active_sheet() or get_sheet_by_name() workbook method.
+4. Call the .active or get_sheet_by_name() workbook method.
 5. Get a Worksheet object.
 6. Use indexing or the cell() sheet method with row and column keyword arguments.
 7. Get a Cell object.
@@ -44,7 +44,7 @@ always save the new, edited spreadsheet to a different filename than the
 original. That way, you’ll still have the original spreadsheet file to work with 
 in case a bug in your code caused the new, saved file to have incorrect or 
 corrupt data
-Pravtical Examples  and Formulas:
+Pratical Examples  and Formulas:
 '''
 import openpyxl
 wb = openpyxl.Workbook() # Create a new workbook
@@ -97,7 +97,7 @@ import openpyxl
 wb = openpyxl.Workbook()
 sheet = wb.active if wb.active else wb.create_sheet() # Get the active sheet, or create one if none exists
 sheet.merge_cells('A1:D3')  # Merge cells from A1 to D3
-sheet['A1'] = ' 12 Merged Cell'  # Set the value of the merged cell
+sheet['B1'] = ' 12 Merged Cell'  # Set the value of the merged cell
 sheet.merge_cells('C5:D5')  # Merge cells C5 and D5
 sheet['C5'] = ' 2 Merged Cell'  # Set the value of the merged cell
 wb.save('mergedCells.xlsx')  # Save the workbook with merged cells
@@ -131,7 +131,7 @@ To make a chart, you need to do the following:
 
 3. Create a Chart object.
 
-4. Append the Series object to the Chart object.
+4. Add reference object to the chart with the .add_data() method.
 
 5. Optionally, set the title, x and Y axis, etc.
 
@@ -149,7 +149,7 @@ Reference objects are created by calling the openpyxl.charts.Reference() functio
 Example:'''
 import openpyxl
 from openpyxl.chart import BarChart, Reference
-from openpyxl.chart.series import Series
+
 wb = openpyxl.Workbook()
 sheet = wb.active if wb.active else wb.create_sheet() # Get the active sheet, or create one if none exists
 
@@ -160,14 +160,28 @@ for i in range(1, 11):
 # Create a Reference object for the data in column A
 refObj = Reference(sheet, min_row=1, min_col=1, max_row=10, max_col=1)  # From A1 to A10
 
-# Create a Series object using the Reference object 
-seriesObj = Series(refObj)
+
 
 # Create a BarChart object
 chartObj = BarChart()
-chartObj.append(seriesObj)  # Append the Series to the Chart object
+chartObj.add_data(refObj)  # Add reference data to the chart
 chartObj.title = 'My Bar Chart'
 chartObj.x_axis.title = 'X Axis'
 chartObj.y_axis.title = 'Y Axis'
 chartObj.anchor = 'A12'  # Set the position of the chart to cell A12
 sheet.add_chart(chartObj)  # Add the chart to the worksheet
+wb.save('barChart.xlsx')  # Save the workbook with the chart
+
+# November 19, 2025
+
+'''Key takeaway:
+-Merged cells share one value (the top-left cell).
+
+-Writing to any other cell excpet the top left cell in the merged range raises an error.
+
+-Reading from cells in the merge range other than the top left cell will return None (since they don’t store values)
+
+Other methods to remember:
+- column_index_from_string() - converts a column letter (e.g., 'A') to a number (e.g., 1)'
+- get_column_letter() - converts a column number (e.g., 1) to a letter (e.g., 'A')'''
+
