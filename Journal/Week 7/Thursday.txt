@@ -1,0 +1,56 @@
+Journal Entry – November 20, 2025 | Week 7, Day 4
+
+Morning
+- Wake-up time: 4:00 am
+- Morning routine: Quiet time, Reading emails
+- Mindset going into the day: Punctuality is my second nature
+
+---
+
+AI Roadmap
+- Topic studied: Extracting texts from pdf, encrypting and decrypting pdf
+- Time spent: 1 hour
+
+---
+
+Robotics Roadmap
+- Topic studied: Capacitor
+- Key takeaway: The capacitance of a capacitor remains constant even when the voltage of the capacitor is increased
+- Time spent: 28 mins
+
+---
+
+Mathematics Roadmap
+- Topic: Probability
+- Progress: Completed lesson 7 and 8 of unit 8 of Khan Academy Precalculus lectures
+- Time spent: 30 mins
+
+---
+
+Projects
+- Project: SQL Query Dashboard
+- Work completed: Created General ReadMe for the project and then added the folders and files (to be filled later) based on the structure in the General ReadMe
+- Decisions made: Following the structure of the ReadMe till completion of the project
+- Blockers/next steps: Start with Phase1_README
+- Time spent: 15 mins
+
+---
+
+Professional Development
+- Activities: Mixed mortar for preparing the base of a production machine at Peace Indo, witnessed the use of gear box
+- Outcome: Learned how to determine the oil level of gear box
+- Decision: Going to allocate time to learn mechanical components during the week
+
+---
+
+Resources & Reading
+- Content consumed: Copilot daily
+
+---
+
+Reflection
+- What went well: Got home on time, moved a little closer to my dreams
+- What was challenging: Staying awake during the day
+- Key insight: Our thoughts, mostly influenced by our emotions, aren't reality. Don't fall for it
+- Tomorrow's focus: Start with Phase 1 of my project, follow my Roadmaps
+- Decision: My actions are not going to be influenced by my emotions. 
