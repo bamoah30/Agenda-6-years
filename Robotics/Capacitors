@@ -1,0 +1,139 @@
+November 20, 2025
+
+# Capacitors
+
+A **capacitor** is a device that stores electric charge in an electric field.  
+It consists of two conductive plates separated by an insulating material (vacuum, air, or dielectric).
+
+---
+
+## Capacitance
+
+The ability of a capacitor to store charge is called **capacitance**.
+
+- **Unit:** Farad (F)
+- **Definition:**
+
+\[
+C = \frac{Q}{V}
+\]
+
+where:
+
+- \(C\) = capacitance (F)
+- \(Q\) = charge stored (Coulombs, C)
+- \(V\) = potential difference (Volts, V)
+
+---
+
+## Charge
+
+\[
+Q = n \cdot e
+\]
+
+where:
+
+- \(n\) = number of electrons
+- \(e\) = charge of a single electron = \(1.6 \times 10^{-19}\,\text{C}\)
+
+---
+
+## Voltage
+
+Voltage is the difference in electric potential between two points.
+
+- **Unit:** Volt (V)
+- **Definition:**
+
+\[
+1\,\text{V} = \frac{1\,\text{J}}{1\,\text{C}}
+\]
+
+where:
+
+- J = Joule (unit of energy)
+- C = Coulomb (unit of charge)
+
+---
+
+## Electric Field
+
+\[
+E = \frac{V}{d}
+\]
+
+where:
+
+- \(E\) = electric field strength (V/m)
+- \(V\) = potential difference (Volts)
+- \(d\) = separation distance between plates (m)
+
+---
+
+## Surface Charge Density
+
+\[
+\sigma = \frac{Q}{A}
+\]
+
+where:
+
+- \(\sigma\) = surface charge density (C/m\(^2\))
+- \(Q\) = charge (C)
+- \(A\) = plate area (m\(^2\))
+
+---
+
+## Relation Between Electric Field and Surface Charge Density
+
+\[
+E = \frac{\sigma}{\varepsilon_0}
+\]
+
+where:
+
+- \(\varepsilon_0\) = permittivity of free space = \(8.85 \times 10^{-12}\,\text{F/m}\)
+
+---
+
+## Capacitance of a Parallel Plate Capacitor
+
+Combining the above relations:
+
+\[
+C = \frac{Q}{V} = \frac{\varepsilon_0 A}{d}
+\]
+
+where:
+
+- \(C\) = capacitance (F)
+- \(\varepsilon_0\) = permittivity of free space (F/m)
+- \(A\) = plate area (m\(^2\))
+- \(d\) = separation distance (m)
+
+---
+
+## Effect of a Dielectric
+
+When a dielectric material is introduced between the plates, the capacitance increases:
+
+\[
+C = \frac{\varepsilon A}{d} = \frac{\varepsilon_r \varepsilon_0 A}{d}
+\]
+
+where:
+
+- \(\varepsilon\) = permittivity of the dielectric (F/m)
+- \(\varepsilon_r\) = relative permittivity (dimensionless dielectric constant)
+- \(\varepsilon_0\) = permittivity of free space (F/m)
+- \(A\) = plate area (m\(^2\))
+- \(d\) = separation distance (m)
+
+---
+
+## Key Notes
+
+- Larger plate area (\(A\)) → higher capacitance.
+- Smaller plate separation (\(d\)) → higher capacitance.
+- Introducing a dielectric (\(\varepsilon_r > 1\)) → increases capacitance.
