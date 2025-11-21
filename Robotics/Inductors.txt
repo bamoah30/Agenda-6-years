@@ -1,0 +1,15 @@
+November 21, 2025
+
+Inductors
+
+Inductors are electrical components that store energy in a magnetic field. 
+They are typically made of coils of wire and resist changes in current flow.
+
+The energy (U) stored in an inductor is given by the formula:
+
+U = 1/2 L I^2
+
+Where:
+U = Energy stored in the inductor (Joules)
+L = Inductance (Henrys)
+I = Current through the inductor (Amperes)
