@@ -55,23 +55,23 @@ with open('.\\Automating_the_boring_stuff\\how to write a business plan.pdf', 'r
 import PyPDF2
 
 # Open the original PDF file in read-binary mode
-with open('original.pdf', 'rb') as pdf_file:
+with open('.\\Automating_the_boring_stuff\\original.pdf', 'rb') as pdf_file:
     pdf_reader = PyPDF2.PdfReader(pdf_file)
-pdf_writer = PyPDF2.PdfWriter()
+    pdf_writer = PyPDF2.PdfWriter()
 
-# Copy all pages to the writer object
-for page_num in range(len(pdf_reader.pages)):
-    pdf_writer.add_page(pdf_reader.pages[page_num])
+    # Copy all pages to the writer object
+    for page_num in range(len(pdf_reader.pages)):
+        pdf_writer.add_page(pdf_reader.pages[page_num])
 
-# Encrypt the PDF with a password
-pdf_writer.encrypt('your_password')
+    # Encrypt the PDF with a password
+    pdf_writer.encrypt('your_password')
 
-# Write the encrypted PDF to a new file
-with open('encrypted.pdf', 'wb') as encrypted_file:
-    pdf_writer.write(encrypted_file)
+    # Write the encrypted PDF to a new file
+    with open('encrypted.pdf', 'wb') as encrypted_file:
+        pdf_writer.write(encrypted_file)
 
-pdf_file.close()
-encrypted_file.close()
+    pdf_file.close()
+    encrypted_file.close()
 
 #Decrypting a PDF:
 import PyPDF2
@@ -79,12 +79,47 @@ import PyPDF2
 with open('encrypted.pdf', 'rb') as encrypted_file:
     pdf_reader = PyPDF2.PdfReader(encrypted_file)
 
-# Check if the PDF is encrypted
-if pdf_reader.is_encrypted:
-    # Decrypt the PDF with the password
-    pdf_reader.decrypt('your_password')
+    # Check if the PDF is encrypted
+    if pdf_reader.is_encrypted:
+        # Decrypt the PDF with the password
+        pdf_reader.decrypt('your_password')
 
-    # Extract text from the first page
-    first_page = pdf_reader.pages[0]
-    text = first_page.extract_text()
-    print(text)
+        # Extract text from the first page
+        first_page = pdf_reader.pages[0]
+        text = first_page.extract_text()
+        print(text)
+
+#November 21, 2025
+'''Creating PDF:
+PyPDF2 cannto write new PDF content from scratch. It can only manipulate existing PDFs.
+Thus it can copy, merge, split, encrpyt, drcrypt, and rotate pages of existing PDFs.
+To create a PDF documnet using PYPDF2, you need to start with an existing PDF file as a template, and then add or modify content on top of that template.
+The stpes below are what we are going to use to create a new PDF document using PyPDF2:
+1. Open one or more existing PDFs (the source PDFs) into PdfFileReader
+objects.
+2. Create a new PdfFileWriter object.
+3. Copy pages from the PdfFileReader objects into the PdfFileWriter object.
+4. Finally, use the PdfFileWriter object to write the output PDF.
+
+Example:'''
+import PyPDF2
+
+print("Here now")
+
+pdf_writer = PyPDF2.PdfWriter()
+
+# First source PDF
+with open('.\\Automating_the_boring_stuff\\Machine Learning.pdf', 'rb') as source1_pdf_file:
+    pdf_reader1 = PyPDF2.PdfReader(source1_pdf_file)
+    for page_num in range(15, 18):  # pages 16–18 (0-indexed)
+        pdf_writer.add_page(pdf_reader1.pages[page_num])
+
+# Second source PDF
+with open('.\\Automating_the_boring_stuff\\Machine Learning.pdf', 'rb') as source2_pdf_file:
+    pdf_reader2 = PyPDF2.PdfReader(source2_pdf_file)
+    for page_num in range(3, 6):  # pages 4–6 (0-indexed)
+        pdf_writer.add_page(pdf_reader2.pages[page_num])
+
+# Write all collected pages into one output file
+with open('creating.pdf', 'wb') as output_pdf_file:
+    pdf_writer.write(output_pdf_file)
