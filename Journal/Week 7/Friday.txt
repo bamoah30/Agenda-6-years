@@ -1,0 +1,55 @@
+Journal Entry – November 21, 2025 | Week 7, Day 5
+
+Morning
+- Wake-up time: 4:00 am
+- Morning routine: Quiet time
+- Mindset going into the day: Resilient until I make it
+
+---
+
+AI Roadmap
+- Topic studied: Creating a PDF
+- Key learning: You cannot create a PDF file entirely from scratch; you can only manipulate the contents of existing PDFs
+- Challenge/blocker: I keep getting corrupted files after editing the content of a PDF
+- Time spent: 1 hour
+
+---
+
+Robotics Roadmap
+- Topic studied: Introduction to Inductors
+- Key takeaway: The back EMF of an inductor acts to oppose the original EMF
+- Time spent: 25 minutes
+
+---
+
+Mathematics Roadmap
+- Topic: Expected Value or Mean
+- Progress: Completed Quiz 3 of Lesson 8 and the introduction of Lesson 9 in Unit 8
+- Time spent: 45 minutes
+
+---
+
+Projects
+- Project: SQL Query Dashboard
+- Work completed: Finished the ReadMe for Phase 1
+- Decisions made: Follow the ReadMe as an instructional manual for this project
+- Blockers/next steps: Install all dependencies and begin work on Phase 2
+- Time spent: 30 minutes
+
+---
+
+Professional Development
+- Activities: Job at Peace Indo
+- Outcome: Helped install pipes for the cooling system of the production plant
+
+---
+
+Resources & Reading
+- Content consumed: Copilot Daily and "Hidden Habit of a Genius" audiobook
+
+---
+
+Reflection
+- What went well: Made progress toward my goals and learned a lot about the flow of water in the cooling system of a production plant
+- What was challenging: Taking steps toward my goals despite being tired after work
+- Tomorrow's focus: Spend most of the day working on my project, conclude the Khan Academy Precalculus lessons, and complete tutorials on basic electricity
