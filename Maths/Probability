@@ -31,3 +31,14 @@ Qualities of a Valid Probability Model:
 
 1. The sum of all the probabilty should sum up to 1 or 100%
 2. Probability cannot be a negative number
+
+November 21, 2025
+Expected Value / Mean
+
+The expected value is the average outcome of an experiment when repeated many times.
+It represents the long-run behavior of a random variable by weighting each possible
+result with its probability.
+
+Discrete Random Variable Formula:
+E(X) = Σ [ x_i * P(x_i) ]
+where x_i are the possible outcomes and P(x_i) is the probability of each outcome.
