@@ -1,0 +1,13 @@
+November 22, 2025
+
+Finite Geometric Series:
+
+The formula for the sum of a finite geometric series is:
+
+Sₙ = [a(1 - rⁿ)] / (1 - r)
+
+Where:
+Sₙ = Sum of the first n terms of the series
+a  = First term in the series
+r  = Common ratio of the series
+n  = Number of terms in the series
