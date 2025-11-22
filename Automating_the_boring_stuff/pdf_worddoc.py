@@ -67,11 +67,15 @@ with open('.\\Automating_the_boring_stuff\\original.pdf', 'rb') as pdf_file:
     pdf_writer.encrypt('your_password')
 
     # Write the encrypted PDF to a new file
-    with open('encrypted.pdf', 'wb') as encrypted_file:
+    with open('.\\Automating_the_boring_stuff\\encrypted.pdf', 'wb') as encrypted_file:
         pdf_writer.write(encrypted_file)
+    #NB: Make sure all the pdf files exist in the specified paths before running the code
 
     pdf_file.close()
     encrypted_file.close()
+
+#NB: After encrypting, you cann't encrpt the same file again without decrypting it first.
+
 
 #Decrypting a PDF:
 import PyPDF2
@@ -91,7 +95,7 @@ with open('encrypted.pdf', 'rb') as encrypted_file:
 
 #November 21, 2025
 '''Creating PDF:
-PyPDF2 cannto write new PDF content from scratch. It can only manipulate existing PDFs.
+PyPDF2 cannot write new PDF content from scratch. It can only manipulate existing PDFs.
 Thus it can copy, merge, split, encrpyt, drcrypt, and rotate pages of existing PDFs.
 To create a PDF documnet using PYPDF2, you need to start with an existing PDF file as a template, and then add or modify content on top of that template.
 The stpes below are what we are going to use to create a new PDF document using PyPDF2:
@@ -121,5 +125,7 @@ with open('.\\Automating_the_boring_stuff\\Machine Learning.pdf', 'rb') as sourc
         pdf_writer.add_page(pdf_reader2.pages[page_num])
 
 # Write all collected pages into one output file
-with open('creating.pdf', 'wb') as output_pdf_file:
+with open('.\\Automating_the_boring_stuff\\Creating.pdf', 'wb') as output_pdf_file:
     pdf_writer.write(output_pdf_file)
+
+# November 22, 2025
