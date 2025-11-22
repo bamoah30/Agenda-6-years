@@ -13,3 +13,31 @@ Where:
 U = Energy stored in the inductor (Joules)
 L = Inductance (Henrys)
 I = Current through the inductor (Amperes)
+
+November 22, 2025
+
+Faraday's Law:
+A change in current causes a change in magnetic flux, leading to an induced emf,
+which opposes the flow of current.
+
+Inductance:
+The ability of conductors to oppose change in current by inducing an emf is called inductance.
+
+Formulas:
+E = -N (dΦ/dt) = -L (dI/dt)
+
+Where:
+E = induced emf
+N = number of coils
+Φ = magnetic flux
+L = inductance (henry, H = V·s/A)
+I = current
+
+Note:
+Switching off a circuit with an inductor might cause sparks.
+
+Magnetic Flux:
+Φ = B · A
+
+Magnetic Field:
+B = Φ / A
