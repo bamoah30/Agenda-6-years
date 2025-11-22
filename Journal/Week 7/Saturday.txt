@@ -1,0 +1,54 @@
+Journal Entry – November 22, 2025 | Week 7, Day 6
+
+Morning
+- Wake-up time: 4:00 am
+- Morning routine: Quiet time
+
+---
+
+AI Roadmap
+- Topic studied: Handling PDFs
+- Key learning: Debugged previous code for encrypting, decrypting, and copying PDFs
+- Time spent: 1.5 hours
+
+---
+
+Robotics Roadmap
+- Topic studied: Inductors
+- Concepts applied: Solved exercises on the topic
+- Key takeaway: For a circuit with large inductors, breaking the circuit might cause sparks
+- Time spent: 23 minutes
+
+---
+
+Mathematics Roadmap
+- Topic: Sequence and Series
+- Progress: Concluded Probability and started Sequence and Series
+- What's still unclear: [Gaps to revisit?]
+- Time spent: 30 minutes
+
+---
+
+Projects
+- Project: SQL Query Dashboard
+- Work completed: Generated content for the sample.db file and created a placeholder for the GUI in main.py
+- Blockers/next steps: Start work on Phase 2
+- Time spent: 1 hour
+
+---
+
+Professional Development
+- Decision: I will leave Peace Indo only after I have mastered how to operate, repair, and maintain almost all their machinery used in production
+
+---
+
+Resources & Reading
+- Content consumed: Copilot Daily and "Hidden Habit of a Genius" audiobook
+
+---
+
+Reflection
+- What went well: Made progress toward my goals
+- What was challenging: Unable to quiet a prolonged conversation with a close friend
+- Key insight: Most people are trapped in systems they are not even aware of. It takes a lot to see the trap and escape it
+- Tomorrow's focus: Conclude the Khan Academy Precalculus lesson, conclude Inductors, and complete handling Word documents
