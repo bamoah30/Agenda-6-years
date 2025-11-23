@@ -11,3 +11,29 @@ Sₙ = Sum of the first n terms of the series
 a  = First term in the series
 r  = Common ratio of the series
 n  = Number of terms in the series
+
+November 23, 2025
+
+NB: The sum of a sequence is termed a *series*.
+
+Mortgage Loan Formula:
+L = P * ((r - r^(n+1)) / (1 - r))
+
+Where:
+L = loan
+P = monthly payment
+r = monthly interest rate
+n = number of months required to fully pay the loan
+
+Binomial Theorem:
+(a + b)^n = Σ (from k = 0 to n) [ C(n, k) * a^(n-k) * b^k ]
+
+Where:
+C(n, k) = "n choose k" = n! / (k!(n-k)!)
+
+
+Trick for Finding the Coefficient in Binomial Expansion:
+
+Coefficient of the next term =
+   (Exponent of the first variable in the previous term × Coefficient of the previous term)/ (Term number of the previous term)
+
