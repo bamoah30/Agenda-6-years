@@ -128,4 +128,106 @@ with open('.\\Automating_the_boring_stuff\\Machine Learning.pdf', 'rb') as sourc
 with open('.\\Automating_the_boring_stuff\\Creating.pdf', 'wb') as output_pdf_file:
     pdf_writer.write(output_pdf_file)
 
-# November 22, 2025
+# November 23, 2025
+
+#Shebang line also known as  hashbang, is the first line of a script file that indicates the interpreter to be used to execute the script.
+
+'''Handling Word Documents:
+With the python-docx module, you can read, write, and modify Word (.docx) files.
+To install python-docx, use pip:
+pip install python-docx
+NB: We pip install python-docx, not docx, but we import docx in our code.
+
+A typica .docx file contains:
+-Documnet object: represents the entire document
+-Paragraph object: represent individual paragraphs within the document
+-Run object: represent a contiguous run of text with the same formatting within a paragraph
+-Table object: represent tables within the document
+'''
+
+#Reading a Word Document:
+import docx
+
+# Open the Word document
+doc = docx.Document('.\\Automating_the_boring_stuff\\Artificial Construct - Copy.docx')
+
+print(len(doc.paragraphs))  # Print the number of paragraphs in the document   
+
+print(doc.paragraphs[0].text)  # Print the text of the first paragraph
+
+print(doc.paragraphs[1].text)  # Print the text of the second paragraph
+
+print(len(doc.paragraphs[1].runs))  # Print the number of runs in the second paragraph
+
+print(doc.paragraphs[1].runs[0].text)  # Print the text of the first run in the second paragraph
+
+print(doc.paragraphs[1].runs[1].text)  # Print the text of the second run in the second paragraph
+
+
+'''Styling Paragraphs and Runs:
+For word documents, there are three types of text styles:
+1. Paragraph styles: applied to entire paragraphs (e.g., Heading 1, Normal)
+2. Character styles: applied to specific runs of text within a paragraph (e.g., Bold, Italic)
+3. Linked styles: combination of paragraph and character styles
+
+You can modify the style of pragraphs and runs by setting their style attribute to a string value.
+NB: The styles for a particular .docx file is stored in the file.
+
+To see available  paragraph styles, use the code:
+    from docx import Document
+
+    doc = Document("the path to your .docx file")
+
+    for style in doc.styles:
+        print(style.name)
+
+To view available character styles, use the code:
+    from docx import Document
+
+    doc = Document("yourfile.docx")
+
+    for style in doc.styles:
+        if style.type == 2:  # 2 = WD_STYLE_TYPE.CHARACTER
+            print(style.name)
+
+NB: The style types are characterised by numbers:
+1 = Paragraphs
+2 = Characters
+3 = Tables
+4 = Lists
+
+
+Some do's and don'ts when styling paragraphs and runs:
+- Don't  set style value to a spaced string like 'Heading 1'; use 'Heading1' instead.
+-End the stlye name for runs with 'Char' to indicate character style, e.g., 'EmphasisChar'.
+
+Example: '''
+import docx
+
+# Open the Word document
+doc = docx.Document('.\\Automating_the_boring_stuff\\Artificial Construct - Copy.docx')
+
+# Modify the style of the first paragraph to 'Bold' 
+doc.paragraphs[0].style = 'Normal'
+
+# Modify the style of the first run in the second paragraph to 'EmphasisChar'
+doc.paragraphs[1].runs[0].style = 'Default Paragraph Font'
+
+# Save the modified document
+doc.save('.\\Automating_the_boring_stuff\\Styled_Document.docx')
+
+# Adding a customized Character style:
+from docx.enum.style import WD_STYLE_TYPE
+from docx.shared import Pt
+from docx import Document
+
+doc = Document(".\\Automating_the_boring_stuff\\Styled_Document.docx")
+
+styles = doc.styles
+new_style = styles.add_style('MyEmphasis', WD_STYLE_TYPE.CHARACTER) #NB: To create a Customize paragraph,use the same code but change the type to Paragraph
+
+new_style.font.italic = True #type: ignore
+new_style.font.size = Pt(12) #type: ignore
+
+doc.paragraphs[1].runs[0].style = 'MyEmphasis'
+doc.save("output.docx")
