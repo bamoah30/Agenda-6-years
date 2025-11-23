@@ -1,0 +1,90 @@
+Journal Entry – November 23, 2025 | Week 7, Day 7
+
+Morning
+- Wake-up time: 4:00 am
+- Morning routine: Quiet time
+
+---
+
+AI Roadmap
+- Topic studied: Handling Word documents
+- Key learning: Printing the content of Word documents, styling paragraphs and characters, customizing styles
+- Challenge/blocker: The final document after customizing styles is not producing any output. Will work on that first thing after quiet time
+- Time spent: 2 hours
+
+---
+
+Robotics Roadmap
+- Topic studied: Diodes
+- Concepts applied: Solved tutorial exercises
+- Key takeaway: When voltage exceeds the threshold voltage of a reverse-biased diode, the diode acts as a conductor
+- Time spent: 1.5 hours
+
+---
+
+Mathematics Roadmap
+- Topic: Binomial Theorem
+- Progress: Started Lesson 3 of Unit 9 in Khan Academy Precalculus
+- Time spent: 1 hour
+
+---
+
+Projects
+- Project: SQL Query Dashboard
+- Work completed: Phase 2 completed
+- Decisions made: Separated the GUI script from the backend logic to make error handling easier
+- Blockers/next steps: Begin work on Phase 3
+- Time spent: 1 hour
+
+---
+
+Reflection
+- What went well: Made progress toward my goal
+- What was challenging: Did not factor in time for family, so had to compromise on my schedule
+- Key insight: Be very mindful of the company you keep. Energy is infectious
+- Tomorrow's focus: Complete the lesson on Word document handling and conclude the tutorials on diodes
+Journal Entry – November 23, 2025 | Week 7, Day 7
+
+Morning
+- Wake-up time: 4:00 am
+- Morning routine: Quiet time
+
+---
+
+AI Roadmap
+- Topic studied: Handling Word documents
+- Key learning: Printing the content of Word documents, styling paragraphs and characters, customizing styles
+- Challenge/blocker: The final document after customizing styles is not producing any output. Will work on that first thing after quiet time
+- Time spent: 2 hours
+
+---
+
+Robotics Roadmap
+- Topic studied: Diodes
+- Concepts applied: Solved tutorial exercises
+- Key takeaway: When voltage exceeds the threshold voltage of a reverse-biased diode, the diode acts as a conductor
+- Time spent: 1.5 hours
+
+---
+
+Mathematics Roadmap
+- Topic: Binomial Theorem
+- Progress: Started Lesson 3 of Unit 9 in Khan Academy Precalculus
+- Time spent: 1 hour
+
+---
+
+Projects
+- Project: SQL Query Dashboard
+- Work completed: Phase 2 completed
+- Decisions made: Separated the GUI script from the backend logic to make error handling easier
+- Blockers/next steps: Begin work on Phase 3
+- Time spent: 1 hour
+
+---
+
+Reflection
+- What went well: Made progress toward my goal
+- What was challenging: Did not factor in time for family, so had to compromise on my schedule
+- Key insight: Be very mindful of the company you keep. Energy is infectious
+- Tomorrow's focus: Complete the lesson on Word document handling and conclude the tutorials on diodes
