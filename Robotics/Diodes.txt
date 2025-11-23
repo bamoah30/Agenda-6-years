@@ -1,0 +1,25 @@
+November 23, 2025
+
+Diodes:
+Electronic devices that allow current to flow in only one direction.
+For current to flow through a diode, the striped end is connected to the negative and the black end is connected to the positive — Forward bias.
+Negative bias occurs when the reverse connection is made, causing the diode to act as an insulator.
+
+Note: The anode is connected to the P-type diode and the cathode to the N-type diode.
+You can create a P-type diode by doping silicon with aluminum.
+N-type diodes are created by doping silicon with phosphorus.
+
+Note: A quick way to determine if a diode is on is to know the direction of the current and compare it with the direction of the arrow.
+If the arrow on the diode is in the same direction as the current, the diode is on; otherwise, it is off.
+
+Types of Diodes:
+- P-N Junction (standard rectifier): Used in household power supplies
+- Zener (precise reverse voltage regulation): Used for voltage reference and surge protection
+- Schottky (low forward voltage drop and ultra-fast switching): Perfect for high-speed rectifiers and RF mixers
+- LED: Common indicators and display lighting
+- Photodiode: Produces current when exposed to light; used in light sensors and optical communications
+- Avalanche: Designed for controlled breakdown at high reverse bias; ideal for high-voltage protection
+
+Right-Hand Rule:
+Point your right thumb in the direction of the current and curl the remaining fingers.
+The direction of the curled fingers shows the direction of the magnetic field.
