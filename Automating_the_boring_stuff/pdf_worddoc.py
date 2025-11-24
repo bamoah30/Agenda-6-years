@@ -138,7 +138,7 @@ To install python-docx, use pip:
 pip install python-docx
 NB: We pip install python-docx, not docx, but we import docx in our code.
 
-A typica .docx file contains:
+A typical .docx file contains:
 -Documnet object: represents the entire document
 -Paragraph object: represent individual paragraphs within the document
 -Run object: represent a contiguous run of text with the same formatting within a paragraph
@@ -231,3 +231,28 @@ new_style.font.size = Pt(12) #type: ignore
 
 doc.paragraphs[1].runs[0].style = 'MyEmphasis'
 doc.save("output.docx")
+
+#November 24, 2025
+
+# Creating Word Documents
+import docx
+
+doc = docx.Document()
+doc.add_paragraph('Hello world!')
+paraObj1 = doc.add_paragraph("This is a second paragraph.") #Adding  the first paragraph
+paraObj2 = doc.add_paragraph('This is a yet another paragraph.') # Second Paragraph
+paraObj1.add_run('This text is being added to the second paragraph')
+doc.save('helloworld.docx')
+
+
+#Adding heading 
+doc = docx.Document()
+doc.add_heading('Header 0', 0)
+doc.add_heading('Header 1', 1)
+doc.add_heading('Header 2', 2)
+
+doc.add_heading('Header 3', 3)
+
+doc.add_heading('Header 4', 4)
+
+doc.save('headings.docx')
