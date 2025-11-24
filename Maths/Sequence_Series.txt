@@ -37,3 +37,15 @@ Trick for Finding the Coefficient in Binomial Expansion:
 Coefficient of the next term =
    (Exponent of the first variable in the previous term × Coefficient of the previous term)/ (Term number of the previous term)
 
+November 24, 2025
+
+Arithmetic Series
+
+Formula:
+    Sₙ = n × (a₁ + aₙ) / 2
+
+Where:
+    Sₙ = sum of the series to the nth term
+    n  = number of terms
+    a₁ = first term
+    aₙ = last term
