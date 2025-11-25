@@ -23,3 +23,26 @@ Types of Diodes:
 Right-Hand Rule:
 Point your right thumb in the direction of the current and curl the remaining fingers.
 The direction of the curled fingers shows the direction of the magnetic field.
+
+
+November 25, 2025
+
+Depletion Region:
+The region around the p-n junction where mobile charge carriers (electrons and holes) are depleted. 
+It contains immobile ions and acts as an insulating layer that prevents current flow until sufficient external voltage is applied.
+
+Barrier Potential:
+The built-in potential difference across the depletion region of a p-n junction. 
+It must be overcome by an external voltage for current to flow. 
+
+Note:
+Forward bias of Si = 0.7 V
+Forward bias of Ge = 0.3 V
+
+Minority Charge Carriers:
+Electrons in the p-type region and holes in the n-type region. 
+They are fewer in number compared to majority carriers but play a crucial role in current flow under reverse bias conditions.
+
+Reverse Saturation Current:
+A small current that flows through a diode under reverse bias due to the movement of minority carriers. 
+It is nearly constant and independent of the applied reverse voltage, but strongly dependent on temperature.
