@@ -49,3 +49,17 @@ Where:
     n  = number of terms
     a₁ = first term
     aₙ = last term
+
+
+November 25, 2025
+
+Note: For an Arithmetic Progression (AP) with a common difference,  
+the formula for the sum of the series to the nth term is given by:
+
+Sₙ = [n (2a + d (n − 1))] / 2
+
+where:
+Sₙ = the sum of the series up to the nth term
+n  = the number of terms
+a  = the first term
+d  = the common difference
