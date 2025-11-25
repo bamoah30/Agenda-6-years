@@ -1,0 +1,52 @@
+Journal Entry – November 25, 2025 | Week 8, Day 2
+
+Morning
+- Wake-up time: 4:00 am
+- Morning routine: Quiet time
+
+---
+
+AI Roadmap
+- Topic studied: Handling CSV and JSON files
+- Key learning: Learned how to create a CSV reader object and write to a CSV using the CSV module in Python
+- Next step: Start learning how to handle JSON
+- Time spent: 45 minutes
+
+---
+
+Robotics Roadmap
+- Topic studied: Diodes
+- Key learning: Depletion zone, potential barrier
+- Key takeaway: Though a diode might be in reverse bias, saturation current flows irrespective of the voltage
+- Time spent: 15 minutes
+
+---
+
+Mathematics Roadmap
+- Topic: Sequence and Series
+- Progress: Completed Unit 9 of Khan Academy Precalculus lessons
+- Next step: Start Unit 10, Limits
+- Time spent: 45 minutes
+
+---
+
+Projects
+- Project: SQL Query Dashboard
+- Work completed: Finished Phase 3's main.py and visualizer.py
+- Decisions made: Incorporated the use of Altair and Matplotlib for data visualization
+- Blockers/next steps: Begin Phase 4, Interface.py
+- Time spent: 30 minutes
+
+---
+
+Professional Development
+- Activities: Morning shift at Peace Indo
+- Outcome: Learned how to operate the Cartoner Machine
+
+---
+
+Reflection
+- What went well: Made massive progress with my project, concluded Unit 9 in Mathematics, completed lessons on diodes, and learned how to operate a machine at work
+- What was challenging: Seeing many young people doing repetitive tasks for long hours at work was heartbreaking
+- Tomorrow's focus: Conclude lessons on CSV and JSON, complete Phase 4 of my project
+- Vision: Motivated more than ever to build robots that will free humanity from hard labor and exploitation
