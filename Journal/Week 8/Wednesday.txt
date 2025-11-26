@@ -1,0 +1,46 @@
+Journal Entry – November 26, 2025 | Week 8, Day 3
+
+Morning
+- Wake-up time: 4:00 am
+- Morning routine: Prepared for morning shift
+
+---
+
+AI Roadmap
+- Topic studied: Handling CSV files
+- Key learning: Delimiter and lineterminator keyword arguments are used to modify row separators passed into the .writer() function
+- Time spent: 15 minutes
+- Next step: Tackle JSON
+
+---
+
+Robotics Roadmap
+- Topic studied: Transistors
+- Concepts applied: Designed a circuit for a current-controlling switch
+- Key takeaway: Transistors are used in amplification and switches. They are also essential in automation
+- Time spent: 48 minutes
+- Next step: Coordinate frames
+
+---
+
+Mathematics Roadmap
+- Topic: Limits
+- Progress: Completed Lesson 1 and Lesson 2
+- Time spent: 1 hour
+
+---
+
+Projects
+- Project: SQL Query Dashboard
+- Work completed: Phase 4 completed
+- Decisions made: Added an SQL query generator
+- Blockers/next steps: Edit the final work
+- Time spent: 30 minutes
+
+---
+
+Reflection
+- What went well: Got home safely after work, completed Phase 4 of my project, concluded lessons on transistors
+- What was challenging: Avoiding replying to messages on WhatsApp
+- Solution: Add a block to my daily schedule for replying to messages
+- Tomorrow's focus: Read coordinate frames, start editing the code for my project
