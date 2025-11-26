@@ -53,3 +53,19 @@ outputWriter.writerow(['Hello, world!', 'eggs', 'bacon', 'ham']) # Values for ro
 outputWriter.writerow([1, 2, 3.141592, 4]) #Values for row 3
 
 outputFile.close()
+
+#November 26, 2025
+'''Delimiter and Lineterminator keyword Argument:
+
+Delimiter are used to specify the seperator between cells of the same row.
+Lineterminator are used to specify the separator between rows:
+
+Example Usage:
+'''
+import csv
+csvFile = open('example.tsv', 'w', newline='')
+csvWriter = csv.writer(csvFile, delimiter='\t', lineterminator='\n\n')
+csvWriter.writerow(['apples', 'oranges', 'grapes'])
+csvWriter.writerow(['eggs', 'bacon', 'ham'])
+csvWriter.writerow(['spam', 'spam', 'spam', 'spam', 'spam', 'spam'])
+csvFile.close()
