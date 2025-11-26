@@ -1,0 +1,60 @@
+November 26, 2025
+
+Transistors:
+An electronic device used as a switch or for amplification. Transistors also drive large currents to power devices.
+
+Types of Transistors:
+
+1. Bipolar Junction Transistors (BJT)
+2. Field Effect Transistors (FET)
+
+Types of Bipolar Junction Transistors (BJT):
+
+1. NPN Transistor:
+
+   - Base = P-type
+   - Emitter and Collector = N-type
+   - In NPN, the emitter is usually connected to ground.
+   - Current flow: The emitter current flows OUT of the base.
+
+2. PNP Transistor:
+   - Base = N-type
+   - Emitter and Collector = P-type
+   - In PNP, the base and collector are usually connected to ground.
+   - Current flow: The emitter current flows INTO the base.
+
+Important Relations:
+Ic = β Ib
+β = hFE
+IE = Ic + Ib
+
+where:
+Ic : Collector current (the current flowing through the collector terminal)
+Ib : Base current (the current flowing into the base terminal)
+IE : Emitter current (the current flowing through the emitter terminal)
+β (beta) : Current gain of the transistor (ratio of collector current to base current)
+hFE : Another notation for β (DC current gain)
+
+Operating Regions of a Transistor:
+
+1. Cutoff Region:
+
+   - Both junctions are reverse biased.
+   - Ic ≈ 0 (collector current is nearly zero).
+   - Transistor acts like an OPEN switch.
+
+2. Active Region:
+
+   - Base-emitter junction is forward biased, base-collector junction is reverse biased.
+   - Transistor operates as an AMPLIFIER.
+   - Ic ≈ β Ib.
+
+3. Saturation Region:
+   - Both junctions are forward biased.
+   - Maximum current flows through the transistor.
+   - Transistor acts like a CLOSED switch.
+
+Summary:
+NPN: Current flows out of the base.
+PNP: Current flows into the base.
+Transistors can act as switches (cutoff/saturation) or amplifiers (active region).
