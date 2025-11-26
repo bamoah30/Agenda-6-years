@@ -1,0 +1,17 @@
+November 26, 2025
+
+Limits describe how a function behaves near a point, instead of at the point.
+
+Symbolic representation of the limit of a function:
+lim f(x) = L    (Read as : The limit of f(x) as x approaches a is L)
+x → a
+
+Notes:
+1.When the numbers you use to determine the limit of a function increase towards the said number (x → a⁻), we call it Approaching from the Left.
+2.When the numbers you use to determine the limit of a function decrease towards the said number (x → a⁺), we call it Approaching from the Right.
+3.A function might be undefined at a point, but its limit can exist at that point.
+4.The limit only exists if the right-hand limit and the left-hand limit both approach the same value.
+
+Unbounded Limit:
+This occurs when approaching the limit from both sides does not produce a finite value.
+In such a situation, we say the limit does not exist.
