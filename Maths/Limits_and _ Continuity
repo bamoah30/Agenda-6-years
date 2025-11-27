@@ -3,7 +3,7 @@ November 26, 2025
 Limits describe how a function behaves near a point, instead of at the point.
 
 Symbolic representation of the limit of a function:
-lim f(x) = L    (Read as : The limit of f(x) as x approaches a is L)
+lim f(x) = L (Read as : The limit of f(x) as x approaches a is L)
 x → a
 
 Notes:
@@ -15,3 +15,13 @@ Notes:
 Unbounded Limit:
 This occurs when approaching the limit from both sides does not produce a finite value.
 In such a situation, we say the limit does not exist.
+
+November 27, 2025
+
+Using Tables to Approximate Limit Values
+
+Limits are tools for reasoning about function behavior, and tables are tools for reasoning about limits.
+
+NB 1: When using a table to approximate limits, it is important to construct it in a way that simulates the feeling of getting "infinitely close" to a desired x-value.
+
+NB 2: Sometimes the limit of a function is different from the actual value of the function at that point.
