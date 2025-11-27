@@ -1,0 +1,76 @@
+November 27, 2025
+
+Coordinate Frames
+
+1. Body Frame
+   - A coordinate system fixed to the robot or moving body itself.
+   - The axes move and rotate with the robot.
+   - Useful for describing motions, forces, and velocities relative to the robot’s own orientation.
+
+2. Global Coordinate Frame
+   - A fixed, world-based reference frame that does not move with the robot.
+   - Often aligned with geographic directions (East, North, Up).
+   - Provides a universal reference for absolute position and orientation.
+
+3. Moving Coordinate Frame
+   - A temporary or task-specific frame that moves relative to the global frame.
+   - Often attached to a tool, end effector, or another moving part.
+   - Useful for analyzing local interactions or transformations during motion.
+
+4. Camera Frame
+   - A coordinate system attached to the robot’s camera or vision sensor.
+   - Defines directions relative to the camera’s perspective (Right, Down, Forward).
+   - Essential for computer vision tasks, image processing, and mapping visual data into robot/world coordinates.
+
+
+Axis Mapping:
+                Body Axis        Global Axis        Camera Frame
+x-axis:         Forward          East               Right
+y-axis:         Left             North              Down
+z-axis:         Up               Up                 Forward
+
+Note: The End Effector refers to anything with which the robot interacts with its environment.
+
+
+Coordinate Transformation
+
+1. Pure Translation Transformation
+   X = x + d
+
+   where:
+   X = coordinate of the point with respect to the fixed frame
+   x = coordinate of the point with respect to the moving frame
+   d = coordinate of the origin of the moving frame with respect to the fixed frame
+
+
+2. Pure Rotation Transformation
+   X = R · x
+
+   where:
+   X = coordinate of the point with respect to the fixed frame
+   R = rotational transformation matrix:
+       [ cosθ   -sinθ ]
+       [ sinθ    cosθ ]
+   x = coordinate of the point with respect to the moving frame
+
+
+3. Combined Translation and Rotation Transformation
+   X = T · x
+
+   where:
+   X = coordinate of the body with respect to the fixed frame
+       [ X ]
+       [ Y ]
+       [ 1 ]
+
+   T = homogeneous transformation matrix:
+       [ cosθ   -sinθ    a ]
+       [ sinθ    cosθ    b ]
+       [  0       0      1 ]
+
+
+Homogeneous Transformation:
+- A homogeneous transformation is a mathematical representation that combines both rotation and translation into a single matrix.
+- It uses an extra dimension (the "1" at the bottom of the vector) to allow translations to be expressed in matrix form, alongside rotations.
+- This unified format makes it easier to chain multiple transformations together (e.g., moving, rotating, and shifting a robot or object in space).
+- In robotics, homogeneous transformations are fundamental for describing how points, frames, and objects relate to each other in 2D or 3D space.
