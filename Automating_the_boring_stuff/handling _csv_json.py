@@ -69,3 +69,75 @@ csvWriter.writerow(['apples', 'oranges', 'grapes'])
 csvWriter.writerow(['eggs', 'bacon', 'ham'])
 csvWriter.writerow(['spam', 'spam', 'spam', 'spam', 'spam', 'spam'])
 csvFile.close()
+
+
+# November 27, 2025
+'''JSON and APIs:
+JSON is the native way that JavaScript programs 
+write their data structures and usually resembles what Python’s print()
+function would produce.
+
+An example of data foramtted in JSON:
+{"name": "Zophie", "isCat": true, 
+ "miceCaught": 0, "napsTaken": 37.5, 
+ "felineIQ": null} 
+ 
+JSON is useful to know, because many websites offer JSON content as a way 
+for programs to interact with the website. This is known as providing an application programming interface (API). 
+Accessing an API is the same as accessing any other web page via a URL. 
+The difference is that the data returned by an API is formatted (with JSON, for example) for machines; 
+APIs aren’t easy for people to read.
+
+Some Uses APIs:
+•	 Scrape raw data from websites. (Accessing APIs is often more convenient 
+than downloading web pages and parsing HTML with Beautiful Soup.)
+
+•	 Automatically download new posts from one of your social network 
+accounts and post them to another account. For example, you could 
+take your Tumblr posts and post them to Facebook.
+
+•	 Create a “movie encyclopedia” for your personal movie collection by 
+pulling data from IMDb, Rotten Tomatoes, and Wikipedia and putting 
+it into a single text file on your computer.
+
+The JSON Module:
+Python’s json module handles all the details of translating between a string 
+with JSON data and Python values for the json.loads() and json.dumps() functions. 
+JSON can’t store every kind of Python value. It can contain values 
+of only the following data types: 
+strings, integers, floats, Booleans, lists, 
+dictionaries, and NoneType. 
+
+JSON cannot represent Python-specific objects, 
+such as File objects, CSV Reader or Writer objects, Regex objects, or Selenium 
+WebElement objects.'''
+
+'''Reading JSON with the loads() Function:
+To translate a string containing JSON data into a Python value, pass it to the json.loads() function. 
+
+NB:The name means “load string,” not “loads.”
+
+Example Usage:'''
+
+stringOfJsonData = '{"name": "Zophie", "isCat": true, "miceCaught": 0, "felineIQ": null}'
+import json
+jsonDataAsPythonValue = json.loads(stringOfJsonData)
+print(jsonDataAsPythonValue) # Output:{'isCat': True, 'miceCaught': 0, 'name': 'Zophie', 'felineIQ': None}
+
+'''Warning:
+After you import the json module, you can call loads() and pass it a string of JSON data. 
+
+NB: JSON strings always use double quotes. It will return that data as a Python dictionary. 
+Python dictionaries are not ordered, so the key-value pairs may appear in a different order when you 
+print jsonDataAsPythonValue'''
+
+'''Writing JSON with the dumps() Function:
+The json.dumps() function (which means “dump string,” not “dumps”) will 
+translate a Python value into a string of JSON-formatted data
+
+Example Usage:
+'''
+pythonValue = {'isCat': True, 'miceCaught': 0, 'name': 'Zophie', 'felineIQ': None}
+import json
+stringOfJsonData = json.dumps(pythonValue)
+print(stringOfJsonData)#Output >>>{"isCat": true, "felineIQ": null, "miceCaught": 0, "name": "Zophie" }
