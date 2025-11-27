@@ -1,0 +1,50 @@
+Journal Entry – November 27, 2025 | Week 8, Day 4
+
+Morning
+- Wake-up time: 4:00 am
+- Morning routine: Straight to the bath
+
+---
+
+AI Roadmap
+- Topic studied: Formatting JSON data
+- Key learning: The load function converts JSON to a Python object, and the dump function writes Python objects to JSON files
+- Progress: Completed the chapter on CSV and JSON file handling
+- Next step: Read scripts with sample programs
+- Time spent: 30 minutes
+
+---
+
+Robotics Roadmap
+- Topic studied: Coordinate frames
+- Key takeaway: X = T × x, where T is the combination of rotational and translational transformation matrices
+- Time spent: 55 minutes
+
+---
+
+Mathematics Roadmap
+- Topic: Estimating limits using tables
+- Progress: Completed Lesson 3 of Unit 10 in Khan Academy Precalculus
+- Next step: Finish Lesson 4, Properties of Limits
+- Time spent: 1 hour
+
+---
+
+Projects
+- Project: SQL Query Analyzer
+- Work completed: Edited the ReadMe and decluttered the repository
+- Blockers/next steps: Test all files
+- Time spent: 30 minutes
+
+---
+
+Professional Development
+- Activities: Peace Indo
+- Outcome: Worked on the Cartoner Machine
+- Motivation: Observing repetitive tasks encouraged me to pursue robotics even more
+
+---
+
+Reflection
+- What went well: Completed the CSV and JSON chapter
+- Tomorrow's focus: Read through scripts for CSV and JSON file handling in Python, test all project scripts
