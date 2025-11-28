@@ -76,7 +76,7 @@ Homogeneous Transformation:
 - In robotics, homogeneous transformations are fundamental for describing how points, frames, and objects relate to each other in 2D or 3D space.
 
 
-.November 28, 2025
+November 28, 2025
 
 NB: All robotic systems obey the Right-Hand Rule.
 
