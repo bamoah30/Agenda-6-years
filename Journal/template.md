@@ -4,7 +4,6 @@
 
 - Wake-up time: [e.g., 4:30 am]
 - Morning routine: [e.g., quiet reflection, podcasts, reading]
-- Mindset going into the day: [brief note on energy/focus]
 
 ---
 
@@ -50,13 +49,6 @@
 
 - **Activities:** [Job updates, interviews, networking, applications]
 - **Outcome:** [What happened or what's next?]
-
----
-
-## Resources & Reading
-
-- **Resources found today:** [Links, articles, books for later]
-- **Content consumed:** [Podcasts, audiobooks, videos]
 
 ---
 
