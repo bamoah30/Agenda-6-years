@@ -74,3 +74,16 @@ Homogeneous Transformation:
 - It uses an extra dimension (the "1" at the bottom of the vector) to allow translations to be expressed in matrix form, alongside rotations.
 - This unified format makes it easier to chain multiple transformations together (e.g., moving, rotating, and shifting a robot or object in space).
 - In robotics, homogeneous transformations are fundamental for describing how points, frames, and objects relate to each other in 2D or 3D space.
+
+
+.November 28, 2025
+
+NB: All robotic systems obey the Right-Hand Rule.
+
+Right-Hand Rule:
+If you extend your thumb, index finger, and middle finger such that they are all
+mutually perpendicular (90° to each other):
+
+- Thumb → points upward → z-axis
+- Index finger → points forward (away from you) → x-axis
+- Middle finger → points sideways → y-axis
