@@ -25,3 +25,46 @@ Limits are tools for reasoning about function behavior, and tables are tools for
 NB 1: When using a table to approximate limits, it is important to construct it in a way that simulates the feeling of getting "infinitely close" to a desired x-value.
 
 NB 2: Sometimes the limit of a function is different from the actual value of the function at that point.
+
+
+
+November 28, 2025
+Properties of Limits:
+
+Assume:
+1. lim (f(x)) = L, as x → c
+2. lim (g(x)) = M, as x → c
+
+Rules:
+
+1. Sum Rule:
+   lim (f(x) + g(x)) = L + M, as x → c
+
+2. Difference Rule:
+   lim (f(x) - g(x)) = L - M, as x → c
+
+3. Product Rule:
+   lim (f(x) · g(x)) = L · M, as x → c
+
+4. Constant Multiple Rule:
+   lim (k · f(x)) = k · L, as x → c
+
+5. Quotient Rule:
+   lim (f(x) / g(x)) = L / M, as x → c
+   (provided M ≠ 0)
+
+6. Power Rule:
+   lim (f(x))^(r/s) = (L)^(r/s), as x → c
+   (where r and s are integers, s ≠ 0)
+
+
+Limits of Composite Functions:
+
+lim (f(g(x))) = f(lim (g(x))), as x → a
+Only if:
+1. lim (g(x)) = L exists, as x → a
+2. f(L) is continuous
+
+Note:
+The limit of the internal function g(x) may not exist,
+but the limit of the composite function f(g(x)) can still exist.
