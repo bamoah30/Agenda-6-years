@@ -1,0 +1,46 @@
+Journal Entry – November 28, 2025 | Week 8, Day 5
+
+Morning
+- Wake-up time: 4:00 am
+
+---
+
+AI Roadmap
+- Topic studied: Handling CSV and JSON files
+- Key learning: Read through a sample project script for handling JSON and CSV files
+- Time spent: 15 minutes
+
+---
+
+Robotics Roadmap
+- Topic studied: Coordinate frame
+- Key takeaway: All robots follow the ROS Right-Hand Rule
+- Time spent: 15 minutes
+
+---
+
+Mathematics Roadmap
+- Topic: Determining limits using algebraic properties of limits
+- Progress: Completed Lesson 4 of Unit 10
+- Time spent: 45 minutes
+
+---
+
+Projects
+- Project: SQL Query Dashboard
+- Work completed: Finalized the project
+- Decisions made: Added a feature to the dashboard for users to upload their own database files
+- Blockers/next steps: Update the ReadMe and create a LinkedIn post about it
+- Time spent: 30 minutes
+
+---
+
+Professional Development
+- Activities: Job at Peace Indo
+- Outcome: Single-handedly operated the Cartoner machine and fixed a printer
+
+---
+
+Reflection
+- What went well: Completed all features of my project, finished Lesson 4 of Unit 10 in Khan Academy Precalculus
+- Tomorrow's focus: Conclude the lessons on Precalculus, coordinate frames, and finalize the SQL Dashboard project
