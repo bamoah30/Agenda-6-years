@@ -87,3 +87,36 @@ mutually perpendicular (90° to each other):
 - Thumb → points upward → z-axis
 - Index finger → points forward (away from you) → x-axis
 - Middle finger → points sideways → y-axis
+
+
+November 29, 2025
+
+Mapping:
+Refers to changing the description of a point in space from one frame to another.
+
+Types of Robot Configurations:
+
+1. Cartesian Coordinate Configuration:
+   - Uses three linear axes (X, Y, Z).
+   - Provides straight-line motion along each axis.
+   - Common in CNC machines and 3D printers.
+
+2. Cylindrical Configuration:
+   - Combines linear motion along one axis with rotational motion around another.
+   - Suitable for tasks requiring vertical movement and rotation.
+   - Often used in assembly and handling operations.
+
+3. Spherical Configuration:
+   - Provides two rotational motions and one linear motion.
+   - Allows the robot to reach points in a spherical workspace.
+   - Useful for welding, painting, and inspection tasks.
+
+4. Articulated Configuration:
+   - Uses rotary joints (like a human arm).
+   - Offers high flexibility and a large workspace.
+   - Common in industrial robots for complex tasks such as assembly, packaging, and material handling.
+
+5. SCARA Configuration (Selective Compliance Assembly Robot Arm):
+   - Provides compliance in the horizontal plane but rigidity in the vertical axis.
+   - Ideal for high-speed assembly, pick-and-place, and precision tasks.
+   - Frequently used in electronics manufacturing.
