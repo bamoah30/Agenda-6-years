@@ -1,0 +1,33 @@
+Journal Entry – November 29, 2025 | Week 8, Day 6
+
+AI Roadmap
+- Topic studied: None
+- Time spent: 0
+
+---
+
+Robotics Roadmap
+- Topic studied: Coordinate Frames
+- Key takeaway: Different types of robot configuration
+- Time spent: 30 minutes
+
+---
+
+Mathematics Roadmap
+- Topic: Limits
+- Progress: Completed Lesson 9
+- Time spent: 2 hours
+
+---
+
+Projects
+- Project: SQL Query Dashboard
+- Work completed: Finalized the project with a LinkedIn post
+- Decisions made: Added a section for editing the columns for the chart axis
+- Time spent: 1 hour
+
+---
+
+Reflection
+- What went well: Completed my second portfolio project
+- Tomorrow's focus: Finish the lessons on Precalculus, review the week’s work
