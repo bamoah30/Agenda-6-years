@@ -68,3 +68,35 @@ Only if:
 Note:
 The limit of the internal function g(x) may not exist,
 but the limit of the composite function f(g(x)) can still exist.
+
+November 29, 2025
+
+NB: f(x) is continuous at x = a if:
+     lim f(x) = f(a), as x → a
+
+NB: When you evaluate f(a)/g(a) for lim f(x)/g(x), as x → a, 
+    and you get 0/0, we refer to that as an indeterminate form.
+
+How to solve indeterminate limits:
+1. Factor if possible
+2. Multiply by the conjugate if it involves radicals
+3. Replace some terms with trigonometric identities if possible and solve
+
+Squeeze Theorem:
+For f(x) ≤ g(x) ≤ h(x),
+if lim f(x) = L and lim h(x) = L as x → c,
+then lim g(x) = L, as x → c
+
+NB: lim (sin x)/x = 1, as x → 0
+
+Types of discontinuity:
+1. Point/Removable Discontinuity:
+   Both right-hand and left-hand limits as x approaches c are equal,
+   but not equal to f(c).
+
+2. Asymptotic Discontinuity:
+   Both right-hand and left-hand limits are unbounded.
+
+3. Jump Discontinuity:
+   Both right-hand and left-hand limits exist but are not equal.
+
