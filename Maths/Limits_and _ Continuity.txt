@@ -100,3 +100,56 @@ Types of discontinuity:
 3. Jump Discontinuity:
    Both right-hand and left-hand limits exist but are not equal.
 
+
+November 30, 2025
+
+========================
+CONTINUITY
+========================
+NB: A function is continuous at a point if you can intuitively draw the graph of the function 
+through the point without lifting your marker.
+
+Continuity over an interval:
+1. f(x) is continuous over the interval (a, b) if it is continuous at every point in the interval.
+2. f(x) is continuous over the interval [a, b] if it is continuous over (a, b) and:
+   - lim f(x) = f(a) as x → a from the right
+   - lim f(x) = f(b) as x → b from the left
+
+========================
+INTERMEDIATE VALUE THEOREM
+========================
+Assume f(x) is continuous on the interval [a, b].
+Then f(x) will take on any value between f(a) and f(b).
+For any L between f(a) and f(b), there exists at least one number c in [a, b] 
+for which f(c) = L.
+
+========================
+HYPERBOLA
+========================
+Equation:
+   (y^2)/(a^2) - (x^2)/(b^2) = 1, center = (0, 0)
+   ((y - k)^2)/(a^2) - ((x - h)^2)/(b^2) = 1, center = (h, k)
+
+NB: When y is positive, the graph opens upwards. 
+    When x is positive, the graph opens sideways.
+
+To graph a hyperbola:
+1. Find the asymptotes by making y the subject in the hyperbola equation 
+   and evaluating the result as x → ∞.
+2. Determine if the graph opens upward or sideways.
+3. Find the intersections on the axes.
+4. Draw the hyperbola, ensuring it passes through the intersections 
+   and never crosses the asymptotes.
+
+Foci:
+   f = √(a^2 + b^2), where f = focus and a, b are the denominators in the hyperbola equation.
+   - When the graph opens toward the y-axis, the foci are at coordinates (0, ±f).
+   - When the graph opens toward the x-axis, the foci are at coordinates (±f, 0).
+
+========================
+COMPLEX NUMBERS
+========================
+NB: Multiplying a complex number by another complex number will, depending on the value:
+   - Shrink, enlarge, or maintain the modulus of the initial complex number 
+     by the modulus of the multiplier.
+   - Rotate the initial complex number by an amount equal to the argument of the multiplier.
