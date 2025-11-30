@@ -1,0 +1,23 @@
+Journal Entry – November 30, 2025 | Week 8, Day 7
+
+---
+
+Mathematics Roadmap
+- Topic: Limits and Continuity
+- Progress: Completed the lessons on Precalculus
+- Next step: Start Linear Algebra
+- Time spent: 3 hours
+
+---
+
+Projects
+- Project: SQL Query Dashboard
+- Work completed: Created a post about the project on LinkedIn
+- Blockers/next steps: Begin working on ML Web App v1
+- Time spent: 30  minutes
+
+---
+
+Reflection
+- What went well: Completed the lessons on Precalculus, deployed my second portfolio project
+- Tomorrow's focus: Start Linear Algebra, begin working on the next project

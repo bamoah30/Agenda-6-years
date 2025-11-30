@@ -1,10 +1,5 @@
 # Journal Entry – [Date] | Week [Number], Day [Number]
 
-## Morning
-
-- Wake-up time: [e.g., 4:30 am]
-- Morning routine: [e.g., quiet reflection, podcasts, reading]
-
 ---
 
 ## AI Roadmap
