@@ -1,0 +1,48 @@
+December 1, 2025
+
+===============================
+Robot Anatomy
+===============================
+Robot anatomy is the study of the skeleton of robots, i.e. 
+the physical construction of the manipulator structure.
+
+Main Components:
+1. End Effector – The device at the end of a robot arm designed to interact with the environment (e.g., grippers, tools).
+2. Manipulator – The mechanical arm structure that positions and moves the end effector.
+3. Actuator – A motor or mechanism that drives movement in joints or links.
+4. Controller – The system that sends commands to actuators and coordinates robot actions.
+5. Sensors – Devices that provide feedback about the robot’s environment or internal state (e.g., vision, force).
+6. Processor – The computing unit that processes sensor data and executes control algorithms.
+7. Software – The programs and instructions that define robot behavior and tasks.
+
+===============================
+Types of Joints
+===============================
+1. Rotary Joints – Allow rotational motion (like a hinge).
+2. Linear Joints – Allow translational or sliding motion.
+
+===============================
+Degrees of Freedom (DOF)
+===============================
+Robots typically have 6 DOF, representing independent movements:
+1. Rotational Transverse – Rotation around a horizontal axis.
+2. Vertical Transverse – Up-and-down movement along a vertical axis.
+3. Radial Transverse – Movement outward or inward from a central axis.
+4. Roll – Rotation around the arm’s longitudinal axis.
+5. Yaw – Rotation left or right around a vertical axis.
+6. Pitch – Rotation up or down around a horizontal axis.
+
+===============================
+End Effectors - Grippers
+===============================
+1. Mechanical Grippers – Use fingers or jaws to grasp objects.
+2. Hook and Scoops – Simple tools for lifting or carrying.
+3. Magnetic Grippers:
+   a. Electromagnet – Uses electric current to generate magnetic force.
+   b. Permanent Magnet – Uses fixed magnetic material to hold objects.
+4. Vacuum Gripper – Uses suction to lift objects with flat surfaces.
+5. Expandable Type Gripper – Adjusts size to grip objects of varying dimensions.
+6. Adhesive Gripper – Uses sticky or tacky materials (like specialized adhesives or gecko-inspired surfaces) 
+   to hold objects by surface adhesion rather than mechanical force.
+
+NB: The application of the robot determines the choice of end effector.
