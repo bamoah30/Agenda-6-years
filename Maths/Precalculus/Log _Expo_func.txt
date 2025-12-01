@@ -1,0 +1,25 @@
+December 1, 2025
+
+===============================
+Properties of Logarithm Functions
+===============================
+1. log(A^B) = B · log(A)
+2. log(A) + log(B) = log(AB)
+3. log(A) - log(B) = log(A/B)
+
+===============================
+Change of Base Formula
+===============================
+log_a(B) = C
+= (log_x(B)) / (log_x(a)) = C
+
+NB: When the base of the log is e, the logarithm is called the natural log (ln).
+
+===============================
+Exponential and Logarithmic Relation
+===============================
+a^b = C
+⇔ log_a(C) = b
+
+
+NB: The logarithm of any negative number does not exist.
