@@ -1,0 +1,47 @@
+Journal Entry – December 1, 2025 | Week 9, Day 1
+
+---
+
+AI Roadmap
+- Topic studied: The time module
+- Key learning: The time.time() function returns the number of seconds elapsed since the Unix epoch
+- Next step: Explore the time.datetime() function
+- Time spent: 45 minutes
+
+---
+
+Robotics Roadmap
+- Topic studied: Robot Anatomy
+- Concepts applied: Related the end effector of the vacuum gripper to the ones used at Peace Indo
+- Key takeaway: The type of end effector selected depends on the job requirement
+- Time spent: 55 minutes
+
+---
+
+Mathematics Roadmap
+- Topic: Introduction to exponential and logarithmic functions
+- Progress: Watched a full 1 hour 20 minute video on YouTube at 1.5x speed
+- Time spent: 45 minutes
+
+---
+
+Projects
+- Project: ML Web App v1
+- Work completed: Created a GitHub repository and cloned it
+- Decisions made: Divided the project into 5 phases, from planning to documentation
+- Blockers/next steps: Create a ReadMe to serve as a guide alongside the phases
+- Time spent: 15 minutes
+
+---
+
+Professional Development
+- Activities: Work at Peace Indo
+- Outcome: Operated the Cartoner machine
+
+---
+
+Reflection
+- What went well: Negotiated a suitable work shift, started working on my next project
+- What was challenging: Domestic chores coincided with my learning schedule due to unplanned activities at home
+- Insight: Starting with pure concepts in robotics is boosting my morale.
+- Tomorrow's focus: Complete Phase 1 of my project
