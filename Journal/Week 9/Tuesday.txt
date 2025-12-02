@@ -1,0 +1,24 @@
+Journal Entry – December 2, 2025 | Week 9, Day 2
+
+---
+
+Robotics Roadmap
+- Topic studied: Robot Configuration and Degrees of Freedom (DOF)
+- Key takeaway: Gruebler's criteria is used for determining the DOF of a structure. Articulated configuration is the most dexterous configuration
+- Opinion: Happy to see that the Gruebler's criteria I learned in Dynamics is applied here
+- Time spent: 45 minutes
+
+---
+
+Professional Development
+- Activities: Work at Peace Indo
+- Outcome: Helped change the belt for the main production line gearbox and motor
+- Decision: Started keeping logs on technical elements I encounter
+
+---
+
+Reflection
+- What went well: Made progress with regards to robotics
+- What was challenging: The timing for each roadmap was not enough; I was too engaged with social media content that distracted me even when I was off
+- Strategy: Starting next week, rotate each roadmap (a day for one roadmap), dedicate 30 minutes before studies, and avoid all social media content
+- Tomorrow's focus: Tackle the time and datetime modules in AI, continue with exponential and logarithmic functions in mathematics
