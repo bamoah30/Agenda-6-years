@@ -46,3 +46,73 @@ End Effectors - Grippers
    to hold objects by surface adhesion rather than mechanical force.
 
 NB: The application of the robot determines the choice of end effector.
+
+
+Robotics Notes — December 2, 2025
+
+Degree of Freedom (DOF):
+- Definition: Number of independent movements an object can perform in 2D or 3D space.
+- Notes:
+  NB1: Any rigid body in 3D has 6 DOF
+  NB2: Any rigid body in 2D has 3 DOF
+  NB3: In an open kinematic chain, DOF = number of joints
+
+Gruebler’s Criterion:
+- Used to calculate DOF in structures.
+
+For 2D:
+M = 3n - Σ(3 - Cl), from m = 1 to n
+
+For 3D:
+M = 6n - Σ(6 - Cl), from m = 1 to n
+
+Where:
+M  = Mobility (DOF)
+n  = Number of links
+m  = Number of joints
+Cl = Constraint per joint
+
+Joint Notes:
+- Spherical joint = Universal joint (2 DOF) + Revolute joint (1 DOF)
+- Prismatic joint = 1 DOF
+
+------------------------------------------------------------
+
+Robot Configurations:
+
+1. Cartesian Configuration:
+- Structure: 3 prismatic joints
+- Workspace: Portion of space around manipulator base accessible by endpoint
+- Work volume: Space swept by the arm
+- Work envelope: Surface boundary of workspace
+- Pros: High precision, easy programming, large work volume
+- Cons: Low dexterity
+
+2. Cylindrical Configuration (RPP):
+- Workspace: Hollow cylinder
+- Application: Useful for machine loading operations due to access in narrow horizontal configurations
+
+3. Polar / Spherical Configuration:
+- Workspace: Partial spherical shell
+- Features:
+  • Shoulder joint allows end effector to move below base
+  • Lower stiffness than Cartesian and Cylindrical
+  • Positioning accuracy decreases with radial stroke
+- Applications: Machining, spray painting
+
+4. Articulated Configuration:
+- Structure: Human-arm-like (anthropomorphic manipulation)
+- Workspace: Spherical volume
+- Features:
+  • Endpoint can reach base and below
+  • Highest dexterity (all joints movable)
+
+------------------------------------------------------------
+
+Other Configurations:
+- SCARA (3R + 1P): Combination of articulated + cylindrical
+- Wrist Configurations: Specialized for orientation control
+- RPY Configuration:
+  R = Roll (rotation in plane perpendicular to arm end)
+  P = Pitch (rotation in vertical plane through the arm)
+  Y = Yaw (rotation in horizontal plane)
