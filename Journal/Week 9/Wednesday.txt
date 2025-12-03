@@ -1,0 +1,38 @@
+Journal Entry – December 3, 2025 | Week 9, Day 3
+
+---
+
+Robotics Roadmap
+- Topic studied: Robot Anatomy Continuation
+- Key takeaway: For the scheme of robot representation, we use the body-and-arm to wrist assembly ratio
+- Time spent: 55 minutes
+
+---
+
+Mathematics Roadmap
+- Topic: Derivatives of logarithmic and exponential functions
+- Progress: Finished two tutorials on YouTube
+- Challenge: Boredom set in as my brain was already used to seeing the functions worked on
+- Time spent: 45 minutes
+
+---
+
+Projects
+- Project: ML Web App v1
+- Work completed: Created the general ReadMe as a guideline for the project, and created the vital files and directories
+- Blockers/next steps: Start working on Phase 2
+- Time spent: 15 minutes
+
+---
+
+Professional Development
+- Activities: Operated the Cartoner Machine at Peace Indo
+- Outcome: I was able to operate the machine nonstop for nearly 1 hour, reducing overall downtime
+
+---
+
+Reflection
+- What went well: Climbing steadily toward robotics
+- What was challenging: The robotics schedule time was eating into other activities
+- Strategy: Move the robotics schedule to the last session before journaling, after project work
+- Tomorrow's focus: Start populating the files in my project
