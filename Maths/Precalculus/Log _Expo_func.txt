@@ -23,3 +23,19 @@ a^b = C
 
 
 NB: The logarithm of any negative number does not exist.
+
+December 3, 2025
+Derivatives of Logarithmic and Exponential Functions
+----------------------------------------------------
+
+1. [e^u]'      = e^u * u'
+
+2. [a^u]'      = a^u * u' * ln(a)
+
+3. [ln(u)]'    = u' / u
+
+4. NB: [ln(ax)]' = 1 / x   (where a is a constant)
+
+5. [ln(x)^a]'  = a / x
+
+6. [log_a(u)]' = u' / (u * ln(a))
