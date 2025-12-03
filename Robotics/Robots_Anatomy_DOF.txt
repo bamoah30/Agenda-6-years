@@ -116,3 +116,60 @@ Other Configurations:
   R = Roll (rotation in plane perpendicular to arm end)
   P = Pitch (rotation in vertical plane through the arm)
   Y = Yaw (rotation in horizontal plane)
+
+
+December 3, 2025
+Robotics Notes
+----------------------------------------------------
+
+NB1: Robot
+- A machine programmable by a computer
+- Capable of carrying out complex series of actions automatically
+
+NB2: Robotics
+- A field of technology that deals with the conceptual design, construction, operation, and application of robots
+
+NB3: Robot Manipulator
+- Consists of two sections:
+  1. Body and Arm: For positioning of objects in the robot’s work volume
+  2. Wrist Assembly: For orientation of objects
+
+----------------------------------------------------
+Joint Notation Scheme
+----------------------------------------------------
+1. Joint symbols used to designate joint types:
+   - L = Linear
+   - O = Orthogonal
+   - R = Rotational
+   - T = Twisting
+   - V = Revolving
+
+2. Separate body-and-arm assembly from wrist assembly using a colon.
+   Example: TLR : TR
+
+   → This represents a 5 DOF manipulator:
+     - Body & Arm: Twisting, Linear, Rotational
+     - Wrist: Twisting, Rotational
+
+----------------------------------------------------
+Drive Systems in Robots
+----------------------------------------------------
+1. Electric: Uses motors to actuate individual joints
+2. Hydraulic: Uses hydraulic pistons and rotary vane actuators
+3. Pneumatic: Used in smaller robots and simple material transfer applications
+
+----------------------------------------------------
+Sensors in Robots
+----------------------------------------------------
+NB: Two categories of sensors in robots:
+1. Internal Sensors
+   - Control position and velocity of manipulator joints
+
+2. External Sensors
+   - Coordinate robot operation with other equipment in the work cell
+   - Types include:
+     - Tactile: Touch and force sensors
+     - Proximity: Determine how close an object is
+     - Optical: Detect light intensity, color, or position; often implemented as optical encoders
+     - Machine Vision: Use cameras and image-processing algorithms to identify, inspect, and guide objects
+     - Other sensors: temperature, voltage, etc.
