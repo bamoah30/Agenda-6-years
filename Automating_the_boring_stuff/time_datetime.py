@@ -28,3 +28,17 @@ prod = calcProd()
 endTime = time.time() #Get the end time
 print(f'The result is {prod}.' ) # Output: 8841761993739701954543616000000
 print('Took %s seconds to calculate.' % (endTime - startTime)) #Print the time taken to calculate
+
+
+#December 4, 2025
+'''The time.sleep() Function:
+The time.sleep() function pauses the program for the given number of seconds.
+
+Example Usage:
+'''
+import time
+for i in range(5):
+    print('Tick')
+    time.sleep(1) #Pause for 1 second
+    print('Tock')
+    time.sleep(1) #Pause for 1 second
