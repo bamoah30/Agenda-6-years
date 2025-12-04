@@ -173,3 +173,30 @@ NB: Two categories of sensors in robots:
      - Optical: Detect light intensity, color, or position; often implemented as optical encoders
      - Machine Vision: Use cameras and image-processing algorithms to identify, inspect, and guide objects
      - Other sensors: temperature, voltage, etc.
+
+December 4, 2025
+
+DEGREES OF FREEDOM
+
+Definition:
+A degree of freedom can be defined as the number of independent variables required 
+to define an object's position and motion.
+
+------------------------------------------------------------
+GUIDES TO ROBOTICS ENGINEERING
+
+1. Learn a programming language
+   - Example: C (commonly used for embedded systems and robotics)
+
+2. Learn electronics
+   - Example: Arduino kit (hands-on practice with circuits, sensors, and microcontrollers)
+
+3. Build and program robots
+   - Apply programming and electronics knowledge to create functional robotic systems
+   - Experiment with movement, sensors, and automation
+------------------------------------------------------------
+
+Key Insight:
+- Degrees of freedom describe how flexible or constrained a system is.
+- Robotics engineering combines programming, electronics, and mechanical design 
+  to create intelligent machines.
