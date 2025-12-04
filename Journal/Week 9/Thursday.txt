@@ -1,0 +1,47 @@
+Journal Entry – December 4, 2025 | Week 9, Day 4
+
+---
+
+AI Roadmap
+- Topic studied: Using the time.sleep() function
+- Time spent: 15 minutes
+
+---
+
+Robotics Roadmap
+- Topic studied: Robot Anatomy
+- Time spent: 30 minutes
+
+---
+
+Mathematics Roadmap
+- Topic: Logarithms
+- What made sense: If the argument is a, it is always greater than zero, and the base is always greater than 1
+- Time spent: 55 minutes
+
+---
+
+Projects
+- Project: ML Web App
+- Work completed: Completed Phase 1
+- Decisions made: Defined the target audience and scope of the project
+- Blockers/next steps: Begin building the project in Phase 2
+- Time spent: 15 minutes
+
+---
+
+Professional Development
+- Activities: Machine Operator at Peace Indo
+- Outcome: Produced 30,590 soaps
+
+---
+
+Reflection
+- What went well: Operated the Cartoner machine for the full working hours and still wanted to do more after closing
+- What was challenging: Still finding it hard to allocate enough time for my roadmaps
+- Strategy: Rotate the roadmaps as follows:
+  1. Mathematics compulsory from Monday to Friday, with review on weekends
+  2. Projects compulsory throughout the week
+  3. AI roadmap on Mondays, Wednesdays, and Fridays, with revision on Sundays
+  4. Robotics roadmap on Tuesdays and Thursdays, with revision on Saturdays
+- Tomorrow's focus: Beat today's production record, conclude the lessons on robot anatomy
