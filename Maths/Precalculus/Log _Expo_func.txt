@@ -39,3 +39,49 @@ Derivatives of Logarithmic and Exponential Functions
 5. [ln(x)^a]'  = a / x
 
 6. [log_a(u)]' = u' / (u * ln(a))
+
+
+December 4, 2025
+
+LOGARITHMS
+
+Definition:
+A logarithm is a function that gives the exponent to which a fixed number (the base)
+must be raised to produce a given number (the argument).
+
+Types of Logarithms:
+1. Common logarithm:
+   log₁₀(x) = log(x)
+
+2. Natural logarithm:
+   logₑ(x) = ln(x)
+
+General Rules for log_b(x):
+1. x > 0
+2. b > 0 and b ≠ 1
+
+Applications of Logarithms:
+1. Used to analyze very small or very large numbers.
+2. Logarithmic scales are often used when graphing data with a wide spread.
+
+Note:
+On logarithmic scales → Equal distance corresponds to equal ratio.
+
+------------------------------------------------------------
+LOGARITHMIC SCALE DIAGRAM (TEXT VERSION)
+
+|----|---------|---------|---------|
+  1     10       100      1000
+
+Explanation:
+- Each tick mark represents a power of 10.
+- The spacing between 1 and 10 is the same as between 10 and 100, and 100 to 1000.
+- This is because each step increases by a factor of 10 (not by addition).
+
+Why It Matters:
+- Log scales compress large ranges into manageable space.
+- Useful for visualizing exponential growth, sound intensity, pH levels, etc.
+- Makes multiplicative relationships easier to interpret.
+
+Key Insight:
+Equal distance → Equal ratio
