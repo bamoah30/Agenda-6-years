@@ -16,16 +16,16 @@ Robotics Roadmap
 
 Mathematics Roadmap
 - Topic: Logarithms
-- What made sense: If the argument is a, it is always greater than zero, and the base is always greater than 1
+- Key insight: The argument (a) is always greater than zero, and the base is always greater than 1
 - Time spent: 55 minutes
 
 ---
 
 Projects
 - Project: ML Web App
-- Work completed: Completed Phase 1
+- Work completed: Finished Phase 1
 - Decisions made: Defined the target audience and scope of the project
-- Blockers/next steps: Begin building the project in Phase 2
+- Next steps: Begin building Phase 2
 - Time spent: 15 minutes
 
 ---
@@ -37,11 +37,11 @@ Professional Development
 ---
 
 Reflection
-- What went well: Operated the Cartoner machine for the full working hours and still wanted to do more after closing
-- What was challenging: Still finding it hard to allocate enough time for my roadmaps
+- What went well: Operated the Cartoner machine for the full working hours and still felt motivated to do more after closing
+- What was challenging: Struggled to allocate enough time for my study roadmaps
 - Strategy: Rotate the roadmaps as follows:
   1. Mathematics compulsory from Monday to Friday, with review on weekends
   2. Projects compulsory throughout the week
   3. AI roadmap on Mondays, Wednesdays, and Fridays, with revision on Sundays
   4. Robotics roadmap on Tuesdays and Thursdays, with revision on Saturdays
-- Tomorrow's focus: Beat today's production record, conclude the lessons on robot anatomy
+- Tomorrow's focus: Surpass today’s production record and conclude the lessons on robot anatomy
