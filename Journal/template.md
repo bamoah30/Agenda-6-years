@@ -1,55 +1,40 @@
-# Journal Entry – [Date] | Week [Number], Day [Number]
-
----
-
-## AI Roadmap
-
-- **Topic studied:** [e.g., BeautifulSoup select method]
-- **Key learning:** [What did you understand today that you didn't before?]
-- **Challenge/blocker:** [What was difficult or confusing?]
-- **Time spent:** [e.g., 1.5 hours]
+# Journal Entry – December 9, 2025| Week 10, Day 2
 
 ---
 
 ## Robotics Roadmap
 
-- **Topic studied:** [e.g., Dependent/independent voltage sources]
-- **Concepts applied:** [How did you practice or test understanding?]
-- **Key takeaway:** [What's important to remember?]
-- **Time spent:** [e.g., 1.5 hours]
+- **Topic studied:**Introduction to Robotics
+- **Key takeaway:**Saw the vastness of topics I have to copy
+- **Time spent:**30 mins
 
 ---
 
 ## Mathematics Roadmap
 
-- **Topic:** [e.g., Matrices, linear transformations]
-- **Progress:** [e.g., Unit test score, lessons completed]
-- **What made sense:** [Any breakthroughs or clarifications?]
-- **What's still unclear:** [Gaps to revisit?]
-- **Time spent:** [e.g., 1 hour]
+- **Topic:**Introduction to logarithm
+- **Progress:**Conclude the chapter on log and Exponential Functions
+- **Next Step:** Start Algebra 2
+- **Time spent:** 30 mins
 
 ---
 
 ## Projects
 
-- **Project:** [Name, e.g., AI Data Analyzer]
-- **Work completed:** [Specific features/fixes/progress]
-- **Decisions made:** [Design choices, why?]
-- **Blockers/next steps:** [What's next?]
-- **Time spent:** [e.g., 2 hours]
+- **Project:** ML_web_app
+- **Work completed:**ReadMe for Phase 2
+- **Blockers/next steps:**Start working on the project
+- **Time spent:**30 mins
 
 ---
 
 ## Professional Development
 
-- **Activities:** [Job updates, interviews, networking, applications]
-- **Outcome:** [What happened or what's next?]
+- **Activities:** Job at Peace Indo
+- **Outcome:** Sacked to go home with no tangible reason
 
 ---
 
 ## Reflection
 
-- **What went well:** [1-2 wins from today]
-- **What was challenging:** [Difficulties and how you handled them]
-- **Key insight:** [One meaningful lesson or realization from today]
-- **Tomorrow's focus:** [Top 1-2 priorities for next day]
+- **Tomorrow's focus:**Don't know
