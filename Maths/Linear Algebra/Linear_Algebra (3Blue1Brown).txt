@@ -1,0 +1,53 @@
+December 13, 2025
+
+Quotes:
+1. "The introduction of numbers as coordinates is an act of violence." — Herman Weyl
+2. "Mathematics requires a small dose, not of genius, but of an imaginative freedom 
+   which in a larger dose would be insanity." — Angus K. Rodgers
+3. "Unfortunately, no one can be told what the Matrix is. You have to see it for yourself." — Morpheus
+4. "Proofs involving matrices can be shortened by 50% if one throws the matrices out." — Emil Artin
+
+
+Definition of Vector:
+- Physicist: A vector is an arrow with length and direction which can be moved around in space.
+- Computer Scientist: A vector is an ordered list of numbers.
+- Mathematician: A vector is an element of a vector space, defined abstractly as an object that can be 
+  added to other vectors and scaled by numbers (scalars), while obeying specific axioms such as 
+  associativity, commutativity of addition, distributivity of scalar multiplication, and the existence 
+  of a zero vector and additive inverses.
+
+
+Definition of Basis of a Vector Space:
+The basis of a vector space is a set of linearly independent vectors that span the entire space.
+Thus, i, j, k are the basis vectors of the xyz coordinate system.
+
+
+Note:
+The span of vector_V and vector_W is the set of all their linear combinations:
+    a(vector_V) + b(vector_W), where "a" and "b" vary over all real numbers.
+
+
+NB:
+When there are three vectors and two can be expressed as linear combinations of the other, 
+we call the vectors linearly dependent.
+
+
+Properties of Linear Transformation:
+1. All lines must remain lines without being curved.
+2. The origin remains fixed.
+
+
+Formula:
+Assume vector_V = -i + 2j
+Transformed vector_V = -(Transformation of i) + 2(Transformation of j)
+
+
+Technical Definition of Linear Transformation:
+- Additivity: L(vector_V + vector_W) = L(vector_V) + L(vector_W)
+- Scaling:    L(c * vector_V) = c * L(vector_V)
+
+
+NB:
+For shear, the transformation matrix is given by:
+    [1   1]
+    [0   1]
