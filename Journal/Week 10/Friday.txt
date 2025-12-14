@@ -1,15 +1,14 @@
-# Journal Entry – December 12, 2025| Week 10, Day 5
+Journal Entry – December 12, 2025 | Week 10, Day 5
 
 ---
 
-## AI
+AI Roadmap
+- Topic: Working with the datetime module
+- Progress: Nearly completed Chapter 15 of *Automate the Boring Stuff*
+- Next step: Conclude the chapter
+- Time spent: 1 hour
 
-- **Topic:**Doing the date time module
-- **Progress:*Almost done with chapter 15 of Automate the boring stuff
-- **Next Step:** Conclude the chapter
-- **Time spent:** 1 hour
+---
 
-
-## Reflection
-
-- **Tomorrow's focus:**conclude the chapter
+Reflection
+- Tomorrow's focus: Finish Chapter
