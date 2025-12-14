@@ -1,0 +1,48 @@
+Weekly Review – Week 10
+
+---
+
+Highlights
+- Major achievements:
+  - AI: Completed 90% of Chapter 15 in *Automate the Boring Stuff*
+  - Robotics: Concluded the chapter on Robot Anatomy
+  - Mathematics: Finished the chapter on Exponential and Logarithmic Functions
+  - Projects: Progressed to Phase 2 of the ML Web App
+  - Professional Development: Created a personalized tune using sounds from the Cartoner machine to aid troubleshooting
+
+---
+
+Challenges
+- Difficulties faced: Was unexpectedly dismissed from work without a clear reason
+- Distractions/blockers: Balancing study time with family commitments
+
+---
+
+Insights
+- Lessons learned: Always keep the bigger picture in mind
+- Theory-to-practice connection: Becoming more safety aware
+- Personal realizations: Love what you do—or find ways to love it
+
+---
+
+Strategy
+- Adjustments to schedules:
+  1. Mathematics compulsory from Monday to Friday, with weekend reviews
+  2. Projects compulsory throughout the week, with at least 30 minutes dedicated daily
+  3. Robotics on Tuesdays, Thursdays, and Saturdays
+  4. AI on Mondays, Wednesdays, and Fridays
+  *Note: This schedule is designed to address the challenge of limited time across multiple fields*
+
+- New methods to improve focus and balance:
+  1. Take short breaks when concentration fades
+
+---
+
+Next Steps
+- Specific goals for the upcoming week:
+  1. Complete at least 70% of the ML Web App project
+  2. Conclude lessons from 3Blue1Brown
+  3. In Robotics, finish lessons on Magnetism
+
+- Personal/professional targets:
+  1. Continue working toward mastering all production machines at Peace Indo
