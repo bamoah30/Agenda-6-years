@@ -1,0 +1,31 @@
+# Journal Entry – December 15, 2025| Week 11, Day 1
+
+---
+
+
+
+## Mathematics Roadmap
+
+- **Topic:**Introduction to Linear Algebra
+- **Progress:**Completed the Lessons from 3Blue1Brown
+- **Next Step:** Delve deeper by reading a textbook
+- **Time spent:** 6 hours
+
+---
+
+## Projects
+
+- **Project:** ML_web_app
+- **Work completed:**Installed a dependecies
+- **Blockers/next steps:**Collect data for model training
+- **Time spent:**30 mins
+
+---
+
+
+
+## Reflection
+- **Tomorrow's focus:** Complete the lessons in Automate the boring stuff
+-Decision made : Created a to-do list and marked them as a I complete them instead of the normal time bound schedules
+
+
