@@ -1,4 +1,4 @@
-December 13, 2025
+Saturday, December 13, 2025
 
 Quotes:
 1. "The introduction of numbers as coordinates is an act of violence." — Herman Weyl
@@ -51,3 +51,141 @@ NB:
 For shear, the transformation matrix is given by:
     [1   1]
     [0   1]
+
+
+Monday, December 15, 2025
+Qoutes:
+1."The purpose of computation is insight, not numbers"---Richard Hamming
+2."To ask the right question is harder than to answer it" ---Georg Cantor
+3. "On this quiz, I asked  you to find the determinant of 2 X 3 matrix. Some of you
+    to my greate amusement, actually  tried to do it " ---Via mathprofessorquotes.com
+4. "Maths is a Religion"
+5. "Every dimension is special"---Jeff Lagarias
+6. "Mathematics is the art of giving  the same name to different things" ---Henry Poincare
+7. "Last time , I asked : ' What does Mathematics mean to you?', and some people answered:
+    'The manipulations of numbers, the manipulations of structures? And if i had asked what music means to you,
+    would you have said the manipualtion of notes?'" ---Serge
+
+Determinant:
+Determinant is the factor with which an area is transformed.
+NB1: When you get a negative  determinant, it means space is flipped
+NB2: With 3-D, the determinant is for the factor with which the volume is expanded or squished
+NB3: det(M_1*M_2) = det(M_1) * det(M_2)
+
+NB4 : 90 degrees Anti-Clockwise Rotation  Transformation
+      [0  -1]
+      [1   0]
+
+NB5: 90 degrees Clockwise Transformation
+        [0   1]
+        [-1  0]
+
+NB6: Rightward shear Transformation
+    [1  1]
+    [0  1]
+
+NB7: Leftward shear Transformation
+    [1      -1]
+    [0       1]
+
+Definition of Column Space:
+Set of all possible outputs A*Vector_V is called the Column space of A.
+Where A is the transfromation Matrix.
+
+NUll Space / Kernel:
+
+Definiton of Rank:
+Rank is defined as the  number of dimension in the column space OR 
+The number of dimensions in the outputs.
+
+Example:
+1. When the output of a transformation is a line thus zero determinant, we say it has rank 1
+2.When the output is 2-D, we say it has a rank of 2
+
+
+NB8: For a given a matrix transformation:
+No. of columns  = No. of Basis vectors
+No. of Rows  = No. of Landing Spots
+
+Properties of dot product:
+1.When the involved vectors  points in some what same direction the dot product is positive.
+2.Dot product is zero when the involved vectors are perpendicular.
+3.Dot product is negative when the involved vectors have opposite directions
+
+Duality:
+
+
+Cross Porduct:
+Vector_V X Vector_W = Area of a Parallelogram
+Vector_V X Vector_W = -(Vector_W X Vector_V)
+
+NB: The Area is positive when Vector_W is at the right side of Vector_V and negative otherwise.
+
+NB: Finding the  corss product is synonymous to finding the determinant but with the vectors replaced with the coordinates of the victim vectors.
+
+NB: To find the direction of the cross product :
+Use your right hand such that:
+1.The index finger poin t=s to the first vector.
+2.The middle finger points to the second vector.
+3.The thumb when stretched points to the direction of the cross product.
+
+Properties of Resultant of cross prodcut:
+1.Length of Resultant = Area of a Parallelogram
+2.Direction of resultant is perpendicular to that of te involved vectors
+
+Facts:
+1. Vector_V dot (Vector_V X Vector_W) = 0
+2. Vector_W dot (Vector_V X Vector_W) = 0
+3. Ɵ = arccos(Vector_V dot Vector_W / (‖Vector_V‖ dot ‖Vector_W‖))
+4. ‖Vector_V X Vector_W‖ = ‖Vector_V‖‖Vector_W‖sinƟ
+
+NB:Linear Transformation is synonymous performing dot product
+
+NB: coordinate System is a way to translate between vectors and numbers
+
+
+Change of Basis:
+Changing Basis can be comparred to translating languages.
+Geometrically, changing basis can be referred to as  Our grid ---> Others grid
+But numerically, our language <--- other's language
+
+For example:
+let A = [2      -1]
+        [1       1]  <---Other's Vector basis
+
+
+    A[X_i]   [X_o]
+     [y_j] = [Y_0] <----Similar vector in our coordinate ( Language)
+       ↑
+Vectors in other's coordinate
+
+
+How to translate a Matrix  in others Basis ( Language):
+1.Start with a vector in others basis/language/coordinate frame
+2.Turn it into your basis/language/coordinate frame
+3.Apply the transformation in your language
+4.Translate it into their language using the inverse  of the basis you used in step 2.
+
+NB:You the manipulations  from right to left as you go downward the steps.
+
+NB: An expression like A^(-1) M A suggests a Mathematical sort of empathy where :
+M is the transformation
+A^(-1) and A are empathy or shift in transformation
+
+
+
+Eigenvectors and Eigenvalues:
+Definitions:
+Eigenvectors are vectors that remain on their span during transformation
+Eigenvalues are the amount of squishing or expansion the vectors undergo.
+
+NB: In 3D, Eigenvectors are axis of Rotation
+
+A*vector_V = ʎ* vector_V, where:
+A = Transformation Matrix
+vector_V = Eigenvector
+ʎ = Eigenvalue
+
+
+NB: When you get imaginary Eigenvalues, it means there's no Eigenvectors
+NB: Derivative is linear
