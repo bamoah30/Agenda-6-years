@@ -28,6 +28,6 @@
 
 
 ## Reflection
-- **Tomorrow's focus:** Complete the lessons in Automate the boring stuff
+- **Tomorrow's focus:** Complete the lessons in Automate the boring stuff, Start reading lessons on Magnetism
 -Decision made : Created a to-do list and marked them as a I completed them instead of the normal time bound schedules
 
