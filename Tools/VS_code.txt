@@ -81,3 +81,7 @@ Steps:
 5. Start working locally
    - Make changes → `git add .` → `git commit -m "message"` → `git push`.
 
+
+December  15, 2025
+To install all dependencies for the requirements.txt file use:
+   pip install -r requirements.txt
