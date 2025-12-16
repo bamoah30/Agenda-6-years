@@ -1,33 +1,28 @@
-# Journal Entry – December 15, 2025| Week 11, Day 1
+Journal Entry – December 15, 2025 | Week 11, Day 1
 
 ---
 
-
-
-## Mathematics Roadmap
-
-- **Topic:**Introduction to Linear Algebra
-- **Progress:**Completed the Lessons from 3Blue1Brown
-- **Next Step:** Delve deeper by reading a textbook
-- **Time spent:** 6 hours
+Mathematics Roadmap
+- Topic: Introduction to Linear Algebra
+- Progress: Completed lessons from 3Blue1Brown
+- Next step: Delve deeper by studying a textbook
+- Time spent: 6 hours
 
 ---
 
-## Projects
-
-- **Project:** ML_web_app
-- **Work completed:**Installed a dependecies
-- **Blockers/next steps:**Collect data for model training
-- **Time spent:**30 mins
+Projects
+- Project: ML Web App
+- Work completed: Installed dependencies
+- Blockers/next steps: Collect data for model training
+- Time spent: 30 minutes
 
 ---
 
-## Professional Development
+Professional Development
+- Activities: No call from the company, but three contacts(Elizabeth, Ruth and Jospeh) reached out to me
 
-- **Activities:**No call from the company. But about three of my contacts have reached out to me
+---
 
-
-## Reflection
-- **Tomorrow's focus:** Complete the lessons in Automate the boring stuff, Start reading lessons on Magnetism
--Decision made : Created a to-do list and marked them as a I completed them instead of the normal time bound schedules
-
+Reflection
+- Tomorrow's focus: Complete the lessons in *Automate the Boring Stuff* and begin studying Magnetism
+- Decision made: Shifted from time-bound schedules to a to-do list approach, marking tasks as completed
