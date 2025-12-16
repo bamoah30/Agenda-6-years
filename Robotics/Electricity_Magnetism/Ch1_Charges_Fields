@@ -1,0 +1,47 @@
+December 16, 2025
+
+Electric Charge:
+
+- Charge is conserved and quantized.
+
+Conservation of Charge:
+
+- The total charge in an isolated system never changes.
+- By isolated, we mean that no matter is allowed to cross the boundary of the system.
+
+Note: Photons (particles of light) carry no charge.
+
+Charge Conservation Law:
+
+- The total electric charge in an isolated system, i.e., the algebraic sum of positive and negative charges present at any time, never changes.
+
+Coulomb's Law:
+
+- Two stationary electric charges repel or attract one another with a force proportional to the product of the magnitudes of the charges and inversely proportional to the square of the distance between them.
+
+Mathematically:
+
+    F₂ = k * (q₁ * q₂ / r²) * r̂
+
+Where:
+
+- q₁ and q₂ are scalars giving the magnitude and sign of the respective charges.
+- r̂ is the unit vector in the direction from charge 1 to charge 2.
+- F₂ is the force acting on charge 2.
+- k = 8.988 × 10⁹ N·m²/C²
+
+Note: The magnitude of e, the fundamental quantum of electric charge, is approximately:
+
+    e ≈ 1.602 × 10⁻¹⁹ C
+
+Gaussian Unit of Charge:
+
+- The electrostatic unit (esu) is defined so that the constant k in Coulomb's law equals 1 when r is measured in cm, F in dynes, and q in esu.
+
+Conversions:
+1 N = 10⁵ dynes
+1 C = 3 × 10⁹ esu
+
+Thus, the magnitude of the electron charge is approximately:
+
+    e ≈ 1.6 × 10⁻¹⁹ C ≈ 4.8 × 10⁻¹⁰ esu
