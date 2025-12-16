@@ -1,0 +1,27 @@
+Journal Entry – December 16, 2025 | Week 11, Day 2
+
+---
+
+Robotics Roadmap
+- Topic studied: Introduction to Electrostatics
+- Key takeaway: Gaussian units — e ≈ 1.6 × 10⁻¹⁹ C ≈ 4.8 × 10⁻¹⁰ esu
+- Time spent: 15 minutes
+
+---
+
+AI Roadmap
+- Topic studied: Sending and receiving email with SMTP and IMAP
+- Time spent: 30 minutes
+
+---
+
+Projects
+- Project: ML Web App
+- Work completed: Generated code for loading data
+- Blockers/next steps: Clean the dataset
+- Time spent: 30 minutes
+
+---
+
+Reflection
+- Tomorrow's focus: Advance in Linear Algebra and continue reading *Automate the Boring Stuff*
