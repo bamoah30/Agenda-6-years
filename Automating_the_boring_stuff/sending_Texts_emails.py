@@ -72,3 +72,9 @@ smtp.sendmail(from_addr, to_addr, msg)
 
 #Step 6: Disconnecting from the SMTP Server
 smtp.quit()
+
+
+'''Extra:
+TLS (Transport Layer Security) and SSL (Secure Sockets Layer) are cryptographic protocols 
+that secure communication over the internet by encrypting data, ensuring privacy, integrity, and authentication. 
+SSL is the older protocol, while TLS is its modern, more secure successor'''
