@@ -172,4 +172,34 @@ want to make these two lines part of every IMAP program you write.'''
 
 
 #December 17, 2025
-'''Size Limit'''
+'''Size Limit:
+If your search matches a large number of email messages,
+Python might raise an exception that says imaplib.error:
+got more than 10000 bytes. When this happens, you will have to disconnect and reconnect to the IMAP server and try again.
+
+The limit is placed to prevent python programs from eating up too much memory.
+Unfortunately, the default size limit is often too small. The code below is use to change the  limit:
+'''
+import imaplib
+imaplib._MAXLINE = 10000000 #type: ignore
+
+'''WARNING!!!:
+You may want to add this line of code to every IMAP program.'''
+
+
+'''Fetching Email and Marking it as Read:
+The IMAPCLinet object's fecth() method is used to get the actual email content.
+The list of UIDs will be fetch() first argument.
+The second argument should be the list ['BODY[]']  whih tell fetch() to download all the body content for the emails
+specified in your UID list.
+
+To mark folders as read upon using the fecth() method,
+set readonly = false upon usinf the select_folder() method.
+
+sample code:
+'''
+imapObj.select_folder('INBOX', readonly= False)
+
+rawMessages = imapObj.fetch(UIDs, ['BODY[]'])
+import pprint
+pprint.pprint(rawMessages)
