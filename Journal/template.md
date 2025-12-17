@@ -2,6 +2,15 @@
 
 ---
 
+## AI Roadmap
+
+- **Topic:**Introduction to logarithm
+- **Progress:**Conclude the chapter on log and Exponential Functions
+- **Next Step:** Start Algebra 2
+- **Time spent:** 30 mins
+
+---
+
 ## Robotics Roadmap
 
 - **Topic studied:**Introduction to Robotics
