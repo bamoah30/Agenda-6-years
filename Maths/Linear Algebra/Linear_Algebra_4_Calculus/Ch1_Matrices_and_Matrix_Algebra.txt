@@ -1,0 +1,37 @@
+December 18, 2025
+
+MATRIX DEFINITIONS
+
+1. A rectangular array of numbers or symbols is called a matrix.
+2. The numbers or symbols in a matrix are called entries.
+3. The sequence of all entries on a horizontal line is called a row.
+4. The set of all entries on a vertical line is called a column.
+5. The entry in the i-th row and the j-th column is in the (i, j) position.
+6. A matrix with m rows and n columns is called an m × n matrix.
+7. A 1 × n matrix is called a row matrix or row vector.
+8. An m × 1 matrix is called a column matrix or column vector.
+9. A matrix with the same number of rows and columns is called a square matrix.
+10. If the number of columns in matrix A is equal to the number of rows in matrix B, then A is said to be conformable with respect to B.
+11. A square matrix in which all non-diagonal entries are zero is called a diagonal matrix.
+12. An n × n diagonal matrix with every diagonal entry equal to 1 is called the n × n identity matrix, denoted by Iₙ.
+
+MATRIX REPRESENTATION OF A SYSTEM OF EQUATIONS
+
+The system of equations:
+2x − 3y + 4z = 0
+x + y + z = 6
+
+can be written in matrix form as:
+Ax = b
+
+where A is the coefficient matrix:
+[ 2  -3   4 ]
+[ 1   1   1 ]
+
+and x and b are column vectors given by:
+x = [ x ]      b = [ 0 ]
+    [ y ]          [ 6 ]
+    [ z ]
+
+NOTE:
+(AB)ᵀ = BᵀAᵀ
