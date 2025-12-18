@@ -1,0 +1,60 @@
+Journal Entry – December 18, 2025
+Week 11, Day 4
+==================================================
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Activities:
+- Downloaded books and video resources on Electricity and Magnetism.
+
+
+MATHEMATICS ROADMAP
+--------------------------------------------------
+Topic:
+- Introduction to Matrices and Matrix Algebra
+
+Progress:
+- Concluded Chapter 1 of "Linear Algebra for Calculus"
+
+Next Step:
+- Begin Chapter 2
+
+Time Spent:
+- 30 minutes
+
+
+PROJECTS
+--------------------------------------------------
+Project:
+- ML_web_app
+
+Work Completed:
+- Concluded Phase 2 and Phase 3
+
+Blockers / Next Steps:
+- Begin Phase 4:
+  - Add tabs for visualization
+  - Add an "About" section
+
+Time Spent:
+- 1 hour
+
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Received a call from my supervisor
+
+Outcome:
+- Learned that I was sent home due to a relapse
+
+
+REFLECTION
+--------------------------------------------------
+Timeline:
+- With respect to Mathematics and Projects, I am ahead of the roadmap
+  by approximately one week, assuming the project is completed within
+  Week 11.
+
+Decision:
+- Conclude the remaining lessons in "Automate the Boring Stuff with Python"
