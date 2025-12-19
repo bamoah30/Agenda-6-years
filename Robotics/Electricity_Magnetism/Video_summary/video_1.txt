@@ -1,0 +1,193 @@
+December 19, 2025
+
+Topic: Electric Charge and Electric Field
+
+---
+
+CHARGE
+
+Charge is a property of matter that enables it to exhibit electric and magnetic behavior.
+
+Charge can also be defined as the excess or deficiency of electrons in a body.
+
+Charge is a scalar quantity.
+
+Unit of Charge:
+
+* SI unit: Coulomb (C) or Ampere-second (A·s)
+* Electrostatic unit (esu), also called statcoulomb or franklin
+* Electromagnetic unit (emu)
+* The largest practical unit is the Faraday
+
+Relations between units:
+1 Faraday = 96,500 C
+1 emu = 10 C
+
+Order of magnitude:
+1 Faraday > 1 emu > 1 C > 1 esu
+
+Dimension of charge:
+[Q] = AT
+Where:
+A = ampere
+T = time
+
+---
+
+PROPERTIES OF CHARGE
+
+1. Conservation of Charge
+   Charge can neither be created nor destroyed; it can only be transferred from one body to another.
+
+Examples of charge carriers:
+
+Positive Charge Carriers        Negative Charge Carriers
+Glass rod                      Silk cloth
+Wool                           Ebonite
+Dry hair                       Comb
+Cat’s hair                     Plastic
+
+---
+
+2. Quantization of Charge
+
+i. Charge is a quantized quantity.
+ii. Charge always exists as an integral multiple of the elementary charge.
+
+Elementary charge:
+e = 1.6 × 10⁻¹⁹ C
+
+Formula:
+q = ne
+
+Where:
+q = charge on a body
+n = number of electrons
+e = charge of one electron
+
+Note on Quarks:
+Quarks are responsible for the formation of protons and neutrons.
+Protons and neutrons are made of up and down quarks.
+
+Up quark = +2/3 e
+Down quark = −1/3 e
+
+---
+
+3. Change in Mass During Charging
+
+Whenever a body is charged, its mass changes.
+
+Change in mass:
+Δm = n × mₑ
+
+Where:
+Δm = change in mass
+n = number of electrons transferred
+mₑ = mass of one electron = 9.1 × 10⁻³¹ kg
+
+Since:
+q = ne
+⇒ n = q / e
+
+Therefore:
+Δm = (q / e) × mₑ
+
+---
+
+NOTE ON TYPES OF CHARGE MOTION
+
+* Static charge → Electric field only
+* Moving charge → Electric field + Magnetic field
+* Accelerated charge → Electric field + Magnetic field + Electromagnetic waves
+
+Electrostatics is the study of electric charges at rest and the electric fields they produce.
+
+---
+
+4. Interaction of Charges
+
+* Like charges repel each other.
+* Unlike charges attract each other.
+* A charged body attracts an uncharged body.
+
+---
+
+RELATIVE PERMITTIVITY
+
+Relative permittivity (εᵣ) is defined as:
+
+εᵣ = Permittivity of a medium / Permittivity of vacuum
+
+εᵣ = ε / ε₀
+⇒ ε = εᵣ ε₀
+
+Values of relative permittivity:
+Vacuum = 1
+Air = 1.003
+Glass = 2.3
+Water = 80.82
+
+---
+
+ELECTRIC FIELD
+
+An electric field is an imaginary region around a charge where another charge experiences an attractive or repulsive force.
+
+---
+
+INTENSITY OF ELECTRIC FIELD
+
+Electric field intensity is defined as the force per unit positive test charge placed in the field.
+
+E = F / q₀
+⇒ F = Eq₀
+
+Properties of electric field intensity:
+
+1. It is a vector quantity.
+2. Its dimension is: M L T⁻³ A⁻¹
+3. Direction:
+
+   * Outward from a positive charge
+   * Inward toward a negative charge
+
+---
+
+ELECTRIC FIELD LINES
+
+Electric field lines are imaginary lines used to represent electric fields.
+
+* For a positive charge: field lines start from the charge and extend to infinity.
+* For a negative charge: field lines start from infinity and end at the charge.
+
+Note:
+The intensity of an electric field depends on the density of field lines.
+
+Electric field intensity ∝ density of field lines
+
+---
+
+ELECTRIC FLUX
+
+Electric flux is defined as the number of electric field lines passing perpendicularly through a unit area.
+
+ϕ = E · A
+ϕ = EA cos θ
+
+Where:
+ϕ = electric flux
+E = electric field intensity
+A = area
+θ = angle between E and A
+
+Properties of electric flux:
+
+* It is a scalar quantity.
+* Unit:
+  N/C · m² = V/m · m² = V·m
+
+Direction:
+
+* Outward for positive charges
+* Inward for negative charges
