@@ -1,0 +1,79 @@
+Journal Entry – December 19, 2025
+Week 11, Day 5
+==================================================
+
+AI ROADMAP
+--------------------------------------------------
+Topic:
+- Receiving and reading emails with Python
+
+Progress:
+- Concluded Chapter 16 of "Automate the Boring Stuff with Python"
+
+Next Step:
+- Begin Chapter 17
+
+Time Spent:
+- 30 minutes
+
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- Electrostatics
+
+Progress:
+- Completed one out of four video lectures on Electricity and Magnetism
+
+Next Step:
+- Complete the next video in the series
+
+Key Takeaway:
+- Protons and neutrons are composed of quarks
+
+Time Spent:
+- 1 hour 30 minutes
+
+
+MATHEMATICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- Elementary Row Operations
+
+Progress:
+- Completed Chapter 2 of "Linear Algebra for Calculus"
+
+Next Step:
+- Begin Chapter 3
+
+Key Takeaway:
+- When systems of equations have the same solution set,
+  they are said to be equivalent
+
+Time Spent:
+- 1 hour
+
+
+PROJECTS
+--------------------------------------------------
+Project:
+- ML_web_app
+
+Work Completed:
+- Fully completed Phase 4
+- Partially completed Phase 5
+
+Blockers / Next Steps:
+- Complete Phase 5
+- Create a LinkedIn post documenting the project
+
+Time Spent:
+- 1 hour
+
+
+REFLECTION
+--------------------------------------------------
+Tomorrow’s Focus:
+1. Review the week’s work
+2. Research graduate schools in China
+3. Conclude remaining project work and publish a LinkedIn post
