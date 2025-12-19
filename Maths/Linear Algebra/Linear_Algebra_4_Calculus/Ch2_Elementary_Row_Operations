@@ -1,0 +1,54 @@
+December 19, 2025
+
+ELEMENTARY ROW OPERATIONS
+
+The corresponding operations performed on the rows of an augmented matrix are called elementary row operations.
+
+Types of Elementary Row Operations:
+
+1. Type 1 (Row Interchange)
+
+   - Interchange two equations.
+   - Equivalent matrix operation: interchange two rows.
+
+2. Type 2 (Row Scaling)
+
+   - Multiply one equation by a non-zero number.
+   - Equivalent matrix operation: multiply one row by a non-zero scalar.
+
+3. Type 3 (Row Replacement)
+
+   - Replace one equation by itself plus a scalar multiple of another equation.
+   - Equivalent matrix operation: replace one row by itself plus a scalar multiple of another row.
+
+NOTE ON EQUIVALENT SYSTEMS
+
+When two systems of linear equations have the same solution set, the systems are said to be equivalent.
+
+ROW REDUCTION METHOD (GAUSSIAN ELIMINATION)
+
+Description:
+
+1. Write the augmented matrix [A | b] corresponding to the given system of linear equations.
+2. Use elementary row operations to transform [A | b] into its row-reduced echelon form [A₀ | b₀].
+3. Solve the system corresponding to the augmented matrix [A₀ | b₀].
+
+ROW-REDUCED ECHELON FORM (RREF)
+
+A non-zero m × n matrix is in row-reduced echelon form if and only if it satisfies the following conditions:
+
+1. In each row, the first non-zero entry (if any) is 1. This entry is called a pivot.
+
+   - If the first non-zero entry is not 1, use a Type 2 row operation to make it 1.
+
+2. In any column containing a pivot, all other entries in that column are zero.
+
+   - If this condition is not met, use a Type 3 row operation to create zeros.
+
+3. If there are r non-zero rows (1 ≤ r ≤ m), all zero rows must appear below the non-zero rows.
+
+   - If zero rows appear above non-zero rows, use a Type 1 row operation to reorder the rows.
+
+4. Each pivot must appear to the right of the pivot in the row above it.
+
+   - If this condition is violated, use a Type 1 row operation to reposition the rows appropriately.
