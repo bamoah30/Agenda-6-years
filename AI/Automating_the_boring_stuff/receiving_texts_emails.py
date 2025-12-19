@@ -203,3 +203,59 @@ imapObj.select_folder('INBOX', readonly= False)
 rawMessages = imapObj.fetch(UIDs, ['BODY[]'])
 import pprint
 pprint.pprint(rawMessages)
+
+
+#December 19, 2025
+'''Getting Email Addresses from a Raw Message:
+The pyzmail module parses 
+these raw messages and returns them as PyzMessage objects, which make the 
+subject, body, “To” field, “From” field, and other sections of the email easily 
+accessible to your Python code.
+
+Example Usage:
+'''
+import pyzmail #type: ignore
+message = pyzmail.PyzMessage.factory(rawMessages[40041][b'BODY[]']) #Creating a PyzMessage object for the email with UID 40041
+
+#Methods in the PyzMessage object
+print(message.get_subject()) #Returns the subject line as a string
+print(message.get_addresses('from')) #Returns a list of tuples of the form (display name, email address) for the "From" field
+print(message.get_addresses('to')) #Returns a list of tuples of the form (display name, email address) for the "To" field
+print(message.get_addresses('cc')) #Returns a list of tuples of the form (display name, email address) for the "Cc" field
+
+'''Getting the Email Body From a Raw Message:
+Emails can be sent as plain text or HTML, or both. Plain text emails are 
+easier to read, but HTML emails can include formatting, images, and links.
+If an email is only plain text, its PyzMessage object will have its html_part attribute set to None.
+If an email is only HTML, its text_part attribute will be set to None.
+
+Example Usage:  
+'''
+if message.text_part != None: #True if the email has a plain text body
+    print(message.text_part.get_payload().decode(message.text_part.charset)) #Returns the plain text body as a string
+
+if message.html_part != None: #True if the email has an HTML body
+    print(message.html_part.get_payload().decode(message.html_part.charset)) #Returns the HTML body as a string 
+
+
+#Deleting Emails:
+'''To delete emails, call the IMAPClient object’s delete_messages() method,
+passing in a list of UIDs to delete. 
+
+Note that this does not permanently
+delete the emails; it only marks them with the Deleted flag. To permanently
+delete the emails marked with the Deleted flag, call the IMAPClient object’s
+expunge() method.
+
+Sample code:
+'''
+imapObj.select_folder('INBOX', readonly= False )
+UIDS = imapObj.search('ON 09-Jul-2015') #Get the list of UIDs for messages sent on July 9, 2015
+print('Deleting the following UIDs: ' + str(UIDS))
+imapObj.delete_messages(UIDS) #Mark the messages with the Deleted flag
+imapObj.expunge() #Permanently delete all messages marked with the Deleted flag
+
+#Logging Out of the IMAP Server
+'''When you’re done receiving email, call the IMAPClient object’s logout() method to
+log out of the IMAP server and close the connection.'''
+imapObj.logout()
