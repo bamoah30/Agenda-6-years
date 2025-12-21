@@ -61,7 +61,8 @@ QUOTES
 4. "Maths is a Religion"
 5. "Every dimension is special" — Jeff Lagarias
 6. "Mathematics is the art of giving the same name to different things" — Henri Poincaré
-7. "Last time, I asked: 'What does Mathematics mean to you?' Some people answered: 'The manipulation of numbers, the manipulation of structures.' And if I had asked what music means to you, would you have said the manipulation of notes?" — Serge
+7. "Last time, I asked: 'What does Mathematics mean to you?' Some people answered: 'The manipulation of numbers, the manipulation of structures.' 
+  And if I had asked what music means to you, would you have said the manipulation of notes?" — Serge
 
 ------------------------------------------------------------
 
