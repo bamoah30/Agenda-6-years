@@ -194,7 +194,7 @@ The second argument should be the list ['BODY[]']  whih tell fetch() to download
 specified in your UID list.
 
 To mark folders as read upon using the fecth() method,
-set readonly = false upon usinf the select_folder() method.
+set readonly = false upon using the select_folder() method.
 
 sample code:
 '''
