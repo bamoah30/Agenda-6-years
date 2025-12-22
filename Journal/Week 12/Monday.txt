@@ -1,0 +1,102 @@
+Journal Entry – December 22, 2025
+Week 12, Day 1
+==================================================
+
+AI ROADMAP
+--------------------------------------------------
+Topic:
+- Manipulating Images
+
+Progress:
+- No measurable progress recorded
+
+Next Step:
+- Begin hands-on practice with image manipulation tasks
+
+Key Takeaway:
+- None recorded
+
+Time Spent:
+- Not recorded
+
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- Current Electricity
+
+Progress:
+- Watched the second of four video lectures on Electricity and Magnetism
+
+Next Step:
+- Watch the third video lecture in the series
+
+Key Takeaway:
+- Instantaneous current is defined by I = dQ/dt
+
+Time Spent:
+- 1 hour 30 minutes
+
+
+MATHEMATICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- Varieties of Systems of Linear Equations
+
+Progress:
+- Completed Chapter 3 of "Linear Algebra for Calculus"
+
+Next Step:
+- Begin Chapter 4
+
+Key Takeaway:
+- Systems of linear equations may be consistent or inconsistent,
+  depending on the nature of their solutions
+
+Time Spent:
+- 1 hour
+
+
+PROJECTS
+--------------------------------------------------
+Project:
+- None active
+
+Work Completed:
+- None
+
+Blockers / Next Steps:
+- Begin work on the next portfolio project
+
+Time Spent:
+- Not recorded
+
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Watching educational videos on the history of wrenches (spanners)
+
+Outcome:
+- Completed 1 out of 11 videos
+
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+- Dozing off while watching videos
+
+Solutions / Adjustments:
+- Allocate sufficient and consistent sleep hours
+
+Timeline Check:
+- Ahead on Mathematics roadmap
+- On track with Robotics roadmap
+- On track with AI roadmap
+- Ahead on portfolio project planning
+
+Tomorrow’s Focus:
+1. Complete Chapter 4 of "Linear Algebra for Calculus"
+2. Complete Chapter 17 of "Automate the Boring Stuff with Python"
+3. Continue lessons on the history of wrenches (spanners)
+==================================================
