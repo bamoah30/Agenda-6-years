@@ -1,0 +1,125 @@
+December 22, 2025
+Topic: Current Electricity and Electric Potential
+
+---
+
+CURRENT ELECTRICITY
+
+Electric current is defined as the amount of electric charge flowing through a given cross-sectional area per unit time.
+
+It can also be defined as the rate of flow of electric charge.
+
+Mathematical expressions:
+
+Average current:
+I = Q / t
+or
+I = ΔQ / Δt
+
+Instantaneous current:
+I = dQ / dt
+
+Since:
+Q = ne
+
+Therefore:
+I = ne / t
+
+Where:
+I = electric current (ampere, A)
+Q = charge (coulomb, C)
+t = time (seconds, s)
+n = number of electrons
+e = charge of one electron = 1.603 × 10⁻¹⁹ C
+
+---
+
+INSTRUMENTS FOR MEASURING CURRENT
+
+Ammeter:
+
+* Used to measure electric current in a circuit.
+
+Galvanometer:
+
+* Used to detect very small electric currents.
+
+Note:
+A galvanometer is more sensitive than an ammeter.
+
+---
+
+ELECTRIC POTENTIAL
+
+Definition:
+Electric potential at a point is the amount of work done in bringing a unit positive test charge from infinity to that point in an electric field.
+
+Mathematical expression:
+V = W / Q
+
+Unit:
+J/C = volt (V)
+
+Notes:
+1 J = 1 C·V
+1 eV = 1.6 × 10⁻¹⁹ J
+
+Measurement:
+Electric potential is measured using a voltmeter.
+
+Important points about a voltmeter:
+
+* It is connected in parallel with the component.
+* It has very high internal resistance.
+
+Electric potential due to a point charge:
+V = kq / r
+
+---
+
+ELECTRIC POTENTIAL DIFFERENCE
+
+Definition:
+Electric potential difference between two points is the work done in moving a unit positive charge from one point to another.
+
+Simply stated:
+It is the difference in electric potential between two points.
+
+Mathematical expression:
+V_BA = V_B − V_A
+
+Since:
+V = W / q
+
+Therefore:
+W = qV = q(V_B − V_A)
+
+Note:
+Electric charges, electric current, and electric field lines move from a region of higher electric potential to a region of lower electric potential.
+
+---
+
+VARIABLE RESISTANCE
+
+Variable resistor:
+A device used to change the current in a circuit without changing the voltage source.
+
+Rheostat:
+A device specifically used to vary resistance in an electric circuit.
+
+---
+
+OHM’S LAW
+
+Statement:
+If the physical conditions of a conductor (such as temperature and material) are kept constant, the current flowing through it is directly proportional to the potential difference across its ends.
+
+Mathematical expression:
+V = IR
+
+Where:
+V = potential difference (voltage)
+I = electric current
+R = resistance (constant of proportionality)
+
+---
