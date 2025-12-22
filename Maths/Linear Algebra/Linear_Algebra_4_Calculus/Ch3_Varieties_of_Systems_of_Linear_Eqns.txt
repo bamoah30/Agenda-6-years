@@ -1,0 +1,25 @@
+December 22, 2025
+
+CONSISTENT VS. INCONSISTENT SYSTEMS
+
+• An inconsistent system is a system that makes a requirement which no vector x can satisfy.
+• A consistent system is a system that has at least one solution.
+
+TYPES OF CONSISTENT SYSTEMS
+
+• An underdetermined system is a system in which the number of truly independent equations is less than the number of unknowns. Such a system has infinitely many solutions.
+
+VARIABLE TERMINOLOGY
+
+• Basic variables are the variables associated with the pivot positions in the row-reduced echelon form (RREF) of the augmented matrix.
+• Free variables are variables that are not associated with pivot positions and whose values can be chosen freely.
+
+STEPS FOR SOLVING SYSTEMS OF LINEAR EQUATIONS
+
+1. Write the augmented matrix for the given system.
+2. Row-reduce the matrix to identify pivot elements and make all entries below each pivot equal to zero.
+3. If a row appears with all zero entries except for the last entry, then the system is inconsistent and the solution set is empty.
+4. Otherwise:
+   a. Use the pivots in reverse order (from bottom to top) to eliminate nonzero entries above each pivot, obtaining the row-reduced echelon form.
+   b. If the number of pivots is one less than the number of columns in the augmented matrix, then the system has exactly one solution (the unique solution case).
+   c. Otherwise, the pivot variables are expressed in terms of one or more free variables, which are assigned arbitrary parameters. In this underdetermined case, the solution set contains infinitely many solutions corresponding to the infinite choices of parameter values.
