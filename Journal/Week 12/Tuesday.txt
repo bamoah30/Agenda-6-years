@@ -1,0 +1,102 @@
+Journal Entry – December 23, 2025
+Week 12, Day 2
+==================================================
+
+AI ROADMAP
+--------------------------------------------------
+Topic:
+- Manipulating Images with Pillow
+
+Progress:
+- Learned how to copy and paste images
+
+Next Step:
+- Learn how to resize images
+
+Key Takeaway:
+- The open() method creates an Image object in Pillow
+
+Time Spent:
+- 45 minutes
+
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- None recorded
+
+Progress:
+- No progress recorded
+
+Next Step:
+- Finish the video lectures on Electricity and Magnetism
+
+Key Takeaway:
+- None recorded
+
+Time Spent:
+- Not recorded
+
+
+MATHEMATICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- Determinants
+
+Progress:
+- Completed Chapter 4 of "Linear Algebra for Calculus"
+
+Next Step:
+- Begin Chapter 5
+
+Key Takeaway:
+- The determinant of a transpose matrix is equal to the determinant
+  of the original matrix
+
+Time Spent:
+- 1 hour
+
+
+PROJECTS
+--------------------------------------------------
+Project:
+- None active
+
+Work Completed:
+- None
+
+Blockers / Next Steps:
+- Explore Kaggle competitions as preparation for the next portfolio project
+
+Time Spent:
+- Not recorded
+
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Phone call with supervisor at King’s Labour
+
+Outcome:
+- Received first official salary
+
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+- Managing excitement and distraction after receiving the first
+  official salary while maintaining focus on learning
+
+Solutions / Adjustments:
+- Paused learning temporarily to create a structured budget for the salary
+
+Timeline Check:
+- On track with Robotics roadmap
+- On track with AI roadmap
+- Ahead on portfolio project planning
+
+Tomorrow’s Focus:
+1. Finish lessons on Electricity and Magnetism
+2. Complete lessons on image manipulation with Pillow
+3. Begin Chapter 5 of "Linear Algebra for Calculus"
+==================================================
