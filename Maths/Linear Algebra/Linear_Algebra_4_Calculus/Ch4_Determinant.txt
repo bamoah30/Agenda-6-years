@@ -1,0 +1,65 @@
+December 23, 2025
+DETERMINANTS
+
+---
+
+1. Determinant of a Matrix
+
+The determinant is defined only for square matrices.
+
+If det(A) ≠ 0, the corresponding system of linear equations has a unique solution.
+
+If det(A) = 0, the system either:
+
+* has no solution (inconsistent system), or
+* has infinitely many solutions (consistent system with rank less than the number of unknowns).
+
+---
+
+2. Method of Laplace Expansion
+
+Minor:
+The minor of an element is the determinant of the submatrix obtained by deleting the row and column containing that element.
+
+Cofactor:
+The cofactor of an element is defined as:
+C_ij = (−1)^(i+j) multiplied by the minor of the element.
+
+Laplace Expansion Procedure:
+Select any row or column along which to expand.
+For each element in the selected row or column, multiply the element by its corresponding cofactor.
+The determinant of the matrix is the sum of these products.
+
+---
+
+3. Method of Row Reduction to Triangular Form
+
+A triangular matrix is a square matrix in which all elements below or above the main diagonal are zero.
+
+Theorem 1:
+The determinant of a triangular matrix is the product of its diagonal elements.
+
+Theorem 2:
+If two rows of matrix A are interchanged to produce matrix B, then:
+det(B) = −det(A)
+
+Theorem 3:
+If one row of matrix A is multiplied by a scalar r to produce matrix B, then:
+det(B) = r · det(A)
+
+Theorem 4:
+If matrix B is obtained from matrix A by replacing one row with that row plus a multiple of another row, then:
+det(B) = det(A)
+
+---
+
+4. Additional Properties of Determinants
+
+Let A and B be n x n matrices, and let A^T denote the transpose of A.
+
+1. If A has a zero row or a zero column, then det(A) = 0
+2. If any row or column of A is a multiple of another row or column, then det(A) = 0
+3. det(AB) = det(A) det(B)
+4. det(A^T) = det(A)
+
+---
