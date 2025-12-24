@@ -142,8 +142,8 @@ Example Usage:
 rotatedImg = img.rotate(90) #Rotate the image 90 degrees counterclockwise
 rotatedImg.show() #Display the rotated image    
 rotatedImg.save('AI\\Automating_the_boring_stuff\\rotated_example.png') #Save the rotated image
-flippedImg = img.transpose(Image.FLIP_LEFT_RIGHT) #Flip the image horizontally
-flippedImag2 = img.transpose(Image.FLIP_TOP_BOTTOM) #Flip the image vertically   
+flippedImg = img.transpose(Image.Transpose.FLIP_LEFT_RIGHT) #Flip the image horizontally
+flippedImag2 = img.transpose(Image.Transpose.FLIP_TOP_BOTTOM) #Flip the image vertically   
 flippedImg.show() #Display the flipped image
 flippedImag2.show() #Display the vertically flipped image  
 flippedImag2.save('AI\\Automating_the_boring_stuff\\flipped_vertical_example.png') #Save the vertically flipped image   
