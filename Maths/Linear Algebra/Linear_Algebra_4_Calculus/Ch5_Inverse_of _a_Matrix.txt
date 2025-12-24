@@ -1,0 +1,76 @@
+December 24, 2025
+
+INVERSE OF A MATRIX
+
+INVERSE OF REAL NUMBERS
+
+Two real numbers a and b are inverses of each other if:
+ab = 1
+
+NOTE:
+• Zero is the only real number that does not have an inverse.
+
+BASIC FACTS ABOUT MATRIX INVERSES
+
+• At the basic level, the inverse of a matrix is defined only for square matrices.
+• Non-square matrices can possess only one-sided inverses.
+
+DEFINITION OF MATRIX INVERSE
+
+Two n × n matrices A and B are said to be inverses of each other if and only if:
+AB = BA = Iₙ
+
+NOTE:
+• Not every square matrix has an inverse.
+• A matrix with at least one zero row or zero column has no inverse.
+
+THEOREMS ON MATRIX INVERSES
+
+Theorem 1:
+An n × n matrix A has an inverse A⁻¹ if and only if:
+det(A) ≠ 0
+
+NOTE:
+• A matrix that has an inverse is called a nonsingular matrix.
+• A matrix that does not have an inverse is called a singular matrix.
+
+Theorem 2:
+If det(A) ≠ 0, then the row-reduced echelon form of the augmented matrix [A | Iₙ] is:
+[Iₙ | A⁻¹]
+
+NOTE:
+• When A is invertible, its row-reduced echelon form is Iₙ.
+• Therefore, an invertible matrix has rank n.
+
+ADJOINT (ADJUGATE) MATRIX METHOD
+
+The adjoint method is another method for finding the inverse of a matrix.
+
+If A is an n × n matrix, the adjoint of A is constructed by:
+1. Finding all n² cofactors of A.
+2. Arranging these cofactors into a cofactor matrix.
+3. Transposing the cofactor matrix.
+
+NOTE:
+• The resulting matrix is called the adjoint of A and is denoted by adj(A).
+
+Theorem 3:
+If det(A) ≠ 0, then:
+A⁻¹ = (1 / det(A)) · adj(A)
+
+NOTE:
+• The row-reduction method is generally preferred for computing matrix inverses.
+• The adjoint method is mainly useful for theoretical purposes.
+
+THEOREM 4 (CRAMER'S RULE)
+
+Let Ax = b be a linear system where:
+• A is an n × n invertible coefficient matrix,
+• x = (x₁, x₂, ..., xₙ)ᵀ,
+• b is a column vector.
+
+Let Nᵢ be the n × n matrix obtained by replacing the i-th column of A with the vector b,
+while leaving all other columns unchanged, for i = 1, 2, ..., n.
+
+Then the components of x are given by:
+xᵢ = det(Nᵢ) / det(A),   for i = 1, 2, ..., n
