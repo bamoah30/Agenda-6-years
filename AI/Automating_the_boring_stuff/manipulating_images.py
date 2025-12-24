@@ -119,3 +119,38 @@ region = copyImg.crop(box) #Crop the region from the copied image
 copyImg.paste(region, (300, 300))#Paste the cropped region into a new location
 copyImg.show() #Display the modified image
 copyImg.save('AI\\Automating_the_boring_stuff\\pasted_example.png') #Save the modified image
+
+
+#December 24, 2025
+'''Resizing Images:
+You can resize an image using the resize() method.
+The resize() method is called on an Image object and returns a new Image object of the specified size.
+The resize() method takes a tuple of two integers as its only argument, representing the new width and height of the image in pixels.
+Example Usage:
+'''
+resizedImg = img.resize((100, 100)) #Resize the image to 100x100 pixels
+resizedImg.show() #Display the resized image
+resizedImg.save('AI\\Automating_the_boring_stuff\\resized_example.png') #Save the resized image
+
+'''Rotating and Flipping Images:
+You can rotate and flip images using the rotate() and transpose() methods, respectively.
+The rotate() method takes a single argument, the angle in degrees to rotate the image counterclockwise.
+The transpose() method takes a single argument that specifies the type of flip to perform.
+
+Example Usage:  
+'''
+rotatedImg = img.rotate(90) #Rotate the image 90 degrees counterclockwise
+rotatedImg.show() #Display the rotated image    
+rotatedImg.save('AI\\Automating_the_boring_stuff\\rotated_example.png') #Save the rotated image
+flippedImg = img.transpose(Image.FLIP_LEFT_RIGHT) #Flip the image horizontally
+flippedImag2 = img.transpose(Image.FLIP_TOP_BOTTOM) #Flip the image vertically   
+flippedImg.show() #Display the flipped image
+flippedImag2.show() #Display the vertically flipped image  
+flippedImag2.save('AI\\Automating_the_boring_stuff\\flipped_vertical_example.png') #Save the vertically flipped image   
+flippedImg.save('AI\\Automating_the_boring_stuff\\flipped_example.png') #Save the flipped image
+
+#The rotate() method has an optional second argument called expand.
+#If this argument is set to True, the image size is adjusted to fit the entire rotated image.
+rotatedImg2 = img.rotate(45, expand=True) #Rotate the image 45 degrees counterclockwise and expand the size
+rotatedImg2.show() #Display the rotated and expanded image  
+rotatedImg2.save('AI\\Automating_the_boring_stuff\\rotated_expanded_example.png') #Save the rotated and expanded image  
