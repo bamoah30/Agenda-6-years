@@ -1,0 +1,103 @@
+Journal Entry – December 24, 2025
+Week 12, Day 3
+==================================================
+
+AI ROADMAP
+--------------------------------------------------
+Topic:
+- Manipulating Images
+
+Progress:
+- Rotating and flipping images
+
+Next Step:
+- Manipulating individual pixels
+
+Key Takeaway:
+- The rotate() method includes an optional `expand` parameter which,
+  when set to True, resizes the image to fully contain the rotated output
+
+Time Spent:
+- 45 minutes
+
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- None recorded
+
+Progress:
+- No progress recorded
+
+Next Step:
+- Watch the third video on Electricity and Magnetism
+
+Key Takeaway:
+- None recorded
+
+Time Spent:
+- Not recorded
+
+
+MATHEMATICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- Inverse of a Matrix
+
+Progress:
+- Completed Chapter 5 of "Linear Algebra for Calculus"
+
+Next Step:
+- Begin Chapter 6
+
+Key Takeaway:
+- A matrix with determinant equal to zero has no inverse and is called
+  a singular matrix; otherwise, it is called a nonsingular matrix
+
+Time Spent:
+- 55 minutes
+
+
+PROJECTS
+--------------------------------------------------
+Project:
+- None active
+
+Work Completed:
+- None
+
+Blockers / Next Steps:
+- Explore datasets on Kaggle as preparation for the next project
+
+Time Spent:
+- Not recorded
+
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Phone call with the Operations Manager at Peace Indo
+
+Outcome:
+- Received assurance of continued employment next year
+
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+- Difficulty staying on budget when shopping with an elderly companion
+
+Solutions / Adjustments:
+- Handle personal shopping independently to maintain budget discipline
+
+Timeline Check:
+- Ahead on Mathematics roadmap
+- On track with AI roadmap
+- Ahead on portfolio project planning
+- On track with Robotics roadmap
+
+Tomorrow’s Focus:
+1. Complete Chapter 6 of "Linear Algebra for Calculus"
+2. Finish the remaining videos on Electricity and Magnetism
+3. Complete the lesson on image manipulation
+==================================================
