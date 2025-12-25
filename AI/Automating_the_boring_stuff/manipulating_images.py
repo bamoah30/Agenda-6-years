@@ -199,6 +199,7 @@ NB: The last point is automatically connected to the first point to close the sh
 Example Usage:
 '''
 from PIL import ImageDraw
+img = Image.new('RGBA', (800, 600), 'white') #Create a new white image
 draw = ImageDraw.Draw(img) #Create a drawing object
 draw.point((50, 50), fill='blue') #Draw a blue point at (50, 50)
 draw.line([(60, 60), (200, 200)], fill='green', width=5) #Draw a green line from (60, 60) to (200, 200)
@@ -207,3 +208,22 @@ draw.ellipse((450, 50, 600, 200), fill='red', outline='black') #Draw a red ellip
 draw.polygon([(300, 100), (350, 50), (400, 100), (375, 150), (325, 150)], fill='purple', outline='black') #Draw a purple polygon with a black outline
 img.show() #Display the image with drawn shapes  
 img.save('AI\\Automating_the_boring_stuff\\drawn_shapes_example.png') #Save the image with drawn shapes
+
+'''Drawing Text:
+You can draw text on an image using the ImageDraw module from Pillow.
+The text() method of the ImageDraw module allows you to add text to an Image object.
+The text() method takes the following arguments:
+•	 xy: A tuple of (x, y) coordinates where the text will be drawn.
+•	 text: The string of text to be drawn.
+•	 fill: An optional RGBA tuple or color name string to specify the text color.
+•	 font: An optional ImageFont object to specify the font style and size.
+
+Example Usage:
+'''
+from PIL import ImageFont
+img = Image.new('RGBA', (400, 200), 'white') #Create a new white image  
+draw = ImageDraw.Draw(img) #Create a drawing object
+font = ImageFont.truetype('arial.ttf', 36) #Load a TrueType font
+draw.text((50, 50), 'Hello, Pillow!', fill='black', font=font) #Draw text on the image
+img.show() #Display the image with text
+img.save('AI\\Automating_the_boring_stuff\\text_example.png') #Save the image with text
