@@ -154,3 +154,56 @@ flippedImg.save('AI\\Automating_the_boring_stuff\\flipped_example.png') #Save th
 rotatedImg2 = img.rotate(45, expand=True) #Rotate the image 45 degrees counterclockwise and expand the size
 rotatedImg2.show() #Display the rotated and expanded image  
 rotatedImg2.save('AI\\Automating_the_boring_stuff\\rotated_expanded_example.png') #Save the rotated and expanded image  
+
+
+#December 25, 2025
+'''Changing Individual Pixels:
+You can change the color of individual pixels in an image using the getpixel() and putpixel() methods.
+The getpixel() method takes a tuple of (x, y) coordinates as its only argument and returns the RGBA value of the pixel at that location.
+The putpixel() method takes a tuple of (x, y) coordinates as its first argument and an RGBA tuple as its second argument to set the color of the pixel at that location.
+Example Usage:
+'''
+pixelColor = img.getpixel((10, 10)) #Get the color of the pixel at (10, 10)
+print(pixelColor) #Output: (R, G, B) values of the pixel at (10, 10)
+pixelColorNew = (255, 0, 0, 255) #Define a new color (red)
+img.putpixel((10, 10), pixelColorNew) #Set the pixel at (10, 10) to the new color
+img.show() #Display the modified image
+
+
+'''Drawing Shapes:
+You can draw shapes on an image using the ImageDraw module from Pillow.
+The ImageDraw module provides methods to draw shapes like rectangles, circles, and lines on an Image object.
+Some shapes to draw include:
+
+1. Points:
+The point() method draws individual points on the image.
+It accepts a tuple of (x, y) coordinates and an optional fill color.
+
+2. Lines:
+The line() method draws straight lines between two or more points.
+It accepts a list of (x, y) tuples  for both the starting and ending points, and an optional fill color and width.
+
+3. Rectangles:
+The rectangle() method draws rectangles on the image.
+It accepts a box tuple defining the rectangle's corners, and optional fill and outline colors.
+
+4. Ellipses:
+The ellipse() method draws ellipses (ovals) on the image.  
+It accepts a box tuple defining the bounding box of the ellipse from left, top, right, and bottom, and optional fill and outline colors.
+
+5. Polygons:
+The polygon() method draws polygons with multiple sides on the image.
+It accepts a list of (x, y) tuples for the vertices of the polygon, and optional fill and outline colors.
+NB: The last point is automatically connected to the first point to close the shape.
+
+Example Usage:
+'''
+from PIL import ImageDraw
+draw = ImageDraw.Draw(img) #Create a drawing object
+draw.point((50, 50), fill='blue') #Draw a blue point at (50, 50)
+draw.line([(60, 60), (200, 200)], fill='green', width=5) #Draw a green line from (60, 60) to (200, 200)
+draw.rectangle((250, 250, 400, 400), fill='yellow', outline='black') #Draw a yellow rectangle with a black outline
+draw.ellipse((450, 50, 600, 200), fill='red', outline='black') #Draw a red ellipse with a black outline
+draw.polygon([(300, 100), (350, 50), (400, 100), (375, 150), (325, 150)], fill='purple', outline='black') #Draw a purple polygon with a black outline
+img.show() #Display the image with drawn shapes  
+img.save('AI\\Automating_the_boring_stuff\\drawn_shapes_example.png') #Save the image with drawn shapes
