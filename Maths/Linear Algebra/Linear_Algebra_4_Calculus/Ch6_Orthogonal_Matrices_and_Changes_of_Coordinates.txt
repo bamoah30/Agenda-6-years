@@ -1,0 +1,30 @@
+December 26, 2025
+Orthogonal Matrices:
+Definition:
+An n x n invertible matrix Q is called an orthogonal matrix if and only if Q^(-1) = Q^T
+
+Column Relation of Orthogonal Matrix:
+Assuming q_1 = first column and q_2 = second column are the two columns of orthogonal Matrix
+
+Relation 1: q_1q_1^T = q_2q_2^T = 1 (each column has a unit length)
+
+Relation 2: q_1^Tq_2 = q_2^Tq_1 = 0 (each column is orthogonal to every other column)
+
+NB: These column relations are true of every orthogonal matrix. And a non-orthogonal matrix fails to satisfy at least one of these relations.
+
+Theorem 1: A matrix is orthogonal if and only if each column has unit length and each column is orthogonal to every other column.
+
+Definition 2 :
+In R^n if {a_1, ... , a_k} is a set of vectors then a vector n_1a_1 + ... + n_ka_k is called a linear combination of {a_1, ... , a_k} where each n_i, i = 1, ... , k is a real number.
+
+Definition 3 :
+In R^n if {a_1, ... , a_k} is a set of vectors then they are linearly independent if the only linear combination which equals the zero vectors 0 occurs when all the n_i = 0, i = 1, ... , k, i.e.
+    n_ia_i + ... n_ka_k = 0
+If and only If
+    n_1 = n_2 = ... = n_k = 0
+
+Definition 4:
+If {a_1, ... ,a_k} is linear independent set of k vectors in R^n, then the set of all their linear combination is a k-dimensional vector space V called the span of {a_1, ... , a_k}.
+
+NB:A vector b is in V if and only if b = n_1a_1 + ...+ n_ka_k where each n_i, i, ..., k is real number.
+ 
