@@ -1,0 +1,109 @@
+Journal Entry – December 25, 2025
+Week 12, Day 4
+==================================================
+
+AI ROADMAP
+--------------------------------------------------
+Topic:
+- Manipulating Images
+
+Progress:
+- Completed Chapter 17 of "Automate the Boring Stuff with Python"
+
+Next Step:
+- Read Chapter 18
+
+Key Takeaway:
+- Using the ImageDraw module from Pillow, it is possible to draw
+  various geometric shapes directly onto images
+
+Time Spent:
+- 45 minutes
+
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- None recorded
+
+Progress:
+- No progress recorded
+
+Next Step:
+- Finish the remaining videos on Electricity and Magnetism
+
+Key Takeaway:
+- None recorded
+
+Time Spent:
+- Not recorded
+
+
+MATHEMATICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- None recorded
+
+Progress:
+- No progress recorded
+
+Next Step:
+- Begin Chapter 6 of "Linear Algebra for Calculus"
+
+Key Takeaway:
+- None recorded
+
+Time Spent:
+- Not recorded
+
+
+PROJECTS
+--------------------------------------------------
+Project:
+- None active
+
+Work Completed:
+- None
+
+Blockers / Next Steps:
+- Begin work on the next portfolio project
+
+Time Spent:
+- Not recorded
+
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Phone call with supervisor at Peace Indo to extend Christmas greetings
+
+Outcome:
+- Agreed to purchase a gift when work resumes
+
+
+REFLECTION
+--------------------------------------------------
+Contextual Note:
+- December 25 is a public holiday in Ghana. I used the opportunity
+  to travel from Tema to Half-Assini Newtown to visit my parents.
+  The journey began at 4:00 a.m. and ended at 7:30 p.m.
+  The long travel duration caused physical fatigue.
+
+Challenges:
+- Traveling for approximately 15 hours
+
+Solutions / Adjustments:
+- Plan to recover lost productivity by creating a structured
+  schedule for the following day
+
+Timeline Check:
+- On track with AI roadmap
+- Ahead on Mathematics roadmap
+- Ahead on portfolio project planning
+- On track with Robotics roadmap
+
+Tomorrow’s Focus:
+1. Complete Chapter 6 of "Linear Algebra for Calculus"
+2. Finish "Automate the Boring Stuff with Python"
+3. Complete remaining videos on Electricity and Magnetism
+==================================================
