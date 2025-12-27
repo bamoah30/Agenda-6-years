@@ -1,0 +1,104 @@
+Journal Entry – December 27, 2025
+Week 12, Day 4
+==================================================
+
+AI ROADMAP
+--------------------------------------------------
+Topic:
+- Manipulating Images
+
+Progress:
+- No measurable progress recorded
+
+Next Step:
+- Conclude the remaining lessons on image manipulation
+
+Key Takeaway:
+- None recorded
+
+Time Spent:
+- Not recorded
+
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- None recorded
+
+Progress:
+- No progress recorded
+
+Next Step:
+- Conclude the lessons on Electricity and Magnetism
+
+Key Takeaway:
+- None recorded
+
+Time Spent:
+- Not recorded
+
+
+MATHEMATICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- Orthogonal Matrices and Changes of Coordinate Systems
+
+Progress:
+- Introduction to orthogonal matrices
+
+Next Step:
+- Conclude the lessons on orthogonal matrices
+
+Key Takeaway:
+- An orthogonal matrix Q satisfies the condition Q⁻¹ = Qᵀ
+
+Time Spent:
+- 45 minutes
+
+
+PROJECTS
+--------------------------------------------------
+Project:
+- None active
+
+Work Completed:
+- None
+
+Blockers / Next Steps:
+- None identified
+
+Time Spent:
+- Not recorded
+
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- None recorded
+
+Outcome:
+- None recorded
+
+
+REFLECTION
+--------------------------------------------------
+Contextual Note:
+- Spent the majority of the day visiting family friends
+
+Challenges:
+- None recorded
+
+Solutions / Adjustments:
+- None recorded
+
+Timeline Check:
+- On track with AI roadmap
+- Ahead on Mathematics roadmap
+- Ahead on portfolio project planning
+- On track with Robotics roadmap
+
+Tomorrow’s Focus:
+1. Finish Chapter 6 of the Robotics roadmap
+2. Conclude lessons on Electricity and Magnetism
+3. Finish remaining lessons from "Automate the Boring Stuff with Python"
+==================================================
