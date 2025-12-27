@@ -1,30 +1,54 @@
 December 26, 2025
-Orthogonal Matrices:
-Definition:
-An n x n invertible matrix Q is called an orthogonal matrix if and only if Q^(-1) = Q^T
 
-Column Relation of Orthogonal Matrix:
-Assuming q_1 = first column and q_2 = second column are the two columns of orthogonal Matrix
+ORTHOGONAL MATRICES
 
-Relation 1: q_1q_1^T = q_2q_2^T = 1 (each column has a unit length)
+DEFINITION
 
-Relation 2: q_1^Tq_2 = q_2^Tq_1 = 0 (each column is orthogonal to every other column)
+An n × n invertible matrix Q is called an orthogonal matrix if and only if:
+Q⁻¹ = Qᵀ
 
-NB: These column relations are true of every orthogonal matrix. And a non-orthogonal matrix fails to satisfy at least one of these relations.
+COLUMN RELATIONS OF AN ORTHOGONAL MATRIX
 
-Theorem 1: A matrix is orthogonal if and only if each column has unit length and each column is orthogonal to every other column.
+Let q₁ and q₂ denote the first and second columns of an orthogonal matrix Q.
 
-Definition 2 :
-In R^n if {a_1, ... , a_k} is a set of vectors then a vector n_1a_1 + ... + n_ka_k is called a linear combination of {a_1, ... , a_k} where each n_i, i = 1, ... , k is a real number.
+Relation 1 (Unit Length):
+q₁ᵀq₁ = 1 and q₂ᵀq₂ = 1  
+Each column has unit length.
 
-Definition 3 :
-In R^n if {a_1, ... , a_k} is a set of vectors then they are linearly independent if the only linear combination which equals the zero vectors 0 occurs when all the n_i = 0, i = 1, ... , k, i.e.
-    n_ia_i + ... n_ka_k = 0
-If and only If
-    n_1 = n_2 = ... = n_k = 0
+Relation 2 (Orthogonality):
+q₁ᵀq₂ = q₂ᵀq₁ = 0  
+Each column is orthogonal to every other column.
 
-Definition 4:
-If {a_1, ... ,a_k} is linear independent set of k vectors in R^n, then the set of all their linear combination is a k-dimensional vector space V called the span of {a_1, ... , a_k}.
+NOTE:
+• These column relations hold for every orthogonal matrix.
+• A non-orthogonal matrix fails to satisfy at least one of these relations.
 
-NB:A vector b is in V if and only if b = n_1a_1 + ...+ n_ka_k where each n_i, i, ..., k is real number.
- 
+THEOREM 1
+
+A matrix is orthogonal if and only if each column has unit length and each column is orthogonal to every other column.
+
+LINEAR COMBINATIONS AND LINEAR INDEPENDENCE
+
+DEFINITION 2 (Linear Combination)
+
+In ℝⁿ, if {a₁, a₂, ..., aₖ} is a set of vectors, then a vector of the form:
+n₁a₁ + n₂a₂ + ... + nₖaₖ
+
+is called a linear combination of {a₁, a₂, ..., aₖ}, where each nᵢ (i = 1, 2, ..., k) is a real number.
+
+DEFINITION 3 (Linear Independence)
+
+In ℝⁿ, a set of vectors {a₁, a₂, ..., aₖ} is said to be linearly independent if the only linear combination that equals the zero vector is:
+n₁a₁ + n₂a₂ + ... + nₖaₖ = 0
+
+if and only if:
+n₁ = n₂ = ... = nₖ = 0
+
+DEFINITION 4 (Span)
+
+If {a₁, a₂, ..., aₖ} is a linearly independent set of k vectors in ℝⁿ, then the set of all their linear combinations forms a k-dimensional vector space V, called the span of {a₁, a₂, ..., aₖ}.
+
+NOTE:
+• A vector b belongs to V if and only if:
+  b = n₁a₁ + n₂a₂ + ... + nₖaₖ
+  where each nᵢ (i = 1, 2, ..., k) is a real number.
