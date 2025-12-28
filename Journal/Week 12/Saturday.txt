@@ -1,0 +1,99 @@
+Journal Entry – December 27, 2025
+Week 12, Day 6
+==================================================
+
+AI ROADMAP
+--------------------------------------------------
+Topic:
+- None recorded
+
+Progress:
+- No progress recorded
+
+Next Step:
+- Complete the remaining lessons from "Automate the Boring Stuff with Python"
+
+Key Takeaway:
+- None recorded
+
+Time Spent:
+- 0 minutes
+
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- Kirchhoff’s Laws
+
+Progress:
+- Completed the third video on Electricity and Magnetism
+
+Next Step:
+- Complete the fourth video in the series
+
+Key Takeaway:
+- Kirchhoff’s laws are a direct consequence of conservation laws
+
+Time Spent:
+- 1 hour 30 minutes
+
+
+MATHEMATICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- Changing Coordinate Frames
+
+Progress:
+- Completed Chapter 6 of "Linear Algebra for Calculus"
+
+Next Step:
+- Begin Chapter 7
+
+Key Takeaway:
+- v = A v′, where v is the original coordinate vector,
+  A is the transformation matrix, and v′ is the new coordinate vector
+
+Time Spent:
+- 45 minutes
+
+
+PROJECTS
+--------------------------------------------------
+Project:
+- None active
+
+Work Completed:
+- None
+
+Blockers / Next Steps:
+- Begin work on the next portfolio project
+
+Time Spent:
+- Not recorded
+
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- None recorded
+
+Outcome:
+- None recorded
+
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+- None recorded
+
+Solutions / Adjustments:
+- None recorded
+
+Timeline Check:
+- Same as previous day
+
+Tomorrow’s Focus:
+1. Complete the remaining lessons on Electricity and Magnetism
+2. Conclude the remaining chapters in "Automate the Boring Stuff with Python"
+3. Begin Chapter 7 of "Linear Algebra for Calculus"
+==================================================
