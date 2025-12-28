@@ -52,3 +52,73 @@ NOTE:
 • A vector b belongs to V if and only if:
   b = n₁a₁ + n₂a₂ + ... + nₖaₖ
   where each nᵢ (i = 1, 2, ..., k) is a real number.
+
+December 27, 2025
+
+CHANGE OF BASIS AND ORTHOGONAL TRANSFORMATIONS
+
+DEFINITION 5 (Change of Basis Matrix)
+
+If {a₁, a₂, ..., aₙ} is a basis for ℝⁿ, let A be the matrix whose j-th column
+(j = 1, 2, ..., n) is the coordinate column of aⱼ with respect to the standard
+basis of ℝⁿ.
+
+Then A is called the change-of-basis matrix from the standard basis to
+{a₁, a₂, ..., aₙ}.
+
+CHANGE OF COORDINATES
+
+Let:
+• v be the coordinate column of a point P with respect to the standard basis,
+• v′ be the coordinate column of P with respect to the new basis
+  {a₁, a₂, ..., aₙ}.
+
+Then:
+v = Av′   expresses the old (standard) coordinates of P in terms of the new
+         coordinates.
+
+v′ = A⁻¹v expresses the new coordinates of P in terms of the old
+          (standard) coordinates.
+
+CHANGES OF COORDINATES WITH ORTHOGONAL MATRICES
+
+NOTE:
+• To change the basis in ℝⁿ, we need n linearly independent vectors.
+
+THEOREM 2
+
+Any orthonormal set of k vectors {u₁, u₂, ..., uₖ} in ℝⁿ is linearly independent.
+Therefore, any orthonormal set of n vectors in ℝⁿ forms a basis for ℝⁿ.
+
+DEFINITION 6 (Rotation Matrix)
+
+An n × n orthogonal matrix Q with det(Q) = 1 is called a rotation matrix and
+corresponds to a rotation of the coordinate axes.
+
+The columns of Q = [q₁, q₂, ..., qₙ] have the same orientation (relative
+positions) as the columns of the identity matrix:
+I = [e₁, e₂, ..., eₙ].
+
+An orthogonal matrix Q with det(Q) = −1 corresponds to a rotation combined with
+a reflection of the coordinate axes. In this case, the columns of Q have the
+opposite orientation to those of the identity matrix.
+
+For n = 3:
+• The columns of a rotation matrix form a right-handed set of vectors.
+• If det(Q) = −1, the columns form a left-handed set of vectors.
+
+DOT PRODUCT UNDER ORTHOGONAL TRANSFORMATIONS
+
+Let Q be an orthogonal matrix.
+If two points have coordinate columns v and w with respect to the standard
+basis, and coordinate columns v′ and w′ with respect to the new basis, then:
+
+v = Qv′   and   w = Qw′
+
+The dot product of v and w is preserved:
+v · w = vᵀw
+      = (Qv′)ᵀ(Qw′)
+      = v′ᵀQᵀQw′
+      = v′ᵀw′
+
+since Qᵀ = Q⁻¹.
