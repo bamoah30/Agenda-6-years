@@ -1,0 +1,98 @@
+December 27, 2025
+Topic: Kirchhoff’s Laws, Circuit Connections, and Electric Power
+
+---
+
+KIRCHHOFF’S LAWS
+
+---
+
+First Law: Kirchhoff’s Current Law (KCL)
+
+Statement:
+At any node (junction) in an electric circuit, the algebraic sum of currents is equal to zero.
+
+Mathematically:
+ΣI = 0
+
+Definition of a Node:
+A node is a point in a circuit where two or more conducting wires meet.
+
+In other words:
+The sum of currents entering a node is equal to the sum of currents leaving the node.
+
+Note:
+Kirchhoff’s Current Law is based on the law of conservation of charge.
+
+---
+
+Second Law: Kirchhoff’s Voltage Law (KVL)
+
+Statement:
+In any closed loop of an electric circuit, the algebraic sum of all voltages is equal to zero.
+
+Mathematically:
+ΣV = 0
+
+In other words:
+In a closed circuit, the voltage supplied by the source (battery) is equal to the total voltage drop across all components in the loop.
+
+Notes:
+
+* Kirchhoff’s Voltage Law is based on the law of conservation of energy.
+* The polarity (positive or negative sign) of a voltage depends on the direction of current relative to the component’s terminals.
+
+---
+
+SERIES AND PARALLEL CONNECTIONS
+
+Series Connection of Resistors:
+
+1. The same current flows through all components connected in series.
+2. The source voltage is divided among the connected components.
+
+Parallel Connection of Resistors:
+
+1. The voltage across each component is the same.
+2. The total current is divided among the connected components.
+
+---
+
+ELECTRIC POWER
+
+Electric power is the rate at which electrical energy is converted into other forms of energy.
+
+Formulas:
+P = VI
+P = I²R
+P = V² / R
+
+Where:
+P = electric power (watt, W)
+V = voltage (volt, V)
+I = current (ampere, A)
+R = resistance (ohm, Ω)
+
+Note:
+For rating electrical appliances, the expression
+P = V² / R
+is most commonly used.
+
+---
+
+ELECTRIC CONDUCTIVITY OF WIRES
+
+Order of electrical conductivity:
+Ag > Cu > Al > W
+
+---
+
+SHORT CIRCUIT AND FUSE WIRE
+
+Short Circuit:
+A short circuit occurs when a very large current flows through a wire, exceeding the safe current limit of the wire.
+
+Fuse Wire:
+A fuse wire melts when excessive current flows through it, thereby breaking the circuit and protecting electrical devices.
+
+---
