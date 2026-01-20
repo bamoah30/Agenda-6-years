@@ -1,0 +1,10 @@
+January 20, 2026
+In general, if A is n x n matrix, the trace of A (denoted by TrA) is defined to be the sum of its diagonal terms.
+
+An n x n matrix A is symmetrical if A_T = A or a_ij = a_ji, for all i,j = 1, ..., n
+
+Theorem 1: If A is a symmetric n x n matrix ʎ_1 != ʎ_2 are two distinct eigenvalues, and if v_1 and v_2 are corresponding eigenvectors then v_1 dot v_2 = 0
+
+Theorem 2: Every n x n symmetric matrix has n mutually orthogonal eigenvectors.
+
+NB: In general, n x n matrices with n mutually orthogonal eigenvectors are called normal matrices
