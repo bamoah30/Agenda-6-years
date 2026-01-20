@@ -1,0 +1,26 @@
+January 21, 2025
+Consider the equation: 
+    ax^2 + 2bxy + cy^2 + f = 0
+-The equation represents a conic section curve centered at the origin
+- x and y axes are not the principal axes of the curve if b is non-zero.
+
+Standard forms if b = 0
+1. x^2 + y^2 = r^2 ( a circle with radius r)
+2. x^2/p^2 + y^2/q^2 = 1 (an ellipse with semi-axes lengths p and q)
+3. x^2/p^2 - y^2/q^2 = 1 (hyperbola with asymptotes y = +- q/p x)
+
+Theorem 1:
+If the diagonal elements of the matrix D are the eigenvalues of the matrix A, and the columns of the matrix Q are chosen to be the corresponding unit lenght mutually orthogonal eigenvectors of A, then
+Q^T AQ = D and Q is an orthogonal matrix.
+
+Summary for Solving the Pricipal Axes Problem:
+1.Find the symmetric matrix A of the quadratic form in v for the equation
+NB : v is the cordiabte and  A  is obtained by 
+    -Filling the diagonal with the coeffiecient of the highest power terms.
+    -Half the terms contianing the multiple of the variables to fill the remainig spaces
+
+2.Solve the eigenvalue problem for A 
+3.Write the new equation in V`. The eigne values of A are coefficients in the new quadratic form in V`.
+4.Sketch the principal axes. The eigenvectors lie along the positive principal axes.
+5. Find the matrix Q with det Q = 1 whose columns are eigenvectors of unit lenght.
+Nb If you obtained an orthogonal matrix with determinant -1 you can multiply the first column by -1 to obtain a rotation matrix.
