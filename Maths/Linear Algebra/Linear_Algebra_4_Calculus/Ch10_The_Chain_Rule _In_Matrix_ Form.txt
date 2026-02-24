@@ -1,0 +1,31 @@
+Wednesday, February 25, 2026
+
+NB: Chapter 9 is sample questions.
+
+Chain Rule for y=f(u(x)):
+If f = f(u) and u = u(x) then y = y(x) = f(u(x)) is a function of x and its derivative dy/dx is given by the chain rule
+dy/dx = (df/du)(du/dx) =f'(u)du/dx = f'(u(x))du/dx
+
+Chain rule for z = f(x,y):
+if f = f(x,y) is a function of two variables then R = (x,y) cpould be a point on curve R = R(t) or could correspond to mapping from R^2 to R^2 given by R = R(u,v)
+
+(a) If R = R(t) is a point on a curve then z = z(t) = f(x(t),y(t)) if a function of t and by the chain rule
+dz/dt = df/dz dx/dt + df/dy dy/dt =fx dx/dt + fy dy/dt =∆f dR/dt
+in vector form where:
+∆f = <df/dx,df/dy> = <fx, fy>
+if the gradient of f and
+dR/dt = <dx/dt,dy/dt>
+is the velocity vector to the curve R = R(t)
+
+In matrix form dz/dt can be expressed by
+dz/dt = (df/dx df/dy)[dx/dt] = (fx fy)[dx/dt]
+                     [dy/dt]          [dy/dt]
+
+The General Chain Rule for g = f(x_1,...,x_m) Where R = (x_1,...,x_m) = R(u_1,...,u_n):
+If f = f(x_1,...x_m) and if each variable x_i = x_i(u_1,...,u_n), i = 1,...,n is a function of (u_1,...,u_n) then R = R(u_1,...,u_n) and
+g=g(u_1,...,u_n)=f(x_1(u_1,...,u_1),...x_m(u_1,...,u_n)) is a function of (u_1,...,u_n). Then the matrix form of the chain rule for [dg/du_1,...,dg/du_n] is given by
+[dg/du_1 ... dg/du_n] = (df/dx_1 ... df/dx_m)[dx_1/du_1 ... dx_1/du_n]
+                                             [.                    . ]
+                                             [.                    . ]
+                                             [.                    . ]
+                                             [dx_m/du_1 ... dx_m/du_n]
