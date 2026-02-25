@@ -1,0 +1,46 @@
+Journal Entry – February 25, 2026
+Week 21, Day 3
+==================================================
+
+
+
+MATHEMATICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- The Chain Rule in Matrix Form
+
+Progress:
+- Chapter 10 of 13 Chapters
+
+Next Step:
+- Read Chapter 11
+
+Key Takeaway (optional):
+- The gradient of a function is always the direvative of the major variables
+
+Time Spent:
+- 1 hour + 30 mins
+
+
+
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Concluded chapter 8 of 10 chapters of JHS computing
+
+Outcome:
+- Understood synchronous and Asynchronuos Transmission
+
+
+REFLECTION
+--------------------------------------------------
+
+
+Timeline Check:
+- Behind (carving my own path)
+
+Tomorrow’s Focus:
+1. Read chapter 11 of linear algebra for calculus
+2. Read chapter 9 of JHS computing
+==================================================
