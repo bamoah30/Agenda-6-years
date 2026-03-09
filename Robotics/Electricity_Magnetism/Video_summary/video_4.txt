@@ -1,0 +1,84 @@
+March 9, 2026
+
+Heating Effect of Current:
+-If the circuit is purely resistive, the electrical energy continuously gets dissipated entirely in the form of heat.
+
+Heat = Power x time
+H = P x t
+H = VIt
+H = (V^2/R)t
+
+Joule's Law of Heating:
+H = (I^2)Rt  
+
+-Unit : joule, ev, kwh
+
+-1J = 1watt-sec
+1kwh= 1000*3600 watt-s
+=> 1kwh = 3.6 x 10^6 J
+
+Chemical effect of electric current:
+-The flow of electric current is posssible is some liquids.
+-Acids, ALkali and salt solution of metal, flow of electric current is posssible.
+
+Faraday's Laws:
+First law: mass of ion is directly proportional to charge of ion
+=> m = zIT
+
+Second law: If the amount of electricity is constant.
+Then, mass of ions is directly proportional to chemical equivalence, watt
+
+NB: Chemical equivalence, w = Atomic mass (A)/Valency(V)
+
+Faraday Number:
+F = W/Z = Chemical equivalence/ electro chemical equivalence
+1faraday = 96500C
+
+Magnetic effect of electric Current:
+A conducting material acts like a magent when current flows through it.
+
+Notes:
+Ferromagnetic materials: Strongly attracted to magent, usually solid and temperature increase causes decrease in magnetic property.
+
+Pole Strength(m): Capacity of attraction and repulsion by poles.
+-Equal for both poles, represented by "m" unit A-m
+
+Magnetic dipole moment(M) = Poles Strength * distance between poles
+unit A-m^2
+
+Magnetic Force, F = (µ_o * m_1 *m_2)/(4pi*r^2)
+where: µ_o=  permeability of vacuum
+        µ_r = relative permeability
+        m_1, m_2 =mass of body one and two, respectively
+        µ = µ_oµ_r
+        µ_o = 4pi x 10^7 N/A^2
+
+Intensity of magnetic field:
+-perpendicular force on pole strength of North pole
+B = F/m => F= m*B
+
+-vector quantity 
+-unit N/(A-m) or Tesla
+-Direction: North pole: outwards
+            south pole: inwards
+
+
+Magnetic Flux:
+- Number of magnetic field lines passing throguh a unit area perpendicular to magnetic field.
+phi = B dot A 
+    = BA cos(theta)
+
+-Scalar quantity
+unit: T-m^2 or weber(wb)
+
+
+Faraday's laws of EMI:
+first law: Change in value of phi_B causes induced current and induced emf
+second law: Induced emf is directly proportional to the rate of change of magnetic flux.
+
+Thus; e = Ndphi/dt 
+where N = number of turns in winding 
+
+
+Lenz law: Induced emf opposes the cause of generation
+Thus: e = -Ndphi/dt
