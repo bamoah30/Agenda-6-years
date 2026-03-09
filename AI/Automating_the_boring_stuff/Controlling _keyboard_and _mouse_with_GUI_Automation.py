@@ -32,3 +32,49 @@ for i in range(2):
 
 #Getting the mouse position
 print(pyautogui.position())
+
+
+# March 9, 2026
+#Clicking the Mouse
+'''
+The default mouse button is the left mouse button
+The pyautogui.mouseDown() pushes the mouse button down and pyautogui.mouseUp() releases the mouse button.
+The combination of the two activity is the pyautogui.click().
+
+Other clicking activities are:
+-pyautogui.doubleClick(): Performs two clicks with the left mouse button
+-pyautogui.rightClick(): performs a click with the right mouse button
+-pyautogui.middleClick():performs a click with middle mouse button
+Example:
+'''
+import pyautogui
+pyautogui.click(10,5) #Moves the cursor to 10,5 and left click
+                
+#Dragging the Mouse
+'''
+PyAutoGUI provides the pyautogui.dragTo() and pyautogui.dragRel()
+functions to drag the mouse cursor to a new location or a location relative to its current one. The arguments for dragTo() and dragRel() are the 
+same as moveTo() and moveRel(): the x-coordinate/horizontal movement, the 
+y-coordinate/vertical movement, and an optional duration of time. (OS X 
+does not drag correctly when the mouse moves too quickly, so passing a 
+duration keyword argument is recommended.)
+
+
+ sample code
+'''
+import pyautogui, time
+time.sleep(5)
+pyautogui.click() # click to put drawing program in focus
+distance = 200
+while distance > 0:
+    pyautogui.dragRel(distance, 0, duration=0.2) # move right
+    distance = distance - 5
+    pyautogui.dragRel(0, distance, duration=0.2) # move down
+    pyautogui.dragRel(-distance, 0, duration=0.2) # move left
+    distance = distance - 5
+    pyautogui.dragRel(0, -distance, duration=0.2) # move up
+
+
+#Scrolling the Mouse
+import pyautogui
+pyautogui.scroll(200) #Scrolls up by 200px
