@@ -1,0 +1,56 @@
+Journal Entry – March 9, 2026
+Week 23, Day 1
+==================================================
+
+AI ROADMAP
+--------------------------------------------------
+Topic:
+- Controlling the mouse using pyautogui
+
+Progress:
+- COmpleted the lessons on mouse
+
+Next Step:
+- Start working on controlling the keybaord
+
+Key Takeaway (optional):
+- pyautogui.click() performs the same fucntion as using pyautogui.mouseDown() and pyautogui.mouseUp()
+
+Time Spent:
+- 45 mins
+
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- Electricity and Magnetism, video 4
+
+Progress:
+- completed the last video
+
+Next Step:
+- Read a book on electricity and magnetsim
+
+Key Takeaway (optional):
+- lenz law: The emf generated in and electromagnetic induction acts to oppose the source of the generation
+
+Time Spent:
+- 1 hr + 34 mins
+
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+- Unemployed + Mental health challenge
+
+Solutions / Adjustments:
+- Apply for jobs + Take my drugs regularly
+
+Timeline Check:
+-  Behind
+
+Tomorrow’s Focus:
+1. Finish the lessons from automate the boring stuff
+2. Start Lessons on Electronics
+3. Read Chapter 11 of Linear Algebra for calculus
+==================================================
