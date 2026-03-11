@@ -78,3 +78,20 @@ while distance > 0:
 #Scrolling the Mouse
 import pyautogui
 pyautogui.scroll(200) #Scrolls up by 200px
+
+
+#March 10, 2026
+# Controlling the Keyboard
+
+'''Sending a string from the keyboard
+sample code:
+'''
+pyautogui.click(100,100)
+pyautogui.typewrite('Hello World!')
+
+#A  second argument of float integers in the typewrite function would pause the typing for the stipulated number of seconds before typing the next letter
+
+'''Key Names:
+Some keys  are represented with a string . examples are the 
+'shift' for the Shift key, 'esc' for the esc key, etc.
+'''
