@@ -1,0 +1,28 @@
+March 18, 2026
+
+Definition:
+1.A function f from set D to set Y is a rule that assigns a single value f(x) in Y to each x in D 
+2. The set D of all possible input values is called the domain of thye function. 
+3. The set of all output values f(x) as x varies throughout D is called the range of the function
+4.When the range of a function is a set of real numbers, the function is said to be real-valued. 
+5. Let f be a function defined on an interval I and let x_1 and X_2 be two distinct points in I:
+    a. If f(x_2) > f(x_1) whenever x_1 < X_2, then f is said to be Inecreasing on I
+    b. If f(x_2) < f(x_1) whenever x_1 < X_2, then f is said to be decreasing on I
+6.A function y = f(x) is an:
+    even function if  f(-x) = f(x),
+    odd function if f(-x) = -f(x),
+for every x in the function’s domain.
+
+The vertical Line test of a function: The graph of a fucntion is intersected by a vertical line at only one place. More than one intersections of the vertical line and the graph proves that the graph is not that of a function
+
+
+Vertical and Horizontal Scaling and Reflecting Formulas:
+For c > 1, the graph is scaled:
+y = cf(x), Stretches the graph of f vertically by a factor of c
+y = 1/c f(x) Compresses the graph of f vertically by a factor of c
+y = f(cx) Compresses the graph of f horizontally by a factor of c 
+y = f(x/c) Stretches the graph of f horizontally by a factor of c.
+
+for c = -1, the graph is reflected:
+y = -f(x) Reflects the graph of f across the x-axis
+y = f(-x) Reflects the graph of f across the y-axis
