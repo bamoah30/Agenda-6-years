@@ -26,3 +26,26 @@ y = f(x/c) Stretches the graph of f horizontally by a factor of c.
 for c = -1, the graph is reflected:
 y = -f(x) Reflects the graph of f across the x-axis
 y = f(-x) Reflects the graph of f across the y-axis
+
+
+March 19,2026
+Trignometry Functions
+Definition:
+1. A fucntion f(x) is periodic if there is a positive number p such that f(x+p) = f(x) for every value of x. The smallest such value of p is the period of f.
+
+Notes:
+1.Tangent and cotangent has pi has their period.
+2. The other four functionn has 2 pi has their period.
+3.Cosine and secant functions are even, the remaining four functions are odd.
+
+for f(x) =  A sin (2pi/B (x-C)) + D 
+A = Vertical compression or stretch also called Amplitude
+B = period
+C = horizontal shift
+D = vertical shift
+2pi/B = Horizontal stretch or compression
+
+
+Note:
+1. A function f(X) is one-to-one on a domain D if f(x_1) is not equal to f(x_2) whenever X_1 is not equal to x_2
+2. A fucntion y = f(x) is one-to-one if and only if its graph intersects each horizontal line at most once.
