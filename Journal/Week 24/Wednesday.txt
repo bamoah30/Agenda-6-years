@@ -14,7 +14,8 @@ Next Step:
 - Complete the lessons on Functions
 
 Key Takeaway (optional):
-- Understood thet the opposite of vertical stretch of functions is horizontal stretch
+- Understood that the opposite of vertical stretch of functions is horizontal compression
+-for example cf(x) for vertical stretch and f(cx) is horizontal compression by a factor c
 
 Time Spent:
 - 35 mins
