@@ -1,0 +1,62 @@
+Journal Entry – March 19, 2026
+Week 24, Day 4
+==================================================
+
+AI ROADMAP
+--------------------------------------------------
+Topic:
+- Artificial Intelligence: A Modern Approach
+
+Progress:
+- Read two chapters
+
+Next Step:
+-Read Chapter 3 
+
+Key Takeaway (optional):
+-Before design anAI agent, the first thing to do is to define it's task environment 
+
+Time Spent:
+- 3 hours
+
+
+
+MATHEMATICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- Functions
+
+Progress:
+- COmpleted Chapter 1 of my jouney to mastering Calculus
+
+Next Step:
+-Read CHapter 2 
+
+Key Takeaway (optional):
+-The horizontal line test is used to determine if a function is one-to-one
+-Only one-to-one function have inverse 
+
+Time Spent:
+-45 mins 
+
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+- Reading alot of literature on AI instead of learning to build them
+- Battling mental health issues
+
+Solutions / Adjustments:
+-Skip the not needed materials and read the summary
+-Taking my medications regularly 
+
+Timeline Check:
+-Ahead : MATHEMATICS
+-Behind : ROBOTICS
+-Behind : AI
+
+Tomorrow’s Focus:
+1. COntinue with the math lessons
+2. Read a chapter formthe AI book
+3. Try ahead to catch up with the professional log
+==================================================
