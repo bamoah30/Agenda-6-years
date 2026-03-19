@@ -1,0 +1,16 @@
+March 19, 2026
+
+-An agent is anything that can ve viewed as perceiving its environment through sensors and acting upon that environment through actuators.
+GPS: Global Positioning System
+
+Before Designing an Agent, One needs to define it's Environment Task.This Involves:
+1.Agent Type
+2.Performance Meaasure
+3.Environment
+4.actuators
+5.sensors
+
+-If an agent's sensors give it access to the conplete state of the environment at each point in time, then we say that the task environment is fully observable
+
+The Structure of Agents:
+agent = architecture + Program
