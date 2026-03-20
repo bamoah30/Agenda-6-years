@@ -1,0 +1,19 @@
+March 20, 2026
+Limits Laws:
+If L,M,c and k are real numbers and  lim,x->c,g(x) =  M and lim,x -> c, f(x) = L, then
+1.Sum Rule:  lim,x->c (f(x) + g(x)) = L + M
+2.Difference Rule: lim x->c (f(x)-g(x)) = L - M
+3. Constant Multiple Rule: lim x->c (kf(x))= kL
+4.Product Rule: lim x->c (f(x)g(x))= LM 
+5.Quotient Rule: lim x->c f(x)/g(x) = L/M, m is not equal to zero
+6.Power Rule: lim x->c [f(x)]^n = L^n, n a positive integer
+7. Root Rule : lim x->c [f(x)]^1/n = L^1/n, n a positive integer
+
+If P(x) and Q(x) are polynomials and Q(c) is not equal to zero, then
+    lim x ->c (P(x)/Q(x)) = P(c)/Q(c)
+
+Sandwich Theorem:
+Suppose that g(x)≤f(x)≤h(x) for all x in some open interval containing c, except possible at x = c itself. Suppose also that
+    lim x -> c, g(x) = lim x->c, h(x) = L
+
+Then lim x->c, f(x) = L
