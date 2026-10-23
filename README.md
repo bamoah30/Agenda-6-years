@@ -1,47 +1,36 @@
-![Agenda-6-Years Thumbnail](assets/agenda-thumbnail.png)
+# Agenda-6-Years
 
-# 🦄 Agenda-6-Years
+6-year plan from Mechanical Engineer to AI + Robotics Engineer. Started Oct 2025.
 
-This is my master roadmap — a 6-year transformation from Mechanical Engineer to a fullstack AI + Robotic Engineer, blending intelligent software with mechanical depth.
+## Current Status
 
-## 📍 Current Status
+Year 1 / 6 — Factory Immersion
+Location: Palate Foods
+Work: VFFS systems — SDA cylinders, 5/2 valves, sensors, timing, changeovers
+Month: 7
 
-- **Phase:** Year 1, Month 2
-- **Focus:** Python fundamentals + first AI portfolio project
-- **Active Repo:** [`ai-data-analyzer`](https://github.com/bamoah30/ai-data-analyzer)
+## Plan
 
-## 🎯 Vision
+| Year | Focus |
+| ---- | ----- |
+| 1 | VFFS — how machines work on factory floor |
+| 2 | PLC, Pneumatics, Electrical troubleshooting |
+| 3 | Python and data for maintenance logs |
+| 4 | Machine Learning for predictive maintenance |
+| 5 | Robotics and ROS |
+| 6 | Full systems integration |
 
-> Build intelligent systems that think, move, and adapt — one commit at a time.
+## What I'm Doing Now
 
-## 🗺️ Roadmap Overview
+Documenting VFFS breakdowns and fixes. Learning pneumatics from real faults, not textbooks.
 
-| Year | Focus Area                         | Outcome Goal                          |
-| ---- | ---------------------------------- | ------------------------------------- |
-| 1    | AI Engineering Fundamentals        | ML Engineer                           |
-| 2    | Advanced ML + Robotics Integration | Research Engineer / Robotics Engineer |
-| 3    | Full-stack Intelligent Systems     | Lead AI Developer                     |
-| 4    | Hardware + Software Fusion         | Autonomous Systems Architect          |
-| 5    | Scalable Impact Projects           | Founder / CTO                         |
-| 6    | Legacy + Open Source Contributions | Global Tech Contributor               |
+This repo is where I keep notes, sketches, and lessons from the floor.
 
-## 🧠 Learning Streams
+## Other Repos
 
-- **AI Engineering**: Python, ML, DL, LLMs, MLOps
-- **Robotics (Parallel Track)**: ROS, CV, control systems
-- **Math Foundations**: Linear Algebra, Calculus, Optimization
-- **Portfolio Building**: GitHub, Streamlit, FastAPI, React
-- **Public Learning**: LinkedIn, Dev.to, Medium
+- [PomodoroApp](https://github.com/bamoah30/PomodoroApp)
+- [Ai-roadmap-tracker](https://github.com/bamoah30/Ai-roadmap-tracker)
 
-## 🔗 Key Repos
+## Notes
 
-- 🚀 [`ai-data-analyzer`](https://github.com/bamoah30/ai-data-analyzer) — Week 4 milestone
-- 🧠 `sql-query-dashboard` — coming soon
-- 📊 `ml-web-app-v1` — Month 3 deployment
-- 🏭 `intellimaint` (Capstone) — Month 12 launch
-- 🗃️ `Public Archive` — legacy repos, tagged and frozen
-
-## 🧪 Build in Public
-
-This repo evolves weekly. I document everything — wins, pivots, frustrations, breakthroughs on LinkedIn.  
-Follow the journey. Fork the roadmap. Build your own.
+Current work is factory work.
