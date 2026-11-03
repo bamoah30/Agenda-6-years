@@ -1,1 +1,37 @@
-I started the day by fixing a broken bearing in a VFFS machine. I had to adjust the cam to align with the back and forward bearing.
+Journal Entry – November 3, 2026 | Week 52, Day 2
+==================================================
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activities:
+- Replaced a bearing in a VFFS machine
+- Connected a three-phase motor to a power supply
+
+Outcomes:
+- Restored the VFFS machine to full functionality
+- Learned how to align a cam on a shaft with a bearing
+- Learned about Delta and Star motor connections
+- Gained a better understanding of three-phase electrical connections
+
+--------------------------------------------------
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+- Unable to properly log faults due to workload pressure
+- Colleagues were not consistently recording machine faults
+
+Solutions / Adjustments:
+- Use audio recordings when the workload becomes overwhelming
+- Actively monitor fault reporting and ensure important observations are documented
+
+Timeline Check:
+- AI: Behind
+- Robotics: Behind
+- Mathematics: Behind
+
+Tomorrow's Focus:
+1. Begin identifying the robotics subfield that best aligns with my interests and long-term goals
+2. Learn at least one new thing about a machine at Palate Foods Ghana
+
+==================================================
