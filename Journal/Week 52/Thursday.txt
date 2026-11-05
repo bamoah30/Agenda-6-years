@@ -1,0 +1,30 @@
+Journal Entry – November 5, 2026 | Week 52, Day 4
+==================================================
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Worked at Palate Foods Industry Ghana
+
+Outcomes:
+- Connected a 5/2 solenoid valve to a VFFS (Poki) machine
+- Resolved air leakage issues on VFFS (Poki) machines
+- Fixed a Poki machine that was unable to perform cutting operations
+
+--------------------------------------------------
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+- Several Poki machines developed faults simultaneously, creating significant pressure and increasing workload
+
+Solutions / Adjustments:
+- Continue improving troubleshooting and problem-solving speed
+- For temperature-related faults, set the required temperature and attend to other machines while waiting for the machine to reach the target value
+
+Tomorrow's Focus:
+1. Continue my journey of learning induction motor design
+2. Watch videos on robot motion planning and control
+3. Reduce machine downtime at Palate Foods by diagnosing and resolving faults more efficiently
+
+==================================================
