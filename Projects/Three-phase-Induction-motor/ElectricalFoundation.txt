@@ -1,0 +1,74 @@
+Study Notes — Thursday, November 5, 2026
+
+------------------------------------------------------------
+
+DC CIRCUIT ANALYSIS
+
+Key Idea:
+When analysing DC circuits, voltage can be thought of as the electrical force or energy that drives current through a circuit.
+
+Notes:
+- Voltage provides the potential difference that allows current to flow.
+- Circuit components (such as resistors, lamps, and motors) cause voltage drops as electrical energy is transferred or used.
+
+------------------------------------------------------------
+
+KIRCHHOFF'S VOLTAGE LAW (KVL)
+
+Definition:
+The algebraic sum of all voltage rises and voltage drops around any closed loop (mesh) in a circuit is zero.
+
+Mathematically:
+ΣV = 0
+
+Interpretation:
+- Total voltage supplied = Total voltage consumed
+- Energy is conserved around a closed loop.
+
+Example:
+For a loop containing a 12 V source and two resistors with voltage drops of 5 V and 7 V:
+
++12 - 5 - 7 = 0
+
+Therefore, KVL is satisfied.
+
+------------------------------------------------------------
+
+Study Notes — Friday, November 6, 2026
+
+------------------------------------------------------------
+
+VOLTAGE DROP
+
+Definition:
+The voltage drop across a component is the difference between the voltage at the point where current enters the component and the voltage at the point where current leaves the component.
+
+Formula:
+Voltage Drop = V(start) - V(end)
+
+Where:
+- V(start) = Voltage at the current-entry terminal of the component.
+- V(end) = Voltage at the current-exit terminal of the component.
+
+Example:
+If current enters a resistor at 12 V and leaves at 8 V:
+
+Voltage Drop = 12 - 8 = 4 V
+
+Therefore, the resistor has a voltage drop of 4 V.
+
+------------------------------------------------------------
+
+QUICK SUMMARY
+
+1. Voltage is the electrical force or energy that drives current through a circuit.
+
+2. Kirchhoff's Voltage Law (KVL):
+   ΣV = 0
+   The total voltage rises and drops around any closed loop sum to zero.
+
+3. Voltage Drop:
+   Voltage Drop = V(start) - V(end)
+
+4. In a closed circuit:
+   Total Voltage Supplied = Total Voltage Consumed
