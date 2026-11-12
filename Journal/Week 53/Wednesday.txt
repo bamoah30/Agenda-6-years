@@ -1,0 +1,57 @@
+Journal Entry – November 11, 2026 | Week 53, Day 3
+==================================================
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- Robotics Perception and Learning
+
+Next Step:
+- Read three research papers on the topic
+
+Time Spent:
+- 30 minutes
+
+--------------------------------------------------
+
+PROJECTS
+--------------------------------------------------
+Project:
+- Designing a Three-Phase Induction Motor
+
+Work Completed:
+- Watched lessons on electrical fundamentals
+
+Blockers / Next Steps:
+- Complete lessons on DC circuit analysis
+
+Time Spent:
+- 1 hour
+
+--------------------------------------------------
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Worked at Palate Foods Industry Ghana
+
+Outcomes:
+- Learned how to increase the operating speed of a VFFS (Poki) machine
+- Resolved leakage issues on a Poki machine
+
+--------------------------------------------------
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+- Faced a disagreement over sharing the replacement cost of my missing SIM card and SIM slot with a friend who misplaced them
+
+Solutions / Adjustments:
+- Decided to cover the cost myself rather than depend on a contribution that was not willingly offered
+
+Tomorrow's Focus:
+1. Read research papers on Robotics Perception and Learning
+2. Learn something new at Palate Foods
+3. Continue lessons related to three-phase induction motor design
+
+==================================================
