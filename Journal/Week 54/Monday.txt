@@ -1,0 +1,45 @@
+Journal Entry – November 16, 2026 | Week 54, Day 1
+==================================================
+
+PROJECTS
+--------------------------------------------------
+Project:
+- Reverse Engineering a Three-Phase Induction Motor
+
+Work Completed:
+- Studied voltage dividers
+- Studied current dividers
+- Learned about maximum power transfer to a load
+- Studied oblique stress
+
+Time Spent:
+- 2 hours
+
+--------------------------------------------------
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Worked at Palate Foods Ghana
+
+Outcomes:
+- Replaced a solenoid valve
+- Resolved leakage issues on production machines
+
+--------------------------------------------------
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+1. Staying disciplined with surplus funds instead of spending them impulsively
+2. Feeling constrained by the limitations of the current system
+
+Solutions / Adjustments:
+1. Invest surplus funds rather than leaving them idle
+2. Focus on solving valuable problems that can generate income and create opportunities
+
+Tomorrow's Focus:
+1. Search for a robotics roadmap that aligns with my goal of studying one hour per day
+2. Continue the reverse-engineering journey of a three-phase induction motor
+
+==================================================
