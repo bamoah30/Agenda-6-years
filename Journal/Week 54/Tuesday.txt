@@ -1,0 +1,62 @@
+Journal Entry – November 17, 2026 | Week 54, Day 2
+==================================================
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- Robotics Engineering Roadmap
+
+Progress:
+- Completed an overview of the field of Robotics
+
+Next Step:
+- Create a personalised robotics roadmap
+
+Key Takeaway:
+- Robotics is a vast multidisciplinary field, and one of the best ways to learn it is through projects
+
+Time Spent:
+- 1 hour
+
+--------------------------------------------------
+
+PROJECTS
+--------------------------------------------------
+Project:
+- Reverse Engineering a Three-Phase Induction Motor
+
+Work Completed:
+- Learned and solved circuit-analysis problems using the Superposition Theorem
+- Studied the introduction to Mohr's Circle
+
+Time Spent:
+- 2 hours
+
+--------------------------------------------------
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Worked at Palate Foods Ghana
+
+Outcomes:
+- Resolved leakage issues on a VFFS (Poki) machine
+- Replaced a heating element on one of the Poki machines
+- Adjusted the sensitivity of a sensor to improve machine performance
+
+--------------------------------------------------
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+- Difficulty deciding how to use the first 30 minutes after waking up each day
+
+Solutions / Adjustments:
+- Experiment with meditation, quiet reflection, or reviewing my life goals to start the day with intention
+
+Tomorrow's Focus:
+1. Complete the lesson on the Robotics Engineering Roadmap
+2. Continue DC circuit analysis studies for the induction motor project
+3. Use free time during working hours to review electrical engineering notes from Telegram
+
+==================================================
