@@ -1,0 +1,59 @@
+Journal Entry – November 18, 2026 | Week 54, Day 3
+==================================================
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Topic Studied:
+- Exploring potential Robotics subfields of interest
+
+Progress:
+- Studied Robotics Software Engineering and its role in building the intelligence behind robotic systems
+
+Next Step:
+- Gain a deeper understanding of what Robotics Software Engineers do
+- Create a personalised roadmap aligned with my interests and goals
+
+Time Spent:
+- 1 hour
+
+--------------------------------------------------
+
+PROJECTS
+--------------------------------------------------
+Project:
+- Reverse Engineering a Three-Phase Induction Motor
+
+Work Completed:
+- Understood and solved DC circuit analysis problems using Mesh Analysis
+
+Blockers / Next Steps:
+- Continue lessons on DC circuit analysis
+
+Time Spent:
+- 1 hour
+
+--------------------------------------------------
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Worked at Palate Foods Ghana
+
+Outcome:
+- Resolved leakage issues on a VFFS (Poki) machine
+
+--------------------------------------------------
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+- Switching between studying and responding to machine leakage faults during working hours made it difficult to maintain focus
+
+Solutions / Adjustments:
+- Use working hours for lighter reading and reserve deeper study sessions for dedicated learning periods
+
+Tomorrow's Focus:
+1. Complete the lessons on the Robotics roadmap
+2. Continue lessons supporting the induction motor project
+
+==================================================
