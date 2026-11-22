@@ -1,0 +1,28 @@
+Journal Entry – November 22, 2026 | Week 54, Day 7
+==================================================
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Worked at Palate Foods Ghana
+
+Outcomes:
+- Resolved leakage issues on a VFFS (Poki) machine
+- Used a multimeter to measure and verify voltage levels at circuit breakers
+
+--------------------------------------------------
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+1. Realising the consequences of my actions only after making decisions
+
+Solutions / Adjustments:
+1. Build the habit of pausing for a few minutes to think through possible outcomes before taking action
+
+Tomorrow's Focus:
+1. Continue MIT's Introduction to C++
+2. Watch a video on Strength of Materials
+3. Read Chapter 2 of *Modern Robotics*
+
+==================================================
