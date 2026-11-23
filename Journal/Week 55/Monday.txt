@@ -1,0 +1,94 @@
+Journal Entry – November 23, 2026
+Week 55, Day 1
+
+ROBOTICS ROADMAP
+Topic Studied:
+Finding the Degrees of Freedom (DOF) of Linkages
+
+Progress:
+Solved example questions using Grübler's Formula.
+
+Next Step:
+Continue reading Modern Robotics.
+
+Key Takeaway:
+DOF = Number of Independent Motions − Constraints
+
+Time Spent:
+1 hour
+
+
+SKILL SET
+Topic Studied:
+C++
+
+Progress:
+Completed and understood Lesson 1 of MIT's Introduction to C++.
+
+Next Step:
+Read Lesson 2.
+
+Key Takeaways:
+- A token is the simplest symbol understood by the compiler.
+- The "#" symbol is used for preprocessor directives such as including header files.
+- The C++ compilation process follows this sequence:
+
+  Source File
+       ↓
+  Preprocessor
+       ↓
+  Preprocessed File
+       ↓
+  Compiler
+       ↓
+  Object File
+       ↓
+  Linker + Libraries
+       ↓
+  Executable File
+       ↓
+  Program Loaded into Memory by the Operating System
+
+Time Spent:
+1 hour
+
+
+PROJECTS
+Project:
+Reverse Engineering a Three-Phase Induction Motor
+
+Work Completed:
+- Passively watched YouTube videos on torsional stress.
+
+Blockers / Next Steps:
+- Watch YouTube videos on DC circuit analysis.
+
+Time Spent:
+2 hours
+
+
+PROFESSIONAL DEVELOPMENT
+Activity:
+Work at Palate Foods
+
+Outcome:
+- Fixed leakage problems on VFFS machones for Poki packaging.
+
+
+REFLECTION
+Challenges:
+1. Not greeting colleagues when I have not taken breakfast and my mind is occupied with solving problems or thinking deeply about something.
+
+Solutions / Adjustments:
+1. Develop the habit of greeting colleagues immediately upon arrival before becoming absorbed in work or personal thoughts.
+2. Keep greetings brief and natural so they do not significantly interrupt concentration.
+3. Recognise that maintaining good workplace relationships is part of professional effectiveness and should not be viewed as competing with deep work.
+
+Lesson Learned:
+Being deeply focused is valuable, but professionalism and courtesy can coexist with concentration. A simple greeting takes only a few seconds yet contributes positively to workplace relationships.
+
+
+Tomorrow's Focus:
+1. Read Lesson 2 of the MIT C++ course.
+2. Finish Chapter 1 of Modern Robotics.
+3. Watch videos on DC circuit analysis.
