@@ -1,0 +1,78 @@
+Journal Entry – November 24, 2026 | Week 55, Day 2
+==================================================
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Book Read:
+- Modern Robotics
+
+Progress:
+- Completed Chapter 2.3
+
+Next Step:
+- Read Chapter 2.4
+
+Key Takeaways:
+- A robot's configuration represents all possible positions and orientations it can assume.
+- Configuration Space (C-space) is the space that contains all possible robot configurations.
+- Euclidean space is the geometric space used to describe positions and distances in a plane or three-dimensional environment.
+
+Time Spent:
+- 55 minutes
+
+--------------------------------------------------
+
+PROJECTS
+--------------------------------------------------
+Project:
+- Reverse Engineering a Three-Phase Induction Motor
+
+Work Completed:
+- Completed lessons on Nodal Analysis
+
+Lessons Learned:
+1. Mesh Analysis is based on the sum of voltages around closed loops.
+2. Nodal Analysis is based on the sum of currents entering and leaving a node.
+3. When a current source appears between meshes, a supermesh may be required; similarly, certain voltage-source configurations in nodal analysis may require the use of a supernode.
+
+Blockers / Next Steps:
+- Begin lessons on Thevenin's and Norton's Theorems
+
+Time Spent:
+- 1 hour
+
+--------------------------------------------------
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Worked at Palate Foods Ghana
+
+Outcomes:
+- Adjusted the temperature settings of a heating element to prevent leakages
+- Realigned a blade holder to restore proper cutting performance
+- Replaced the key in a shaft-and-gear assembly
+
+Lesson Learned:
+- Before replacing machine components, it is important to understand the manufacturer's specifications to avoid causing further damage and to ensure proper operation.
+
+--------------------------------------------------
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+1. Difficulty reading technical material early in the morning due to insufficient sleep.
+
+Solutions / Adjustments:
+1. Replaced reading sessions with video-based learning during low-energy periods.
+2. Reorganised study blocks by scheduling video lessons in the morning and reading-intensive lessons later in the day.
+
+General Observation:
+1. My mood and energy levels were noticeably better than on Monday. I suspect this was influenced by eating a more substantial meal, specifically two balls of banku with fish and stew instead of my usual one ball of kenkey with fish.
+
+Tomorrow's Focus:
+1. Complete Chapter 2 of Modern Robotics
+2. Read additional material for MIT's Introduction to C++
+3. Begin studying Shigley's Mechanical Engineering Design
+
+==================================================
