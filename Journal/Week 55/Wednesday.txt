@@ -1,0 +1,86 @@
+Journal Entry – November 26, 2026 | Week 55, Day 3
+==================================================
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Book Read:
+- Modern Robotics, Chapter 2
+
+Lessons:
+- Holonomic Constraints:
+  Constraints that can be expressed as equations involving only the robot's configuration variables (position and orientation). They directly reduce the number of independent motions available to the robot.
+
+- Non-Holonomic Constraints:
+  Constraints that depend on the robot's velocity and cannot be written purely in terms of position. These constraints limit how a robot can move but do not directly reduce the robot's configuration space. A common example is a car, which can move forward and backward but cannot move sideways.
+
+- Pfaffian Constraints:
+  A mathematical representation of motion constraints written in the form A(q)q̇ = 0, where q represents the robot's configuration and q̇ its velocity. They are commonly used to describe non-holonomic systems such as wheeled mobile robots.
+
+Key Takeaways:
+- Holonomic constraints restrict the robot's configuration directly.
+- Non-holonomic constraints restrict the robot's allowable velocities.
+- Many mobile robots are non-holonomic because their wheels prevent certain directions of motion.
+- Pfaffian constraints provide a compact mathematical way to model robot motion restrictions.
+
+Next Step:
+- Begin Chapter 3
+
+Time Spent:
+- 1 hour
+
+--------------------------------------------------
+
+PROJECTS
+--------------------------------------------------
+Project:
+- Reverse Engineering a Three-Phase Induction Motor
+
+Work Completed:
+Review:
+- Free-Body Diagrams (FBDs)
+- Equilibrium Equations
+
+Definitions:
+- Free-Body Diagram (FBD):
+  A drawing that isolates a body and shows all external forces and moments acting on it.
+
+- Equilibrium Equations:
+  Mathematical equations stating that the sum of forces and the sum of moments acting on a body must be zero when the body is in equilibrium.
+
+Next Steps:
+- Revisit electrical engineering concepts:
+  - Thevenin's Theorem
+  - Norton's Theorem
+
+Time Spent:
+- 1 hour 30 minutes
+
+--------------------------------------------------
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Worked at Palate Foods Ghana
+
+Outcome:
+- Replaced a pump
+
+Lesson Learned:
+- Before working on any electrical component, always ensure that the power supply is isolated and switched off.
+
+--------------------------------------------------
+
+REFLECTION
+--------------------------------------------------
+Challenges:
+- Difficulty following instructions that seem unnecessary or redundant
+
+Solutions / Adjustments:
+- Seek to understand the reasoning behind instructions before judging their value
+
+Tomorrow's Focus:
+1. Complete the additional material in the MIT C++ course
+2. Conclude the YouTube lessons on DC Circuit Analysis
+3. Begin Chapter 3 of Modern Robotics
+
+==================================================
