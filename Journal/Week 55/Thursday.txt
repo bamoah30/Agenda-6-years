@@ -1,0 +1,97 @@
+Journal Entry – November 26, 2026 | Week 55, Day 4
+==================================================
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Topics Studied:
+1. Conditional Statements and Loops in C++
+2. Chapter 3 Overview from Modern Robotics
+
+Progress:
+1. Wrote sample programs using:
+   - For loops
+   - While loops
+   - Do-while loops
+2. Gained an overview of frame transformations (change of frames)
+
+Definitions:
+- Conditional Statements:
+  Programming structures that allow a program to make decisions based on whether a condition is true or false.
+
+- For Loop:
+  A loop used when the number of iterations is known beforehand.
+
+- While Loop:
+  A loop that continues executing as long as a specified condition remains true.
+
+- Do-While Loop:
+  A loop that executes at least once before checking whether the condition is true.
+
+- Frame:
+  A coordinate system used to describe the position and orientation of objects in robotics.
+
+- Change of Frame:
+  The process of expressing the coordinates of an object relative to a different reference frame.
+
+- Transformation Matrix:
+  A matrix used to represent the position and orientation of one frame relative to another.
+
+Next Steps:
+1. Complete Lecture 1 problems from the MIT C++ course
+2. Read Chapter 3 of Modern Robotics
+
+Key Takeaways:
+1. When writing loops, always ensure there is a condition that will eventually terminate the loop; otherwise, an infinite loop may occur.
+2. When transforming between coordinate frames, arrange matrix subscripts so that matching subscripts cancel, leaving the desired frame relationship.
+
+Time Spent:
+- 1 hour 45 minutes
+
+--------------------------------------------------
+
+PROJECTS
+--------------------------------------------------
+Project:
+- Reverse Engineering a Three-Phase Induction Motor
+
+Work Completed:
+- Studied Thevenin's Theorem
+- Studied Norton's Theorem
+
+Definitions:
+- Thevenin's Theorem:
+  Any linear electrical circuit can be simplified into an equivalent voltage source in series with an equivalent resistance.
+
+- Norton's Theorem:
+  Any linear electrical circuit can be simplified into an equivalent current source in parallel with an equivalent resistance.
+
+Lessons Learned:
+1. When finding the Thevenin equivalent of a circuit containing dependent sources, do not turn off the dependent source.
+2. Use the test-source method to determine the equivalent resistance when dependent sources are present.
+
+Next Steps:
+- Watch lessons on AC Circuit Analysis
+
+Time Spent:
+- 1 hour
+
+--------------------------------------------------
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Worked at Palate Foods Ghana
+
+Outcome:
+- Resolved leakage issues on a VFFS (Poki) machine
+
+--------------------------------------------------
+
+REFLECTION
+--------------------------------------------------
+Tomorrow's Focus:
+1. Complete Lecture 1 problems from the MIT C++ course
+2. Read the Stress chapter in Shigley's Mechanical Engineering Design
+3. Read Chapter 3 of Modern Robotics
+
+==================================================
