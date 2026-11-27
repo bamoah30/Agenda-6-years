@@ -1,0 +1,61 @@
+Journal Entry – November 27, 2026 | Week 55, Day 5
+==================================================
+
+ROBOTICS ROADMAP
+--------------------------------------------------
+Book Read:
+- Modern Robotics
+
+Progress:
+- Continued reading Chapter 3
+
+Definitions and Key Concepts:
+- Frame:
+  A coordinate system used to describe the position and orientation of an object.
+
+- Reference Frame:
+  The coordinate system relative to which measurements and motions are described.
+
+- Rotation Matrix:
+  A matrix used to represent the orientation of one frame relative to another.
+
+- Transformation Matrix:
+  A mathematical representation that combines both position and orientation information, allowing one frame to be expressed relative to another.
+
+- Change of Frame:
+  The process of expressing the coordinates of a point, vector, or object from one coordinate frame to another.
+
+Key Takeaways:
+- Every position measurement in robotics is made relative to a frame.
+- Multiple frames can exist within a robot system, such as the world frame, robot base frame, and end-effector frame.
+- Transformation matrices provide a systematic way to move between frames.
+
+Next Step:
+- Continue and complete Chapter 3
+
+Time Spent:
+- 45 minutes
+
+--------------------------------------------------
+
+PROFESSIONAL DEVELOPMENT
+--------------------------------------------------
+Activity:
+- Worked at Palate Foods Ghana
+
+Outcomes:
+- Resolved leakage issues caused by temperature fluctuations
+- Diagnosed and corrected photoelectric sensor errors on Poki machines
+
+Lesson Learned:
+- When faced with a technical problem, the first step should always be to understand the nature and cause of the challenge before attempting a solution.
+
+--------------------------------------------------
+
+REFLECTION
+--------------------------------------------------
+Tomorrow's Focus:
+1. Complete two lectures on Game Theory
+2. Solve the exercises from Lecture 1 of MIT's Introduction to C++
+
+==================================================
